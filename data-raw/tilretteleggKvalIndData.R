@@ -1,17 +1,30 @@
-## code to prepare `DATASET` dataset goes here
-
-#Denne funker bare når database tilgjengelig!:
+# ------------DEGENERATIV NAKKE-----------------------
+# Denne funker bare når database tilgjengelig!:
 library(nakke)
 RegData <- NakkeRegDataSQL()
 RegData <- NakkePreprosess(RegData)
 
 #tilretteleggDataNakke <- function(RegData = RegData, valgtVar, filUt=paste0('Nakke', valgtVar)
 #valgtVar <- 'beinsmLavPre' #beinsmLavPre, peropKompDura, sympVarighUtstr, NDIendr12mnd35pst
-datoFra = '2014-01-01'
-aar=0
+#datoFra = '2014-01-01'
+#aar=0
 
-KvalIndDataNakke <- tilretteleggDataNakke(RegData = RegData, datoFra = '2014-01-01', aar=0,
-                            filUt='dummy')  #valgtVar, 
+KvalIndDataNakke <- tilretteleggDataNakke(RegData = RegData, datoFra = '2014-01-01', aar=0) 
+
+usethis::use_data(KvalIndDataNakke, overwrite = TRUE)
+
+
+IndBeskrNakke <- read.csv('data-raw/Indikatorbeskrivelser.csv', sep = ';')
+usethis::use_data(IndBeskrNakke, overwrite = TRUE)
+
+
+#-------------- INTENSIV -----------------------------------
+library(intensiv)
+RegData <- NIRRegDataSQL(datoFra = '2016-01-01')
+RegData <- NIRPreprosess(RegData)
+
+KvalIndDataIntensiv <- intensiv::tilretteleggKvalIndData(RegData, 
+                                                         datoFra='2016-01-01', datoTil=Sys.Date())
 
 usethis::use_data(KvalIndDataNakke, overwrite = TRUE)
 
