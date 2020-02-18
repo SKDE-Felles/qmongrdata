@@ -2,6 +2,8 @@
 # qmongrdata
 
 <!-- badges: start -->
+[![Travis build status](https://travis-ci.org/SKDE-Felles/qmongrdata.svg?branch=master)](https://travis-ci.org/SKDE-Felles/qmongrdata)
+[![AppVeyor build status](https://ci.appveyor.com/api/projects/status/github/SKDE-Felles/qmongrdata?branch=master&svg=true)](https://ci.appveyor.com/project/SKDE-Felles/qmongrdata)
 <!-- badges: end -->
 
 The goal of qmongrdata is to ...
