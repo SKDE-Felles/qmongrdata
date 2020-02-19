@@ -2,6 +2,11 @@
 #Må legge til funksjonalitet for at ett og ett register oppdateres i datafila.
 # evt. sjekke på kvalindID
 
+#Fila med kvalitetsindiatorbeskrivelser er enklest å vedlikeholde som ei Excel/csv-fil.
+#Fila ligger inntil videre på prosjektområdet:
+#Q: SKDE/Nasjonalt servicemiljø/Resultattjenester/Sykehusviser/Indikatorbeskrivelser.csv
+#Fila oppdateres og lastes så opp til pakken.
+
 # ------------DEGENERATIV NAKKE-----------------------
 # Denne funker bare når database tilgjengelig!:
 library(nakke)
@@ -30,7 +35,7 @@ RegData <- NIRPreprosess(RegData)
 KvalIndDataIntensiv <- intensiv::tilretteleggKvalIndData(RegData, 
                                                          datoFra='2016-01-01', datoTil=Sys.Date())
 names(KvalIndDataIntensiv)[which(names(KvalIndDataIntensiv)=='SykehusOrgId')] <- 'SykehusId'
-
+ 
 data('KvalIndData')
 KvalIndData <- rbind(KvalIndData,
                      KvalIndDataIntensiv)
