@@ -1,3 +1,7 @@
+#--------GENERELT---------------
+#Må legge til funksjonalitet for at ett og ett register oppdateres i datafila.
+# evt. sjekke på kvalindID
+
 # ------------DEGENERATIV NAKKE-----------------------
 # Denne funker bare når database tilgjengelig!:
 library(nakke)
@@ -25,13 +29,19 @@ RegData <- NIRPreprosess(RegData)
 
 KvalIndDataIntensiv <- intensiv::tilretteleggKvalIndData(RegData, 
                                                          datoFra='2016-01-01', datoTil=Sys.Date())
+names(KvalIndDataIntensiv)[which(names(KvalIndDataIntensiv)=='SykehusOrgId')] <- 'SykehusId'
 
-usethis::use_data(KvalIndDataNakke, overwrite = TRUE)
+data('KvalIndData')
+KvalIndData <- rbind(KvalIndData,
+                     KvalIndDataIntensiv)
+usethis::use_data(KvalIndData, overwrite = TRUE)
 
 
-IndBeskrNakke <- read.csv('data-raw/Indikatorbeskrivelser.csv', sep = ';')
-usethis::use_data(IndBeskrNakke, overwrite = TRUE)
-
+#Mangler: IndBeskrIntensiv <- read.csv('data-raw/Indikatorbeskrivelser.csv', sep = ';')
+#usethis::use_data(IndBeskrIntensiv, overwrite = TRUE)
+# "IndID"           "Register"        "IndTittel"       "IndNavn"         "MaalNivaaGronn"  "MaalNivaaGul"    "MaalRetn"       
+# "BeskrivelseKort" "BeskrivelseLang"
+# indBeskr <- 
 
 #--------  FUNKSJONER --------------------------------
 
@@ -52,8 +62,8 @@ nyID <- c('114288'='4000020', '109820'='974589095', '105783'='974749025',
           '103469'='874716782', '601161'='974795787', '999920'='913705440',
           '105588'='974557746', '999998'='999998', '110771'='973129856',
           '4212372'='4212372', '4211880'='999999003', '4211879'='813381192')
-RegData$SykehusId <- as.character(nyID[as.character(RegData$ReshId)])
-resultatVariable <- c('KvalIndId', 'Aar', "ShNavn", "ReshId", "SykehusId" , "Variabel")
+RegData$SykehusOrgId <- as.character(nyID[as.character(RegData$ReshId)])
+resultatVariable <- c('KvalIndId', 'Aar', "ShNavn", "ReshId", "SykehusOrgId" , "Variabel")
 NakkeKvalInd <- data.frame(NULL) #Aar=NULL, ShNavn=NULL)
 
 kvalIndParam <- c('KomplSvelging3mnd', 'KomplStemme3mnd', 'Komplinfek', 'NDIendr12mnd35pstKI')
