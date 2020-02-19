@@ -2,10 +2,13 @@
 #Må legge til funksjonalitet for at ett og ett register oppdateres i datafila.
 # evt. sjekke på kvalindID
 
-#Fila med kvalitetsindiatorbeskrivelser er enklest å vedlikeholde som ei Excel/csv-fil.
-#Fila ligger inntil videre på prosjektområdet:
-#Q: SKDE/Nasjonalt servicemiljø/Resultattjenester/Sykehusviser/Indikatorbeskrivelser.csv
-#Fila oppdateres og lastes så opp til pakken.
+#Kildefila med kvalitetsindiatorbeskrivelser har vi blitt enige om at skal ligge som csv-fil  
+# under raw-data. 
+
+IndBeskr <- read.table('data-raw/Indikatorbeskrivelser.csv', sep = ';', fileEncoding = 'UTF-8', 
+                       col.names = T, row.names = F)
+usethis::use_data(IndBeskr, overwrite = TRUE)
+
 
 # ------------DEGENERATIV NAKKE-----------------------
 # Denne funker bare når database tilgjengelig!:
