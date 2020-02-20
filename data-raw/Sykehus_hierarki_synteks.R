@@ -1,13 +1,12 @@
 
 
-# definere Sykehusnavn, OrgNrHF og OrgNrRHF i sykehusoppholdsfilene, basert på OrgNrShus.
+# definere Sykehusnavn, HF og RHF i sykehusoppholdsfilene, basert på OrgNrShus.
 
   
  
 # Helse Finnmark HF
 
-  
-  if OrgNrShus = 983974880 then Sykehusnavn=10;
+if OrgNrShus = 983974880 then Sykehusnavn=10;
 
 if OrgNrShus = 974795930 /*'Finnmarkssykehuset HF, Kirkenes'*/then Sykehusnavn=11;
 if OrgNrShus in (974795833 /*'Finnmarkssykehuset HF, Hammerfest'*/,
@@ -388,46 +387,44 @@ Se https://oslo-universitetssykehus.no/avdelinger/ortopedisk-klinikk/ortopedisk-
                           991133720	/*OSLO HJERTEKLINIKK AS*/
   ) then Sykehusnavn=300;
 
-/*
-  - Definere `OrgNrHF` - Behandlende helseforetak
-*/
-  
-  if 10<=Sykehusnavn<=19 then OrgNrHF=1/*Finnmarkssykehuset HF*/;
-if 20<=Sykehusnavn<=29 then OrgNrHF=2/*UNN HF*/;
-if 30<=Sykehusnavn<=39 then OrgNrHF=3/*NLSH HF*/;
-if 40<=Sykehusnavn<49 then OrgNrHF=4/*Helgelandssykehuset HF*/;
-if 50<=Sykehusnavn<=59 then OrgNrHF=5/*Helse Nord-Trøndelag HF*/;
-if 60<= Sykehusnavn<=69 then OrgNrHF=6/*St. Olavs Hospital HF*/;
-if 70<= Sykehusnavn<=79 then OrgNrHF=7; /*Helse Møre og Romsdal HF*/
-  if 90<= Sykehusnavn<=99 then OrgNrHF=9/*Helse Førde HF*/;
-if 100<= Sykehusnavn<=109 then OrgNrHF=10/*Helse Bergen HF*/;
-if 110<= Sykehusnavn<=119 then OrgNrHF=11/*Helse Fonna HF*/;
-if 120<= Sykehusnavn<=129 then OrgNrHF=12/*Helse Stavanger HF*/;
-if 130<= Sykehusnavn<=139 then OrgNrHF=13/*Resterende Helse Vest RHF*/;
-if 140<=Sykehusnavn<=149 then OrgNrHF=14/*Vestre Viken HF*/;
-if 150<=Sykehusnavn<=159 then OrgNrHF=15/*Sykehuset Telemark HF*/;
-if 160<=Sykehusnavn<=169 then OrgNrHF=16 /*Akershus univ.sh HF*/;
-if 170<=Sykehusnavn<=179 then OrgNrHF=17/*Sykehuset Innlandet HF*/;
-if 180<=Sykehusnavn<=189 then OrgNrHF=18/*Oslo universitetssykehus HF*/;
-if 190<=Sykehusnavn<=199 then OrgNrHF=19/*Sunnaas sykehus HF*/;
-if 200<=Sykehusnavn<=209 then OrgNrHF=20/*Sykehuset Østfold HF*/;
-if 210<=Sykehusnavn<=219 then OrgNrHF=21/*Sørlandet sykehus HF*/;
-if 220<=Sykehusnavn<=229 then OrgNrHF=22/*Sykehuset i Vestfold HF*/;
-if Sykehusnavn=230 then OrgNrHF=23;/*Diakonhjemmet sykehus*/
-  if Sykehusnavn=240 then OrgNrHF=24;/*Lovisenberg diakonale sykehus*/;
-if 251<=Sykehusnavn<=254 then OrgNrHF=25/*Resterende Helse Sør-Øst RHF*/;
-if Sykehusnavn=260 then OrgNrHF=26;/*Haraldsplass diakonale sykehus*/
-  if Sykehusnavn=300 then OrgNrHF=27/*Private sykehus*/;
 
-/*
-  - Definere `OrgNrRHF` - Behandlende regionalt helseforetak
-*/
+# Definere HF
   
-  if OrgNrHF in (1,2,3,4) then OrgNrRHF=1;/* Helse Nord RHF */
-  if OrgNrHF in (5,6,7) then OrgNrRHF=2;/* Helse Midt-Norge RHF */
-  if OrgNrHF in (9,10,11,12,13,26)then OrgNrRHF=3;/* Helse Vest RHF */
-  if OrgNrHF in (14:25) then OrgNrRHF=4;/* Helse Sør-Øst RHF */
-  if OrgNrHF=27 then OrgNrRHF=5;/* Private sykehus */;
+  if 10<=Sykehusnavn<=19 then HF=1/*Finnmarkssykehuset HF*/;
+if 20<=Sykehusnavn<=29 then HF=2/*UNN HF*/;
+if 30<=Sykehusnavn<=39 then HF=3/*NLSH HF*/;
+if 40<=Sykehusnavn<49 then HF=4/*Helgelandssykehuset HF*/;
+if 50<=Sykehusnavn<=59 then HF=5/*Helse Nord-Trøndelag HF*/;
+if 60<= Sykehusnavn<=69 then HF=6/*St. Olavs Hospital HF*/;
+if 70<= Sykehusnavn<=79 then HF=7; /*Helse Møre og Romsdal HF*/
+  if 90<= Sykehusnavn<=99 then HF=9/*Helse Førde HF*/;
+if 100<= Sykehusnavn<=109 then HF=10/*Helse Bergen HF*/;
+if 110<= Sykehusnavn<=119 then HF=11/*Helse Fonna HF*/;
+if 120<= Sykehusnavn<=129 then HF=12/*Helse Stavanger HF*/;
+if 130<= Sykehusnavn<=139 then HF=13/*Resterende Helse Vest RHF*/;
+if 140<=Sykehusnavn<=149 then HF=14/*Vestre Viken HF*/;
+if 150<=Sykehusnavn<=159 then HF=15/*Sykehuset Telemark HF*/;
+if 160<=Sykehusnavn<=169 then HF=16 /*Akershus univ.sh HF*/;
+if 170<=Sykehusnavn<=179 then HF=17/*Sykehuset Innlandet HF*/;
+if 180<=Sykehusnavn<=189 then HF=18/*Oslo universitetssykehus HF*/;
+if 190<=Sykehusnavn<=199 then HF=19/*Sunnaas sykehus HF*/;
+if 200<=Sykehusnavn<=209 then HF=20/*Sykehuset Østfold HF*/;
+if 210<=Sykehusnavn<=219 then HF=21/*Sørlandet sykehus HF*/;
+if 220<=Sykehusnavn<=229 then HF=22/*Sykehuset i Vestfold HF*/;
+if Sykehusnavn=230 then HF=23;/*Diakonhjemmet sykehus*/
+  if Sykehusnavn=240 then HF=24;/*Lovisenberg diakonale sykehus*/;
+if 251<=Sykehusnavn<=254 then HF=25/*Resterende Helse Sør-Øst RHF*/;
+if Sykehusnavn=260 then HF=26;/*Haraldsplass diakonale sykehus*/
+  if Sykehusnavn=300 then HF=27/*Private sykehus*/;
+
+
+# Definere RHF
+  
+  if HF in (1,2,3,4) then RHF=1;/* Helse Nord RHF */
+  if HF in (5,6,7) then RHF=2;/* Helse Midt-Norge RHF */
+  if HF in (9,10,11,12,13,26)then RHF=3;/* Helse Vest RHF */
+  if HF in (14:25) then RHF=4;/* Helse Sør-Øst RHF */
+  if HF=27 then RHF=5;/* Private sykehus */
 
 
 
