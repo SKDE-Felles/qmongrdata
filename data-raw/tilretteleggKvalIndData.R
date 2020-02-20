@@ -2,6 +2,14 @@
 #Må legge til funksjonalitet for at ett og ett register oppdateres i datafila.
 # evt. sjekke på kvalindID
 
+#Kildefila med kvalitetsindiatorbeskrivelser har vi blitt enige om at skal ligge som csv-fil  
+# under raw-data. 
+
+IndBeskr <- read.table('data-raw/Indikatorbeskrivelser.csv', sep = ';', fileEncoding = 'UTF-8', 
+                       col.names = T, row.names = F)
+usethis::use_data(IndBeskr, overwrite = TRUE)
+
+
 # ------------DEGENERATIV NAKKE-----------------------
 # Denne funker bare når database tilgjengelig!:
 library(nakke)
@@ -30,7 +38,7 @@ RegData <- NIRPreprosess(RegData)
 KvalIndDataIntensiv <- intensiv::tilretteleggKvalIndData(RegData, 
                                                          datoFra='2016-01-01', datoTil=Sys.Date())
 names(KvalIndDataIntensiv)[which(names(KvalIndDataIntensiv)=='SykehusOrgId')] <- 'SykehusId'
-
+ 
 data('KvalIndData')
 KvalIndData <- rbind(KvalIndData,
                      KvalIndDataIntensiv)
