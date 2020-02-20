@@ -3,12 +3,16 @@
 # evt. sjekke på kvalindID
 
 #Kildefila med kvalitetsindiatorbeskrivelser har vi blitt enige om at skal ligge som csv-fil  
-# under raw-data. 
+# under raw-data. Får ikke lest csv-fila. Trøbbel med både encoding og at antall variabler og
+# variabelnavn ikke stemmer overens. Funker med Excel!
 
-IndBeskr <- read.table('data-raw/Indikatorbeskrivelser.csv', sep = ';', fileEncoding = 'UTF-8', 
-                       col.names = T, row.names = F)
+IndBeskr <- readxl::read_excel("data-raw/Indikatorbeskrivelser.xlsx")
+#IndBeskr <- read.table('data-raw/Indikatorbeskrivelser.csv', sep = ';', #encoding = 'UTF-8', #fileEncoding = 'UTF-8', 
+ #                      col.names = T) #, row.names = F
 usethis::use_data(IndBeskr, overwrite = TRUE)
 
+SykehusNavnStruktur <- readxl::read_excel('data-raw/SykehusNavnStruktur.xlsx')
+usethis::use_data(SykehusNavnStruktur, overwrite = TRUE)
 
 # ------------DEGENERATIV NAKKE-----------------------
 # Denne funker bare når database tilgjengelig!:
