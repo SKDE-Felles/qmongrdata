@@ -13,7 +13,7 @@
 #'   \item{Hfkortnavn}{Kortnavn for HF'et}
 #'   \item{OrgNrShus}{Sykehusets organisasjonsnummer i Brønnøysundregisteret}
 #'   \item{OrgNavnEnhetsreg}{Sykehusets navn i Brønnøysundregisteret}
-#'   \item{SykehusnavnLang}{Sykehusets navn, SKDE}
+#'   \item{SykehusnavnLang}{Sykehusets navn "hos SKDE", dvs. navnet som har blitt benyttet i helseatlas.}
 #'   \item{SykehusNavn}{Sykehusets kortnavn}
 #'   \item{TaMed}{Indikator (0/1) som angir om sykehuset er vanlig å ha med i div. oversikter}
 #' }
@@ -54,12 +54,12 @@
 #' @format Dataramme med ei rad per hendelse (operasjon/innleggelse/...)
 #' 
 #' \describe{
-#'   \item{Aar}{Årtall for hendelsen}
+#'   \item{Aar}{Årtall for hendelsen. format: YYYY}
 #'   \item{ShNavn}{Sykehusnavn. Dette er sykehusnavnet som benyttes i registeret. Det kan være registrert
 #'   hendelser fra flere enheter på ett og samme sykehus. Dette navnet kan da benyttes til å skille mellom
-#'   de ulike enhetene.}
+#'   de ulike enhetene. Tekst}
 #'   \item{ReshId}{Den registrerende enhetens resh-id.}
-#'   \item{SykehusId}{Sykehusets organisasjonsnummer i Brønnøysundregisteret}
+#'   \item{SykehusId}{Sykehusets organisasjonsnummer i Brønnøysundregisteret. Numerisk, 9 siffer}
 #'   \item{Variabel}{Resultatvariabel for kvalitetsindikatoren. I de fleste tilfeller vil dette være en
 #'   indikatorvariabel, dvs. ha verdiene 0 og 1. For noen kvalitetsindikatorer kan det være nødvendig å 
 #'   benytte en eksakt verdi. F.eks. liggetid hvis man ønsker å benytte median liggetid som indikator.}
