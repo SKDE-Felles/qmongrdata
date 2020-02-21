@@ -2,3 +2,5 @@
 docs/
 *.Rproj
 .Rhistory
+*~
+.DS_Store
