@@ -25,7 +25,8 @@
 #' Beskrivelse av kvalitetsindikatorer
 #'
 #' Oversikt over over og beskrivelse av alle kvalitetsindikatorerer. Fila oppdateres etter hvert som det legges til
-#' data fra flere kvalitetsindikatorer og registre.
+#' data fra flere kvalitetsindikatorer og registre. "Originalfila" finnes som Excel-fil under data-raw. Gjør endringer
+#' der og skriv så ned til rda.
 #'
 #' @format Dataramme med ei rad per indikator. Som variabler er ulike beskrivende elementer for indikatoren
 #' 

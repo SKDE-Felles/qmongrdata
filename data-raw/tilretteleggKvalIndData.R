@@ -2,13 +2,9 @@
 #Må legge til funksjonalitet for at ett og ett register oppdateres i datafila.
 # evt. sjekke på kvalindID
 
-#Kildefila med kvalitetsindiatorbeskrivelser har vi blitt enige om at skal ligge som csv-fil  
-# under raw-data. Får ikke lest csv-fila. Trøbbel med både encoding og at antall variabler og
-# variabelnavn ikke stemmer overens. Funker med Excel!
+#Indikatorbeskrivelser
 
 IndBeskr <- readxl::read_excel("data-raw/Indikatorbeskrivelser.xlsx")
-#IndBeskr <- read.table('data-raw/Indikatorbeskrivelser.csv', sep = ';', #encoding = 'UTF-8', #fileEncoding = 'UTF-8', 
- #                      col.names = T) #, row.names = F
 usethis::use_data(IndBeskr, overwrite = TRUE)
 
 SykehusNavnStruktur <- readxl::read_excel('data-raw/SykehusNavnStruktur.xlsx')
@@ -21,10 +17,7 @@ RegData <- NakkeRegDataSQL()
 RegData <- NakkePreprosess(RegData)
 
 KvalIndDataNakke <- tilretteleggDataNakke(RegData = RegData, datoFra = '2014-01-01', aar=0) 
-
 usethis::use_data(KvalIndDataNakke, overwrite = TRUE)
-IndBeskrNakke <- read.csv('data-raw/Indikatorbeskrivelser.csv', sep = ';')
-usethis::use_data(IndBeskrNakke, overwrite = TRUE)
 
 
 #-------------- INTENSIV -----------------------------------
@@ -34,8 +27,8 @@ RegData <- NIRPreprosess(RegData)
 
 KvalIndDataIntensiv <- intensiv::tilretteleggKvalIndData(RegData, 
                                                          datoFra='2016-01-01', datoTil=Sys.Date())
-names(KvalIndDataIntensiv)[which(names(KvalIndDataIntensiv)=='OrgNrShus')] <- 'OrgNrShus'
 
+#----------------Legge til nytt datasett NB: Må overskrive gamle data fra registeret som oppdateres---------------
 data('KvalIndData')
 KvalIndData <- rbind(KvalIndData,
                      KvalIndDataIntensiv)
