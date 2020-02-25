@@ -1,66 +1,38 @@
-# R for travis: see documentation at https://docs.travis-ci.com/user/languages/r
-
 language: r
 cache: packages
 
-matrix:
-  include:
-    - os: linux
-      dist: xenial
-      r: release
-      env:
-        - DIST=xenial
-        - AFTER_JOBS=true
-    - os: linux
-      dist: xenial
-      r: devel
-      env:
-        - DIST=xenial
-        - AFTER_JOBS=false
-    - os: linux
-      dist: bionic
-      r: release
-      env:
-        - DIST=bionic
-        - AFTER_JOBS=false
+r:
+  - oldrel
+  - release
+  - devel
 
 env:
   global:
     - _R_CHECK_TESTS_NLINES_=0
 
-r_packages:
-  - covr
-  - lintr
-  - roxygen2
-  - devtools
-
-before_script:
-  - export PKG_TARBALL=$(Rscript -e 'pkg <- devtools::as.package("."); cat(paste0(pkg$package,"_",pkg$version,".tar.gz"))')
-
+r_github_packages:
+    - jimhester/covr
+    - jimhester/lintr
+    - r-lib/pkgdown
+    
 script:
   - R CMD build .
   - R CMD check --as-cran *tar.gz
 
-after_script:
-  - |
-    if [[ "$AFTER_JOBS" == "true" ]] && [[ "$TRAVIS_EVENT_TYPE" == "push" ]]; then
-      Rscript -e 'lintr::lint_package()'
-    fi
 after_success:
+  - R CMD INSTALL $PKG_TARBALL
+  - Rscript -e 'lintr::lint_package()'
+  - rm -rf qmongr.Rcheck
+  - Rscript -e 'pkgdown::build_site()'
   - Rscript -e 'covr::codecov()'
-  - Rscript -e 'roxygen2::roxygenise()'
 
-before_cache: Rscript -e 'remotes::install_cran("pkgdown")'
 deploy:
-  provider: script
-  script: Rscript -e 'pkgdown::deploy_site_github()'
-  skip_cleanup: true
-  on:
-    branch: master
-    condition: "$AFTER_JOBS = true"
-    type: push
-
-notifications:
-  email:
-    on_success: change # default: change
-    on_failure: change # default: always
+  # our site to gh_pages
+  - provider: pages
+    skip_cleanup: true
+    github_token: $GITHUB_TOKEN
+    keep_history: false
+    local_dir: docs
+    on:
+      branch: master
+      condition: $TRAVIS_R_VERSION_STRING == "release"
