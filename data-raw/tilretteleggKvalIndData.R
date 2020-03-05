@@ -2,13 +2,9 @@
 #Må legge til funksjonalitet for at ett og ett register oppdateres i datafila.
 # evt. sjekke på kvalindID
 
-#Kildefila med kvalitetsindiatorbeskrivelser har vi blitt enige om at skal ligge som csv-fil  
-# under raw-data. Får ikke lest csv-fila. Trøbbel med både encoding og at antall variabler og
-# variabelnavn ikke stemmer overens. Funker med Excel!
+#Indikatorbeskrivelser
 
 IndBeskr <- readxl::read_excel("data-raw/Indikatorbeskrivelser.xlsx")
-#IndBeskr <- read.table('data-raw/Indikatorbeskrivelser.csv', sep = ';', #encoding = 'UTF-8', #fileEncoding = 'UTF-8', 
- #                      col.names = T) #, row.names = F
 usethis::use_data(IndBeskr, overwrite = TRUE)
 
 SykehusNavnStruktur <- readxl::read_excel('data-raw/SykehusNavnStruktur.xlsx')
@@ -20,18 +16,8 @@ library(nakke)
 RegData <- NakkeRegDataSQL()
 RegData <- NakkePreprosess(RegData)
 
-#tilretteleggDataNakke <- function(RegData = RegData, valgtVar, filUt=paste0('Nakke', valgtVar)
-#valgtVar <- 'beinsmLavPre' #beinsmLavPre, peropKompDura, sympVarighUtstr, NDIendr12mnd35pst
-#datoFra = '2014-01-01'
-#aar=0
-
 KvalIndDataNakke <- tilretteleggDataNakke(RegData = RegData, datoFra = '2014-01-01', aar=0) 
-
 usethis::use_data(KvalIndDataNakke, overwrite = TRUE)
-
-
-IndBeskrNakke <- read.csv('data-raw/Indikatorbeskrivelser.csv', sep = ';')
-usethis::use_data(IndBeskrNakke, overwrite = TRUE)
 
 
 #-------------- INTENSIV -----------------------------------
@@ -41,30 +27,17 @@ RegData <- NIRPreprosess(RegData)
 
 KvalIndDataIntensiv <- intensiv::tilretteleggKvalIndData(RegData, 
                                                          datoFra='2016-01-01', datoTil=Sys.Date())
-names(KvalIndDataIntensiv)[which(names(KvalIndDataIntensiv)=='SykehusOrgId')] <- 'SykehusId'
- 
+
+#----------------Legge til nytt datasett NB: Må overskrive gamle data fra registeret som oppdateres---------------
 data('KvalIndData')
 KvalIndData <- rbind(KvalIndData,
                      KvalIndDataIntensiv)
 usethis::use_data(KvalIndData, overwrite = TRUE)
 
-#-------------- NORGAST -----------------------------------
-norgastdata <- read.csv2('data-raw/norgastdata.csv')
-data('KvalIndData')
-KvalIndData <- rbind(KvalIndData,
-                     norgastdata)
-usethis::use_data(KvalIndData, overwrite = TRUE)
-
-
-#Mangler: IndBeskrIntensiv <- read.csv('data-raw/Indikatorbeskrivelser.csv', sep = ';')
-#usethis::use_data(IndBeskrIntensiv, overwrite = TRUE)
-# "IndID"           "Register"        "IndTittel"       "IndNavn"         "MaalNivaaGronn"  "MaalNivaaGul"    "MaalRetn"       
-# "BeskrivelseKort" "BeskrivelseLang"
-# indBeskr <- 
 
 #--------  FUNKSJONER --------------------------------
 
-#' Generere data til offentlig visning.
+#' Degenerativ Nakke: Tilrettelegge data for offentlig visning.
 #'
 #' @param filUt tilnavn for utdatatabell (fjern?)
 #' @param RegData - data
@@ -81,8 +54,8 @@ nyID <- c('114288'='4000020', '109820'='974589095', '105783'='974749025',
           '103469'='874716782', '601161'='974795787', '999920'='913705440',
           '105588'='974557746', '999998'='999998', '110771'='973129856',
           '4212372'='4212372', '4211880'='999999003', '4211879'='813381192')
-RegData$SykehusOrgId <- as.character(nyID[as.character(RegData$ReshId)])
-resultatVariable <- c('KvalIndId', 'Aar', "ShNavn", "ReshId", "SykehusOrgId" , "Variabel")
+RegData$OrgNrShus <- as.character(nyID[as.character(RegData$ReshId)])
+resultatVariable <- c('KvalIndId', 'Aar', "ShNavn", "ReshId", "OrgNrShus" , "Variabel")
 NakkeKvalInd <- data.frame(NULL) #Aar=NULL, ShNavn=NULL)
 
 kvalIndParam <- c('KomplSvelging3mnd', 'KomplStemme3mnd', 'Komplinfek', 'NDIendr12mnd35pstKI')
