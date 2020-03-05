@@ -34,6 +34,13 @@ KvalIndData <- rbind(KvalIndData,
                      KvalIndDataIntensiv)
 usethis::use_data(KvalIndData, overwrite = TRUE)
 
+#-------------- NORGAST -----------------------------------
+norgastdata <- read.csv2('data-raw/norgastdata.csv')
+data('KvalIndData')
+KvalIndData <- rbind(KvalIndData,
+                     norgastdata)
+usethis::use_data(KvalIndData, overwrite = TRUE)
+
 
 #--------  FUNKSJONER --------------------------------
 
