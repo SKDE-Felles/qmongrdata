@@ -8,7 +8,7 @@ IndBeskr <- readxl::read_excel("data-raw/Indikatorbeskrivelser.xlsx")
 usethis::use_data(IndBeskr, overwrite = TRUE)
 
 ## Sykehusstruktur
-SykehusNavnStruktur <- read.csv2('data-raw/SykehusNavnStruktur.csv')
+SykehusNavnStruktur <- read.csv2('data-raw/SykehusNavnStruktur.csv', stringsAsFactors = FALSE)
 
 # Convert org.nr. to characters
 SykehusNavnStruktur$OrgNrRHF <- as.character(SykehusNavnStruktur$OrgNrRHF)
