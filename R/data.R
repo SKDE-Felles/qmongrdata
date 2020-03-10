@@ -72,3 +72,9 @@
 #' @source Organisasjonsnumre og struktur kan finnes ved hjelp av Brønnøyaundregisteret:
 #' \url{https://w2.brreg.no/enhet/sok/}
 "KvalIndData"
+
+#' Fagområdeinndeling
+#' 
+#' Oversikt over hvilke kvalitetsregistere som hører til under ulike fagområder
+#' 
+"fagomr"
