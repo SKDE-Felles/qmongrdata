@@ -1,3 +1,7 @@
+# qmongrdata 0.2.0
+
+* `fagomr`: oversikt over fagområder og tilhørende registere
+
 # qmongrdata 0.1.0
 
 ### Data fra følgende indikatorer inkludert i `KvalIndData`:
