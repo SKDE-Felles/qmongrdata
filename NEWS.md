@@ -1,3 +1,5 @@
+# Uutgitt
+
 # qmongrdata 0.2.0
 
 * `fagomr`: oversikt over fagområder og tilhørende registere
