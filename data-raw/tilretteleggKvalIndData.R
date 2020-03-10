@@ -16,6 +16,10 @@ SykehusNavnStruktur$OrgNrHF <- as.character(SykehusNavnStruktur$OrgNrHF)
 SykehusNavnStruktur$OrgNrShus <- as.character(SykehusNavnStruktur$OrgNrShus)
 usethis::use_data(SykehusNavnStruktur, overwrite = TRUE)
 
+# Fagområde
+fagomr <- yaml::read_yaml("data-raw/fag.yml")
+usethis::use_data(fagomr, overwrite = TRUE)
+
 # ------------DEGENERATIV NAKKE-----------------------
 # Denne funker bare når database tilgjengelig!:
 library(nakke)
