@@ -74,7 +74,7 @@
 "KvalIndData"
 
 #' Fagområdeinndeling
-#' 
+#'
 #' Oversikt over hvilke kvalitetsregistere som hører til under ulike fagområder
-#' 
+#'
 "fagomr"
