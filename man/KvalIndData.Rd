@@ -12,7 +12,7 @@
 hendelser fra flere enheter på ett og samme sykehus. Dette navnet kan da benyttes til å skille mellom
 de ulike enhetene. Tekst}
 \item{ReshId}{Den registrerende enhetens resh-id.}
-\item{SykehusId}{Sykehusets organisasjonsnummer i Brønnøysundregisteret. Numerisk, 9 siffer}
+\item{OrgNrShus}{Sykehusets organisasjonsnummer i Brønnøysundregisteret. Numerisk, 9 siffer}
 \item{Variabel}{Resultatvariabel for kvalitetsindikatoren. I de fleste tilfeller vil dette være en
 indikatorvariabel, dvs. ha verdiene 0 og 1. For noen kvalitetsindikatorer kan det være nødvendig å
 benytte en eksakt verdi. F.eks. liggetid hvis man ønsker å benytte median liggetid som indikator.}
@@ -20,7 +20,8 @@ benytte en eksakt verdi. F.eks. liggetid hvis man ønsker å benytte median ligg
 til de observerte verdiene (eller omvendt...). Dvs. kobler sammen 'KvalIndData' og 'IndBeskr'.}
 }}
 \source{
-Organisasjonsnumre og struktur kan finnes ved hjelp av Brønnøyaundregisteret: \url{https://w2.brreg.no/enhet/sok/}
+Organisasjonsnumre og struktur kan finnes ved hjelp av Brønnøyaundregisteret:
+\url{https://w2.brreg.no/enhet/sok/}
 }
 \usage{
 KvalIndData
