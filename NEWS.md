@@ -1,4 +1,10 @@
-# Uutgitt
+# qmongrdata 0.2.2
+
+* Fagområde-oppdatering (muskel, nakke, nra)
+
+# qmongrdata 0.2.1
+
+* Read SykehusNavnStruktur.csv with encoding = "UTF-8". Broken for Windows in v0.1.1.
 
 # qmongrdata 0.2.0
 

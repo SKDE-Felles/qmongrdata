@@ -43,13 +43,16 @@ muskel:
         - ryggkir
         - leddprotese
         - nnrr
+        - muskel
+        - nkr_nakke
+        - rygg
 
 tarm:
     name: "Mage og tarm"
     key:
         - gastronet
         - fedmekir
-        - analinkontinens
+        - nra
         - norgast
 
 gyn:
