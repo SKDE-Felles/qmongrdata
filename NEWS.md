@@ -1,3 +1,7 @@
+# Uutgitt
+
+* Lagt ` HF` bak `Hfkortnavn` i `SykehusNavnStruktur` (` ` bak `private sykehus`), for å kunne skille *HF* og *Sykehus* i app.
+
 # qmongrdata 0.2.2
 
 * Fagområde-oppdatering (muskel, nakke, nra)
