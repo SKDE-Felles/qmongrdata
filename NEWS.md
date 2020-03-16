@@ -1,4 +1,4 @@
-# Uutgitt
+# qmongrdata 0.2.3
 
 * Lagt ` HF` bak `Hfkortnavn` i `SykehusNavnStruktur` (` ` bak `private sykehus`), for å kunne skille *HF* og *Sykehus* i app.
 
