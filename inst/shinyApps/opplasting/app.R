@@ -1,22 +1,21 @@
-library(shiny)
 library(qmongrdata)
 KvalIndData$Aar <- as.integer(KvalIndData$Aar)
 
 # Define UI for data upload app ----
-ui <- fluidPage(
+ui <- shiny::fluidPage(
   shinyjs::useShinyjs(),
 
   # App title ----
   # titlePanel("Last opp filer"),
 
   # Sidebar layout with input and output definitions ----
-  sidebarLayout(
+  shiny::sidebarLayout(
 
     # Sidebar panel for inputs ----
-    sidebarPanel(
+    shiny::sidebarPanel(
 
       # Input: Select a file ----
-      fileInput("file1", "Velg csv-fil",
+      shiny::fileInput("file1", "Velg csv-fil",
                 multiple = FALSE,
                 accept = c("text/csv",
                            "text/comma-separated-values,text/plain",
@@ -24,82 +23,82 @@ ui <- fluidPage(
                 ),
 
       # Horizontal line ----
-      tags$hr(),
+      shiny::tags$hr(),
 
       # # Input: Checkbox if file has header ----
       # checkboxInput("header", "Header", TRUE),
 
       # Input: Select separator ----
-      radioButtons("sep", "Kolonneseparator",
+      shiny::radioButtons("sep", "Kolonneseparator",
                    choices = c(Semikolon = ";",
                                Komma = ",",
                                Tab = "\t"),
                    selected = ";"),
 
-      radioButtons("dec_sep", "Desimalseparator",
+      shiny::radioButtons("dec_sep", "Desimalseparator",
                    choices = c(Puktum = ".",
                                Komma = ","),
                    selected = ","),
 
-      radioButtons("tegnsett", "Tegnsetting",
+      shiny::radioButtons("tegnsett", "Tegnsetting",
                    choices = c("LATIN1", "UTF-8", "Annet"), #, "UTF-8-BOM"
                    selected = "UTF-8"),
 
-      uiOutput(outputId = "andretegn"),
+      shiny::uiOutput(outputId = "andretegn"),
 
       # Input: Select number of rows to display ----
-      radioButtons("disp", "Vis",
+      shiny::radioButtons("disp", "Vis",
                    choices = c("Første 20 rader" = "head",
                                "20 tilfeldige rader" = "tilf20",
                                "Alle rader" = "all"),
                    selected = "head"),
 
-      tags$hr(),
+      shiny::tags$hr(),
 
       shinyjs::disabled(actionButton(inputId = "lastopp", label = "Send til server", icon("paper-plane"),
                    style = "color: #fff; background-color: #337ab7; border-color: #2e6da4")),
       shinyjs::hidden(p(id = "text1", "Fiks følgende problemer med datasettet for å aktivisere
                         opplastingsknapp: ")),
-      uiOutput("feilmeld")
+      shiny::uiOutput("feilmeld")
     ),
 
     # Main panel for displaying outputs ----
-    mainPanel(
-      titlePanel("Last opp fil"),
-      h4("Dette er et verktøy for å hjelpe med å laste opp filer i riktig format til bruk i sykehusviser. Under
+    shiny::mainPanel(
+      shiny::titlePanel("Last opp fil"),
+      shiny::h4("Dette er et verktøy for å hjelpe med å laste opp filer i riktig format til bruk i sykehusviser. Under
          er det vist et eksempel på hvordan filen skal se ut. Din fil skal være i csv-format med de samme
          kolonnenavnene som i eksempelet. Det er ikke nøye med små og store bokstaver eller rekkefølgen på
          kolonnene. Under følger en forklaring på innholdet i kolonnene."),
 
       div(class = "container", style = "margin-right:(@gutter / 10)",
-          tags$ul(
-            tags$li(h5(tags$b(names(KvalIndData)[1]),
+          shiny::tags$ul(
+            shiny::tags$li(shiny::h5(shiny::tags$b(names(KvalIndData)[1]),
                        ": året for hendelsen")),
-            tags$li(h5(tags$b(names(KvalIndData)[2]),
+            shiny::tags$li(shiny::h5(shiny::tags$b(names(KvalIndData)[2]),
                        ": registerets navn på enheten knyttet til hendelsen")),
-            tags$li(h5(tags$b(names(KvalIndData)[3]),
+            shiny::tags$li(shiny::h5(shiny::tags$b(names(KvalIndData)[3]),
                        ": registerets numeriske ID (ofte RESH) på enheten knyttet til hendelsen")),
-            tags$li(h5(tags$b(names(KvalIndData)[4]),
+            shiny::tags$li(shiny::h5(shiny::tags$b(names(KvalIndData)[4]),
                        ": organisasjonsnummeret til sykehus/HF knyttet til hendelsen,
                        hentet fra tilsendt fil SykehusNavnStruktur")),
-            tags$li(h5(tags$b(names(KvalIndData)[5]),
+            shiny::tags$li(shiny::h5(shiny::tags$b(names(KvalIndData)[5]),
                        ": enten en binær indikator (0/1) for fremstilling av andel måloppnåelse,
                        eller en numerisk variabel for fremstilling av gjennomsnitt eller median")),
-            tags$li(h5(tags$b(names(KvalIndData)[6]),
+            shiny::tags$li(shiny::h5(shiny::tags$b(names(KvalIndData)[6]),
                        ": identifikator for kvalitetsindikator, skal samsvare med
                        identifikator gitt i Indikatorbeskrivelse"))
           )
       ),
-      br(),
-      h4("Eksempeldata:"),
+      shiny::br(),
+      shiny::h4("Eksempeldata:"),
       # Output: Data file ----
-      tableOutput("eksempel"),
+      shiny::tableOutput("eksempel"),
       # Horizontal line ----
-      tags$hr(),
-      h4("Opplastet datasett:"),
-      h5("Her vises en utsnitt av datasett du har lastet opp. Juster parametrene i menyen på venstresiden
+      shiny::tags$hr(),
+      shiny::h4("Opplastet datasett:"),
+      shiny::h5("Her vises en utsnitt av datasett du har lastet opp. Juster parametrene i menyen på venstresiden
          slik at norske tegn (æøå) representeres riktig og tallene fremstår slik de skal."),
-      tableOutput("contents")
+      shiny::tableOutput("contents")
     )
   )
 )
@@ -107,7 +106,7 @@ ui <- fluidPage(
 # Define server logic to read selected file ----
 server <- function(input, output) {
 
-  observe(
+  shiny::observe(
       if (datatester()$test2 & datatester()$test3 & datatester()$test4) {
         shinyjs::enable("lastopp")
         shinyjs::hide("text1")
@@ -117,15 +116,15 @@ server <- function(input, output) {
       }
   )
 
-  output$andretegn <- renderUI({
+  output$andretegn <- shiny::renderUI({
     if (input$tegnsett == "Annet") {
-      selectInput(inputId = "andretegn_verdi", label = "Spesifiser:",
+      shiny::selectInput(inputId = "andretegn_verdi", label = "Spesifiser:",
                   choices = iconvlist(), selected = "MS-ANSI")
     }
   })
 
-  df <- reactive({
-    req(input$file1)
+  df <- shiny::reactive({
+    shiny::req(input$file1)
     if (input$tegnsett == "Annet") {
       if (!is.null(input$andretegn_verdi)) {
         tegn <- input$andretegn_verdi
@@ -143,7 +142,7 @@ server <- function(input, output) {
   })
 
   datatester <- function() {
-    req(df())
+    shiny::req(df())
     # Test 1: Riktig antall kolonner i opplasting (fjernet, dekkes av test 2 og 3)
     # Test 2: Alle kolonnenavn i opplasting finnes i KvalIndData
     # Test 3: Alle kolonnenavn i KvalIndData finnes i opplasting
@@ -181,13 +180,13 @@ server <- function(input, output) {
     shiny::tagList(
       shiny::tags$ul(
           if (!data_test$test2) {
-            tags[["li"]](h5(tags[["b"]](data_test[["test2tekst"]])))
+            shiny::tags[["li"]](shiny::h5(shiny::tags[["b"]](data_test[["test2tekst"]])))
             },
           if (!data_test$test3) {
-            tags[["li"]](h5(tags[["b"]](data_test[["test3tekst"]])))
+            shiny::tags[["li"]](shiny::h5(shiny::tags[["b"]](data_test[["test3tekst"]])))
             },
           if (!data_test$test4) {
-            tags[["li"]](h5(tags[["b"]](data_test[["test4tekst"]])))
+            shiny::tags[["li"]](shiny::h5(shiny::tags[["b"]](data_test[["test4tekst"]])))
             }
         )
     )
