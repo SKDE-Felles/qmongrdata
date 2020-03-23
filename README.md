@@ -2,8 +2,8 @@
 # qmongrdata
 
 <!-- badges: start -->
-[![Travis build status](https://travis-ci.org/SKDE-Felles/qmongrdata.svg?branch=master)](https://travis-ci.org/SKDE-Felles/qmongrdata)
-[![AppVeyor build status](https://ci.appveyor.com/api/projects/status/github/SKDE-Felles/qmongrdata?branch=master&svg=true)](https://ci.appveyor.com/project/SKDE-Felles/qmongrdata)
+[![Travis build status](https://travis-ci.org/mong/qmongrdata.svg?branch=master)](https://travis-ci.org/mong/qmongrdata)
+[![AppVeyor build status](https://ci.appveyor.com/api/projects/status/github/mong/qmongrdata?branch=master&svg=true)](https://ci.appveyor.com/project/mong/qmongrdata)
 <!-- badges: end -->
 
 The goal of qmongrdata is to ...
@@ -13,7 +13,7 @@ The goal of qmongrdata is to ...
 You can install the released version of qmongrdata from [github](https://github.com/) with:
 
 ``` r
-remotes::install.github("SKDE-Felles/qmongrdata")
+remotes::install.github("mong/qmongrdata")
 ```
 
 ## Example
