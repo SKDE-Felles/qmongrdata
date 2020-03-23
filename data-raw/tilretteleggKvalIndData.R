@@ -7,8 +7,18 @@
 IndBeskr <- readxl::read_excel("data-raw/Indikatorbeskrivelser.xlsx")
 usethis::use_data(IndBeskr, overwrite = TRUE)
 
-SykehusNavnStruktur <- readxl::read_excel('data-raw/SykehusNavnStruktur.xlsx')
+## Sykehusstruktur
+SykehusNavnStruktur <- read.csv2('data-raw/SykehusNavnStruktur.csv', stringsAsFactors = FALSE, encoding = "UTF-8")
+
+# Convert org.nr. to characters
+SykehusNavnStruktur$OrgNrRHF <- as.character(SykehusNavnStruktur$OrgNrRHF)
+SykehusNavnStruktur$OrgNrHF <- as.character(SykehusNavnStruktur$OrgNrHF)
+SykehusNavnStruktur$OrgNrShus <- as.character(SykehusNavnStruktur$OrgNrShus)
 usethis::use_data(SykehusNavnStruktur, overwrite = TRUE)
+
+# Fagområde
+fagomr <- yaml::read_yaml("data-raw/fag.yml")
+usethis::use_data(fagomr, overwrite = TRUE)
 
 # ------------DEGENERATIV NAKKE-----------------------
 # Denne funker bare når database tilgjengelig!:

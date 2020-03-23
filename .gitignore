@@ -4,3 +4,5 @@ docs/
 .Rhistory
 *~
 .DS_Store
+*.xlsx
+.RData
