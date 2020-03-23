@@ -20,13 +20,15 @@ Kan eksempelvis være parameteren som benyttes i valgtVar for å hente ut tilret
 \item{BeskrivelseLang}{Utfyllende beskrivelse av indikatoren. Tekst.}
 }}
 \source{
-Organisasjonsnumre og struktur kan finnes ved hjelp av Brønnøyaundregisteret: \url{https://w2.brreg.no/enhet/sok/}
+Organisasjonsnumre og struktur kan finnes ved hjelp av Brønnøyaundregisteret:
+\url{https://w2.brreg.no/enhet/sok/}
 }
 \usage{
 IndBeskr
 }
 \description{
 Oversikt over over og beskrivelse av alle kvalitetsindikatorerer. Fila oppdateres etter hvert som det legges til
-data fra flere kvalitetsindikatorer og registre.
+data fra flere kvalitetsindikatorer og registre. "Originalfila" finnes som Excel-fil under data-raw. Gjør endringer
+der og skriv så ned til rda.
 }
 \keyword{datasets}

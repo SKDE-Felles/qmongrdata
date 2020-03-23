@@ -106,32 +106,49 @@ ui <- fluidPage(
 # Define server logic to read selected file ----
 server <- function(input, output) {
   
+  # observe(
+  #   # if (isTruthy(datatester())){
+  #     if (req(datatester()$test2, cancelOutput = T) & req(datatester()$test3, cancelOutput = T) & 
+  #         req(datatester()$test4, cancelOutput = T)) {
+  #       shinyjs::enable("lastopp")
+  #       shinyjs::hide("text1")
+  #     } else {
+  #       shinyjs::disable("lastopp")
+  #       shinyjs::show("text1")
+  #     }
+  #   # }
+  # )
+  
   observe(
-    if (datatester()$test1 & datatester()$test2 & datatester()$test3 & datatester()$test4) {
-      shinyjs::enable("lastopp")
-      shinyjs::hide("text1")
-    } else {
-      shinyjs::disable("lastopp")
-      shinyjs::show("text1")
-    }
-  )
+    print(input$andretegn_verdi)
+    )
+  # observe(
+  #   print(datatester())
+  # )
+  
+  output$andretegn <- renderUI({
+    if (input$tegnsett == 'Annet') {
+      selectInput(inputId = 'andretegn_verdi', label = "Spesifiser:",
+                  choices = iconvlist(), selected = 'MS-ANSI')}
+  })
   
   df <- reactive({
     req(input$file1)
+    if (input$tegnsett == 'Annet') {tegn <- input$andretegn_verdi} else {tegn <- input$tegnsett}
     df <- read.csv(input$file1$datapath,
                    header = TRUE,
                    sep = input$sep,
-                   fileEncoding = if (input$tegnsett == 'Annet') {input$andretegn_verdi} else input$tegnsett,
+                   fileEncoding = tegn,
                    stringsAsFactors = FALSE)
-    # colClasses = c('integer', 'character', 'integer', 'integer', 'numeric', 'character')
   })
   
   
   
   datatester <- function() {
     req(df())
-    # Test 1: Riktig antall kolonner i opplasting
+    # Test 1: Riktig antall kolonner i opplasting (fjernet, dekkes av test 2 og 3)
     # Test 2: Alle kolonnenavn i opplasting finnes i KvalIndData
+    # Test 3: Alle kolonnenavn i KvalIndData finnes i opplasting
     # Test 3: Alle kolonnenavn i KvalIndData finnes i opplasting
     # Test 4: Alle OrgNrShus i opplasting finnes i SykehusNavnStruktur
     
@@ -157,15 +174,19 @@ server <- function(input, output) {
                                         c(SykehusNavnStruktur$OrgNrRHF, SykehusNavnStruktur$OrgNrHF, 
                                           SykehusNavnStruktur$OrgNrShus)), 
                                 collapse = ', '))
-    list(test1=test1, test2=test2, test3=test3, test4=test4,
+    # list(test1=test1, test2=test2, test3=test3, test4=test4,
+    #      test1tekst=test1tekst, test2tekst=test2tekst, test3tekst=test3tekst, test4tekst=test4tekst)
+    list(test1=ifelse(!is.null(test1) | !is.na(test1), test1, FALSE), test2=ifelse(!is.null(test2) | !is.na(test2), test2, FALSE), 
+         test3=ifelse(!is.null(test3) | !is.na(test3), test3, FALSE), test4=ifelse(!is.null(test4) | !is.na(test4), test4, FALSE),
          test1tekst=test1tekst, test2tekst=test2tekst, test3tekst=test3tekst, test4tekst=test4tekst)
+    
   }
   
   output$feilmeld <- renderUI({
     data_test <- datatester()
     tagList(
         tags$ul(
-          if (!data_test$test1) {tags$li(h5(tags$b(data_test$test1tekst)))},
+          # if (!data_test$test1) {tags$li(h5(tags$b(data_test$test1tekst)))},
           if (!data_test$test2) {tags$li(h5(tags$b(data_test$test2tekst)))},
           if (!data_test$test3) {tags$li(h5(tags$b(data_test$test3tekst)))},
           if (!data_test$test4) {tags$li(h5(tags$b(data_test$test4tekst)))}
@@ -173,12 +194,6 @@ server <- function(input, output) {
     )
   })
   
-  
-  output$andretegn <- renderUI({
-    if (input$tegnsett == 'Annet') {
-      selectInput(inputId = 'andretegn_verdi', label = "Spesifiser:",
-                  choices = iconvlist(), selected = 'MS-ANSI')}
-  })
   
   output$contents <- renderTable({
     
@@ -201,10 +216,20 @@ server <- function(input, output) {
   })
   
   
-  
-  
-  
-  
+  observeEvent(input$lastopp, {
+    opplast <- df()[, match(tolower(names(df())), tolower(names(KvalIndData)))]
+    names(opplast) <- names(KvalIndData)
+    # write.csv2(opplast, paste0(system.file(package = 'qmongrdata'), '\data-raw\', 'test', Sys.time(), '.csv'),
+    #            row.names = F, fileEncoding = 'UTF-8')
+    # write.csv2(opplast, paste0(tempdir(), '\\test.csv'),
+    #            row.names = F, fileEncoding = 'UTF-8')
+    write.csv2(opplast, normalizePath(paste0(system.file(package = 'qmongrdata'), '/data-raw/', 'test.csv')),
+               row.names = F, fileEncoding = 'UTF-8')
+    
+    # paste0(system.file(package = 'qmongrdata'), '/data-raw/', 'test', Sys.time(), '.csv')
+    # filnavn <- paste0('test', Sys.time(), '.csv')
+    # usethis::use_data_raw(KvalIndData, overwrite = TRUE, name = )
+  })
   
   
   

@@ -18,7 +18,8 @@
 \item{TaMed}{Indikator (0/1) som angir om sykehuset er vanlig å ha med i div. oversikter}
 }}
 \source{
-Organisasjonsnumre og struktur kan finnes ved hjelp av Brønnøyaundregisteret: \url{https://w2.brreg.no/enhet/sok/}
+Organisasjonsnumre og struktur kan finnes ved hjelp av Brønnøyaundregisteret:
+\url{https://w2.brreg.no/enhet/sok/}
 }
 \usage{
 SykehusNavnStruktur
