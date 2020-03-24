@@ -45,20 +45,12 @@ KvalIndData <- rbind(KvalIndData,
 usethis::use_data(KvalIndData, overwrite = TRUE)
 
 #-------------- NORGAST -----------------------------------
-# Les første gang
-norgastdata <- read.csv2('data-raw/norgastdata.csv', fileEncoding = 'UTF-8')
+norgastdata <- read.csv2('data-raw/norgastdata.csv')
 data('KvalIndData')
 KvalIndData <- rbind(KvalIndData,
                      norgastdata)
 usethis::use_data(KvalIndData, overwrite = TRUE)
 
-# Oppdater (fjern gamle og erstatt)
-norgastdata <- read.csv2('data-raw/norgastdata.csv', fileEncoding = 'UTF-8')
-data('KvalIndData')
-KvalIndData <- KvalIndData[substr(KvalIndData$KvalIndID, 1, 7)!='norgast', ]
-KvalIndData <- rbind(KvalIndData,
-                     norgastdata)
-usethis::use_data(KvalIndData, overwrite = TRUE)
 
 #--------  FUNKSJONER --------------------------------
 
