@@ -1,3 +1,19 @@
+# qmongrdata 0.2.3
+
+* Lagt ` HF` bak `Hfkortnavn` i `SykehusNavnStruktur` (` ` bak `private sykehus`), for å kunne skille *HF* og *Sykehus* i app.
+
+# qmongrdata 0.2.2
+
+* Fagområde-oppdatering (muskel, nakke, nra)
+
+# qmongrdata 0.2.1
+
+* Read SykehusNavnStruktur.csv with encoding = "UTF-8". Broken for Windows in v0.1.1.
+
+# qmongrdata 0.2.0
+
+* `fagomr`: oversikt over fagområder og tilhørende registere
+
 # qmongrdata 0.1.0
 
 ### Data fra følgende indikatorer inkludert i `KvalIndData`:
