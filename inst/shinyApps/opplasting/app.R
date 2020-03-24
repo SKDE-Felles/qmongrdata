@@ -45,14 +45,14 @@ ui <- fluidPage(
                    choices = c("LATIN1", "UTF-8", "Annet"), #, "UTF-8-BOM"
                    selected = "UTF-8"),
       
-      uiOutput(outputId = 'andretegn'),
+      uiOutput(outputId = "andretegn"),
       
       
       # Input: Select number of rows to display ----
       radioButtons("disp", "Vis",
-                   choices = c('Første 20 rader' = "head",
-                               '20 tilfeldige rader' = 'tilf20',
-                               'Alle rader' = "all"),
+                   choices = c("Første 20 rader" = "head",
+                               "20 tilfeldige rader" = "tilf20",
+                               "Alle rader" = "all"),
                    selected = "head"),
       
       tags$hr(),
@@ -63,7 +63,7 @@ ui <- fluidPage(
                         opplastingsknapp: ")),
       uiOutput("feilmeld")
       # textInput("tittel", "Skriv inn registernavn", "")
-      # checkboxInput('tmptull', 'Aktiver knapp')
+      # checkboxInput("tmptull", "Aktiver knapp")
       
     ),
     
@@ -118,17 +118,17 @@ server <- function(input, output) {
   
   
   output$andretegn <- renderUI({
-    if (input$tegnsett == 'Annet') {
-      selectInput(inputId = 'andretegn_verdi', label = "Spesifiser:",
-                  choices = iconvlist(), selected = 'MS-ANSI')}
+    if (input$tegnsett == "Annet") {
+      selectInput(inputId = "andretegn_verdi", label = "Spesifiser:",
+                  choices = iconvlist(), selected = "MS-ANSI")}
   })
   
   df <- reactive({
     req(input$file1)
-    if (input$tegnsett == 'Annet') {
+    if (input$tegnsett == "Annet") {
       if (!is.null(input$andretegn_verdi)) {
         tegn <- input$andretegn_verdi} 
-      else {tegn <- 'MS-ANSI'}
+      else {tegn <- "MS-ANSI"}
           }
     else {tegn <- input$tegnsett}
     df <- read.csv(input$file1$datapath,
@@ -149,27 +149,27 @@ server <- function(input, output) {
     # Test 4: Alle OrgNrShus i opplasting finnes i SykehusNavnStruktur
     
     test1 <- length(names(df())) == length(names(KvalIndData))
-    test1tekst <- paste0('Opplastet fil har ', dim(df())[2], ' kolonner. Den skal ha 6 kolonner.')
+    test1tekst <- paste0("Opplastet fil har ", dim(df())[2], " kolonner. Den skal ha 6 kolonner.")
     test2 <- length(setdiff(tolower(names(df())), tolower(names(KvalIndData)))) == 0
-    test2tekst <- paste0('Følgende kolonnenavn i opplastet fil er ikke å finne som skrevet i 
-                         eksempeldata: ', 
+    test2tekst <- paste0("Følgende kolonnenavn i opplastet fil er ikke å finne som skrevet i 
+                         eksempeldata: ", 
                          paste0(names(df())[match(setdiff(tolower(names(df())), 
                                                           tolower(names(KvalIndData))), tolower(names(df())))], 
-                                collapse = ', '))
+                                collapse = ", "))
     test3 <- length(setdiff(tolower(names(KvalIndData)), tolower(names(df())))) == 0
-    test3tekst <- paste0('Følgende kolonner mangler eller er feilskrevet i opplastet fil: ', 
+    test3tekst <- paste0("Følgende kolonner mangler eller er feilskrevet i opplastet fil: ", 
                          paste0(names(KvalIndData)[match(setdiff(tolower(names(KvalIndData)), 
                                                                  tolower(names(df()))), tolower(names(KvalIndData)))], 
-                                collapse = ', '))
+                                collapse = ", "))
     test4 <- length(setdiff(df()[, match(tolower("OrgNrShus"), tolower(names(df())))], 
                             c(SykehusNavnStruktur$OrgNrRHF, SykehusNavnStruktur$OrgNrHF, 
                                                     SykehusNavnStruktur$OrgNrShus))) == 0
-    test4tekst <- paste0('Følgende organisasjonsnummer i opplastet fil finnes ikke i tilsendt 
-                         mappingfil: ', 
+    test4tekst <- paste0("Følgende organisasjonsnummer i opplastet fil finnes ikke i tilsendt 
+                         mappingfil: ", 
                          paste0(setdiff(df()[, match(tolower("OrgNrShus"), tolower(names(df())))], 
                                         c(SykehusNavnStruktur$OrgNrRHF, SykehusNavnStruktur$OrgNrHF, 
                                           SykehusNavnStruktur$OrgNrShus)), 
-                                collapse = ', '))
+                                collapse = ", "))
     list(test1=test1, test2=test2, test3=test3, test4=test4,
          test1tekst=test1tekst, test2tekst=test2tekst, test3tekst=test3tekst, test4tekst=test4tekst)
   }
@@ -211,8 +211,8 @@ server <- function(input, output) {
   observeEvent(input$lastopp, {
     opplast <- df()[, match(tolower(names(df())), tolower(names(KvalIndData)))]
     names(opplast) <- names(KvalIndData)
-    filnavn <- paste0(paste0(unique( stringr::str_extract(opplast$KvalIndID, "[aA-zZ]+") ), collapse = '_'),
-                      format(Sys.Date(), '%Y_%m_%d'))
+    filnavn <- paste0(paste0(unique( stringr::str_extract(opplast$KvalIndID, "[aA-zZ]+") ), collapse = "_"),
+                      format(Sys.Date(), "%Y_%m_%d"))
     assign(filnavn, opplast)
     path <- usethis::proj_get()
     dir_data <- fs::path(path, "data-raw")
