@@ -211,8 +211,9 @@ server <- function(input, output) {
   observeEvent(input$lastopp, {
     opplast <- df()[, match(tolower(names(df())), tolower(names(KvalIndData)))]
     names(opplast) <- names(KvalIndData)
-    assign(paste0(paste0(unique( stringr::str_extract(opplast$KvalIndID, "[aA-zZ]+") ), collapse = '_'),
-                  format(Sys.Date(), '%Y_%m_%d')), opplast)
+    filnavn <- paste0(paste0(unique( stringr::str_extract(opplast$KvalIndID, "[aA-zZ]+") ), collapse = '_'),
+                      format(Sys.Date(), '%Y_%m_%d'))
+    assign(filnavn, opplast)
     # write.csv2(opplast, normalizePath(paste0(tempdir(), '\\',
     #                                          paste0(unique( stringr::str_extract_all(df()$KvalIndID, "[aA-zZ]+") ), collapse = '_'),
     #                                          Sys.Date(), '.csv')),
@@ -225,10 +226,8 @@ server <- function(input, output) {
                                  # format(Sys.Date(), '%Y_%m_%d'))), overwrite = TRUE)
     path <- usethis::proj_get()
     dir_data <- fs::path(path, "data-raw")
-    paths <- fs::path(dir_data, paste0(paste0(unique( stringr::str_extract(opplast$KvalIndID, "[aA-zZ]+") ), collapse = '_'),
-                                   format(Sys.Date(), '%Y_%m_%d')), ext = "rda")
-    save(list = paste0(paste0(unique( stringr::str_extract(opplast$KvalIndID, "[aA-zZ]+") ), collapse = '_'),
-                format(Sys.Date(), '%Y_%m_%d')), file = paths)
+    paths <- fs::path(dir_data, filnavn, ext = "rda")
+    save(list = filnavn, file = paths)
     showNotification("Fil lagret på server, fred være med deg mitt barn.", type = "message")
   })
   
