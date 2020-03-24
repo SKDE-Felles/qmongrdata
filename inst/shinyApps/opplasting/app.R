@@ -207,23 +207,13 @@ server <- function(input, output) {
     KvalIndData[sample(1:dim(KvalIndData)[1], 6), ]
   })
   
-  # Last opp data til tempdir med filnavn registernavn og dato
+  # Last opp data som rda-fil til data-raw med filnavn registernavn og dato
   observeEvent(input$lastopp, {
     opplast <- df()[, match(tolower(names(df())), tolower(names(KvalIndData)))]
     names(opplast) <- names(KvalIndData)
     filnavn <- paste0(paste0(unique( stringr::str_extract(opplast$KvalIndID, "[aA-zZ]+") ), collapse = '_'),
                       format(Sys.Date(), '%Y_%m_%d'))
     assign(filnavn, opplast)
-    # write.csv2(opplast, normalizePath(paste0(tempdir(), '\\',
-    #                                          paste0(unique( stringr::str_extract_all(df()$KvalIndID, "[aA-zZ]+") ), collapse = '_'),
-    #                                          Sys.Date(), '.csv')),
-    #            row.names = F, fileEncoding = 'UTF-8')
-    # save(opplast, file = normalizePath(paste0('data\\', paste0(unique( stringr::str_extract_all(df()$KvalIndID, "[aA-zZ]+") ),
-    #                                                            collapse = '_'), Sys.Date(), '.rda')))
-    # usethis::use_data(as.name(paste0(paste0(unique( stringr::str_extract_all(opplast$KvalIndID, "[aA-zZ]+") ), collapse = '_'), 
-    #                                    format(Sys.Date(), '%Y_%m_%d'))))
-    # usethis::use_data(get(paste0(paste0(unique( stringr::str_extract_all(opplast$KvalIndID, "[aA-zZ]+") ), collapse = '_'), 
-                                 # format(Sys.Date(), '%Y_%m_%d'))), overwrite = TRUE)
     path <- usethis::proj_get()
     dir_data <- fs::path(path, "data-raw")
     paths <- fs::path(dir_data, filnavn, ext = "rda")
