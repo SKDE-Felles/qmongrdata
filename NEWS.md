@@ -1,3 +1,5 @@
+# Unreleased
+
 # qmongrdata 0.2.4
 
 * Fixed encoding in `KvalIndData`
