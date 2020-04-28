@@ -8,7 +8,7 @@ IndBeskr <- readxl::read_excel("data-raw/Indikatorbeskrivelser.xlsx")
 usethis::use_data(IndBeskr, overwrite = TRUE)
 
 ## Sykehusstruktur
-SykehusNavnStruktur <- read.csv2('data-raw/SykehusNavnStruktur.csv', stringsAsFactors = FALSE, encoding = "UTF-8")
+SykehusNavnStruktur <- read.csv2("data-raw/SykehusNavnStruktur.csv", stringsAsFactors = FALSE, encoding = "UTF-8")
 
 # Convert org.nr. to characters
 SykehusNavnStruktur$OrgNrRHF <- as.character(SykehusNavnStruktur$OrgNrRHF)
@@ -26,38 +26,45 @@ library(nakke)
 RegData <- NakkeRegDataSQL()
 RegData <- NakkePreprosess(RegData)
 
-KvalIndDataNakke <- tilretteleggDataNakke(RegData = RegData, datoFra = '2014-01-01', aar=0) 
+KvalIndDataNakke <- tilretteleggDataNakke(RegData = RegData, datoFra = "2014-01-01", aar=0) 
 usethis::use_data(KvalIndDataNakke, overwrite = TRUE)
-
 
 #-------------- INTENSIV -----------------------------------
 library(intensiv)
-RegData <- NIRRegDataSQL(datoFra = '2016-01-01')
+RegData <- NIRRegDataSQL(datoFra = "2016-01-01")
 RegData <- NIRPreprosess(RegData)
 
 KvalIndDataIntensiv <- intensiv::tilretteleggKvalIndData(RegData, 
-                                                         datoFra='2016-01-01', datoTil=Sys.Date())
+                                                         datoFra="2016-01-01", datoTil=Sys.Date())
 
 #----------------Legge til nytt datasett NB: Må overskrive gamle data fra registeret som oppdateres---------------
-data('KvalIndData')
+data("KvalIndData")
 KvalIndData <- rbind(KvalIndData,
                      KvalIndDataIntensiv)
 usethis::use_data(KvalIndData, overwrite = TRUE)
 
 #-------------- NORGAST -----------------------------------
 # Les første gang
-norgastdata <- read.csv2('data-raw/norgastdata.csv', fileEncoding = 'UTF-8')
-data('KvalIndData')
+norgastdata <- read.csv2("data-raw/norgastdata.csv", fileEncoding = "UTF-8")
+data("KvalIndData")
 KvalIndData <- rbind(KvalIndData,
                      norgastdata)
 usethis::use_data(KvalIndData, overwrite = TRUE)
 
 # Oppdater (fjern gamle og erstatt)
-norgastdata <- read.csv2('data-raw/norgastdata.csv', fileEncoding = 'UTF-8')
-data('KvalIndData')
-KvalIndData <- KvalIndData[substr(KvalIndData$KvalIndID, 1, 7)!='norgast', ]
+norgastdata <- read.csv2("data-raw/norgastdata.csv", fileEncoding = "UTF-8")
+data("KvalIndData")
+KvalIndData <- KvalIndData[substr(KvalIndData$KvalIndID, 1, 7) != "norgast", ]
 KvalIndData <- rbind(KvalIndData,
                      norgastdata)
+usethis::use_data(KvalIndData, overwrite = TRUE)
+
+#---------- Fix encoding ---------------- #
+data("KvalIndData")
+KvalIndData$ShNavn <- gsub("\xf8", "ø", KvalIndData$ShNavn)
+KvalIndData$ShNavn <- gsub("\xc5", "Å", KvalIndData$ShNavn)
+KvalIndData$ShNavn <- gsub("\xe6", "æ", KvalIndData$ShNavn)
+KvalIndData$ShNavn <- gsub("\xd8", "Ø", KvalIndData$ShNavn)
 usethis::use_data(KvalIndData, overwrite = TRUE)
 
 #--------  FUNKSJONER --------------------------------
