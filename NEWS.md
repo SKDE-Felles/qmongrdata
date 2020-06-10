@@ -1,4 +1,6 @@
-# Unreleased
+# qmongrdata 0.2.5
+
+* Fix mistake in IndBeskr data. IndID and Register were swapped for nra
 
 # qmongrdata 0.2.4
 
