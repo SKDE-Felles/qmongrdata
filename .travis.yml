@@ -11,14 +11,11 @@ env:
   global:
     - _R_CHECK_TESTS_NLINES_=0
 
-r_github_packages:
-    - jimhester/covr
-    - jimhester/lintr
-    - r-lib/pkgdown
-    
-script:
-  - R CMD build .
-  - R CMD check --as-cran *tar.gz
+r_packages:
+  - covr
+  - lintr
+  - roxygen2
+  - pkgdown
 
 after_success:
   - R CMD INSTALL $PKG_TARBALL
@@ -27,7 +24,7 @@ after_success:
       Rscript -e 'lintr::lint_package()'
       Rscript -e 'covr::codecov()'
     fi
-  - rm -rf qmongr.Rcheck
+  - Rscript -e 'roxygen2::roxygenise()'
   - Rscript -e 'pkgdown::build_site()'
 
 deploy:
