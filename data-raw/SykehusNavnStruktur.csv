@@ -1,7 +1,29 @@
-OrgNrRHF;RHF;OrgNrHF;HF;Hfkortnavn;OrgNrShus;OrgNavnEnhetsreg;SykehusnavnLang;SykehusNavn;TaMed
-991324968;Helse Sør-Øst RHF;983971636;Akershus universitetssykehus HF;Akershus;974705192;AHUS SKI SOMATIKK;Akershus universitetssykehus HF;Ski;1
-991324968;Helse Sør-Øst RHF;983971636;Akershus universitetssykehus HF;Akershus;974706490;AHUS NORDBYHAGEN SOMATIKK;Akershus universitetssykehus HF;Akershus;1
-991324968;Helse Sør-Øst RHF;983971636;Akershus universitetssykehus HF;Akershus;974631776;AHUS KONGSVINGER SOMATIKK;Akershus universitetssykehus HF;Kongsvinger;1
+OrgNr;OrgNavnEnhetsreg;Kortnavn;Nivaa;NivaaOpp
+111;Nasjonalt;Nasjonalt;0;
+999;Private;Private;1;111
+
+991324968;HELSE SØR-ØST RHF;Helse Sør-Øst RHF;1;111
+983971636;AKERSHUS UNIVERSITETSSYKEHUS HF;Ahus HF;2;991324968
+974705192;AHUS SKI SOMATIKK;Akershus universitetssykehus HF;Ski;3;983971636
+974706490;AHUS NORDBYHAGEN SOMATIKK;Akershus universitetssykehus HF;Akershus;3;983971636
+974631776;AHUS KONGSVINGER SOMATIKK;Akershus universitetssykehus HF;Kongsvinger;3;983971636
+
+883658752;HELSE NORD RHF;Helse Nord RHF;1;111
+983974880;FINNMARKSSYKEHUSET HF;Finnmark HF;2;883658752
+974285959;FINNMARKSSYKEHUSET HF SOMATIKK - KARASJOK;Hammerfest;3;983974880
+974795833;FINNMARKSSYKEHUSET HF HAMMERFEST SYKEHUS;Hammerfest;3;983974880
+979873190;FINNMARKSSYKEHUSET HF SOMATIKK ALTA;Hammerfest;3;983974880
+974795930;FINNMARKSSYKEHUSET HF KIRKENES SYKEHUS;Kirkenes;3;983974880
+
+983974929;Helgelandssykehuset HF;Helgeland;974795515;HELGELANDSSYKEHUSET HF MO I RANA - SOMATIKK;Helgelandssykehuset Mo i Rana;Mo i Rana;1
+883658752;Helse Nord RHF;983974929;Helgelandssykehuset HF;Helgeland;974795515;HELGELANDSSYKEHUSET HF MO I RANA - SOMATIKK;Helgelandssykehuset Mo i Rana;Mo i Rana;1
+883658752;Helse Nord RHF;983974929;Helgelandssykehuset HF;Helgeland;974795485;HELGELANDSSYKEHUSET HF MOSJØEN SOMATIKK/ADMINISTRASJON;Helgelandssykehuset Mosjøen;Mosjøen;1
+883658752;Helse Nord RHF;983974929;Helgelandssykehuset HF;Helgeland;874044342;HELGELANDSSYKEHUSET HF BRØNNØYSUND SOMATIKK;Helgelandssykehuset Sandnessjøen;Sandnessjøen;1
+883658752;Helse Nord RHF;983974929;Helgelandssykehuset HF;Helgeland;974795477;HELGELANDSSYKEHUSET HF SANDNESSJØEN - SOMATIKK;Helgelandssykehuset Sandnessjøen;Sandnessjøen;1
+
+
+
+
 999;Private;943545634;ALERIS HELSE AS;Private sykehus;974518821;ALERIS SYKEHUS NESTTUN;Private sykehus;Aleris Nesttun;1
 999;Private;943545634;ALERIS HELSE AS;Private sykehus;879790522;ALERIS SYKEHUS MARKEN;Private sykehus;Aleris Marken;1
 999;Private;943545634;ALERIS HELSE AS;Private sykehus;813381192;ALERIS SYKEHUS HINNA PARK;Private sykehus;Aleris Hinna Park;1
@@ -19,16 +41,8 @@ OrgNrRHF;RHF;OrgNrHF;HF;Hfkortnavn;OrgNrShus;OrgNavnEnhetsreg;SykehusnavnLang;Sy
 999;Private;914491908;COLOSSEUMKLINIKKEN MEDISINSKE SENTER AS;Private sykehus;914607493;COLOSSEUMKLINIKKEN MEDISINSKE SENTER AS;Private sykehus;Colosseum;1
 991324968;Helse Sør-Øst RHF;982791952;Diakonhjemmet sykehus;Diakonhjemmet;974116804;DIAKONHJEMMET SYKEHUS SOMATIKK;Diakonhjemmet sykehus;Diakonhjemmet;1
 999;Private;924291370;EEG LABORATORIET AS;Private sykehus;971937548;EEG LABORATORIET AS;Private sykehus;EEG Lab;1
-883658752;Helse Nord RHF;983974880;Finnmarkssykehuset HF;Finnmark;974285959;FINNMARKSSYKEHUSET HF SOMATIKK - KARASJOK;Klinikk Hammerfest;Hammerfest;1
-883658752;Helse Nord RHF;983974880;Finnmarkssykehuset HF;Finnmark;974795833;FINNMARKSSYKEHUSET HF HAMMERFEST SYKEHUS;Klinikk Hammerfest;Hammerfest;1
-883658752;Helse Nord RHF;983974880;Finnmarkssykehuset HF;Finnmark;979873190;FINNMARKSSYKEHUSET HF SOMATIKK ALTA;Klinikk Hammerfest;Hammerfest;1
-883658752;Helse Nord RHF;983974880;Finnmarkssykehuset HF;Finnmark;974795930;FINNMARKSSYKEHUSET HF KIRKENES SYKEHUS;Klinikk Kirkenes;Kirkenes;1
 983658725;Helse Vest RHF;984027737;Haraldsplass diakonale sykehus;Haraldsplass;974316285;HARALDSPLASS DIAKONALE SYKEHUS AS;Haraldsplass diakonale sykehus;Haraldsplass;1
 983658725;Helse Vest RHF;986106839;Haugesund sanitetsforenings revmatiskesykehus AS;Haugesund sanitet;973156829;HAUGESUND SANITETSFORENINGS REVMATISMESYKEHUS;Haugesund sanitetsforenings revm.sykehus;Haugesund sanitetsforenings revm.sykehus;1
-883658752;Helse Nord RHF;983974929;Helgelandssykehuset HF;Helgeland;974795515;HELGELANDSSYKEHUSET HF MO I RANA - SOMATIKK;Helgelandssykehuset Mo i Rana;Mo i Rana;1
-883658752;Helse Nord RHF;983974929;Helgelandssykehuset HF;Helgeland;974795485;HELGELANDSSYKEHUSET HF MOSJØEN SOMATIKK/ADMINISTRASJON;Helgelandssykehuset Mosjøen;Mosjøen;1
-883658752;Helse Nord RHF;983974929;Helgelandssykehuset HF;Helgeland;874044342;HELGELANDSSYKEHUSET HF BRØNNØYSUND SOMATIKK;Helgelandssykehuset Sandnessjøen;Sandnessjøen;1
-883658752;Helse Nord RHF;983974929;Helgelandssykehuset HF;Helgeland;974795477;HELGELANDSSYKEHUSET HF SANDNESSJØEN - SOMATIKK;Helgelandssykehuset Sandnessjøen;Sandnessjøen;1
 983658725;Helse Vest RHF;983974724;Helse Bergen HF;Bergen;974557746;HELSE BERGEN HF HAUKELAND UNIVERSITETSSJUKEHUS;Haukeland universitetssykehus;Haukeland;1
 983658725;Helse Vest RHF;983974724;Helse Bergen HF;Bergen;997512189;HELSE BERGEN HF SEKSJON FOR BEHANDLINGSHJELPEMIDLER MEDISINSK-TEKNISK AVD HAUKELAND;Haukeland universitetssykehus;Haukeland;0
 983658725;Helse Vest RHF;983974724;Helse Bergen HF;Bergen;973923811;HELSE BERGEN HF HABLITERINGSTENESTA FOR VAKSNE;Haukeland universitetssykehus;Haukeland;0
