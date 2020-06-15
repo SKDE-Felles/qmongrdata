@@ -11,9 +11,8 @@ usethis::use_data(IndBeskr, overwrite = TRUE)
 SykehusNavnStruktur <- read.csv2('data-raw/SykehusNavnStruktur.csv', stringsAsFactors = FALSE, encoding = "UTF-8")
 
 # Convert org.nr. to characters
-SykehusNavnStruktur$OrgNrRHF <- as.character(SykehusNavnStruktur$OrgNrRHF)
-SykehusNavnStruktur$OrgNrHF <- as.character(SykehusNavnStruktur$OrgNrHF)
-SykehusNavnStruktur$OrgNrShus <- as.character(SykehusNavnStruktur$OrgNrShus)
+SykehusNavnStruktur$OrgNr <- as.character(SykehusNavnStruktur$OrgNr)
+SykehusNavnStruktur$NivaaOpp <- as.character(SykehusNavnStruktur$NivaaOpp)
 usethis::use_data(SykehusNavnStruktur, overwrite = TRUE)
 
 # Fagområde
