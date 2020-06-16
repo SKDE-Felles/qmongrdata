@@ -1,5 +1,7 @@
 test_that("SykehusNavnStruktur", {
-  expect_true(is.character(SykehusNavnStruktur$OrgNrRHF))
-  expect_true(is.character(SykehusNavnStruktur$OrgNrHF))
-  expect_true(is.character(SykehusNavnStruktur$OrgNrShus))
+  expect_true(is.character(SykehusNavnStruktur$OrgNr))
+  expect_true(is.character(SykehusNavnStruktur$NivaaOpp))
+  expect_true(is.character(SykehusNavnStruktur$Kortnavn))
+  expect_true(is.character(SykehusNavnStruktur$OrgNavnEnhetsreg))
+  expect_true(is.numeric(SykehusNavnStruktur$Nivaa))
 })
