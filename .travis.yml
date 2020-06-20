@@ -1,6 +1,7 @@
 language: r
 cache: packages
 os: linux
+warnings_are_errors: false
 
 r:
   - oldrel

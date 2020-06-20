@@ -19,6 +19,13 @@ usethis::use_data(SykehusNavnStruktur, overwrite = TRUE)
 fagomr <- yaml::read_yaml("data-raw/fag.yml")
 usethis::use_data(fagomr, overwrite = TRUE)
 
+# --------- Hoftebrudd ----------
+hoftebrudd <- read.csv2("data-raw/hoftebrudd.csv", fileEncoding = "UTF-8")
+hoftebrudd$ReshId <- hoftebrudd$OrgNrShus
+KvalIndData <- rbind(KvalIndData,
+                     hoftebrudd)
+usethis::use_data(KvalIndData, overwrite = TRUE)
+
 # ------------DEGENERATIV NAKKE-----------------------
 # Denne funker bare når database tilgjengelig!:
 library(nakke)
