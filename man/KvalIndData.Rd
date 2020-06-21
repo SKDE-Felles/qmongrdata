@@ -4,7 +4,8 @@
 \name{KvalIndData}
 \alias{KvalIndData}
 \title{Kvalitetsindikatordata}
-\format{Dataramme med ei rad per hendelse (operasjon/innleggelse/...)
+\format{
+Dataramme med ei rad per hendelse (operasjon/innleggelse/...)
 
 \describe{
 \item{Aar}{Årtall for hendelsen. format: YYYY}
@@ -18,7 +19,8 @@ indikatorvariabel, dvs. ha verdiene 0 og 1. For noen kvalitetsindikatorer kan de
 benytte en eksakt verdi. F.eks. liggetid hvis man ønsker å benytte median liggetid som indikator.}
 \item{kvalIndID}{ID for kvalitetsindikatoren. Benyttes til å koble indikatorbeskrivelser
 til de observerte verdiene (eller omvendt...). Dvs. kobler sammen 'KvalIndData' og 'IndBeskr'.}
-}}
+}
+}
 \source{
 Organisasjonsnumre og struktur kan finnes ved hjelp av Brønnøyaundregisteret:
 \url{https://w2.brreg.no/enhet/sok/}

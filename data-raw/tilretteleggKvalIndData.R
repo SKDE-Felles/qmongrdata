@@ -11,9 +11,17 @@ usethis::use_data(IndBeskr, overwrite = TRUE)
 SykehusNavnStruktur <- read.csv2("data-raw/SykehusNavnStruktur.csv", stringsAsFactors = FALSE, encoding = "UTF-8")
 
 # Convert org.nr. to characters
-SykehusNavnStruktur$OrgNr <- as.character(SykehusNavnStruktur$OrgNr)
-SykehusNavnStruktur$NivaaOpp <- as.character(SykehusNavnStruktur$NivaaOpp)
+SykehusNavnStruktur$OrgNrRHF <- as.character(SykehusNavnStruktur$OrgNrRHF)
+SykehusNavnStruktur$OrgNrHF <- as.character(SykehusNavnStruktur$OrgNrHF)
+SykehusNavnStruktur$OrgNrShus <- as.character(SykehusNavnStruktur$OrgNrShus)
 usethis::use_data(SykehusNavnStruktur, overwrite = TRUE)
+
+## Ny sykehusstruktur
+hospital_structure <- read.csv2("data-raw/hospital_structure.csv", stringsAsFactors = FALSE, encoding = "UTF-8")
+# Convert org.nr. to characters
+hospital_structure$OrgNr <- as.character(hospital_structure$OrgNr)
+hospital_structure$NivaaOpp <- as.character(hospital_structure$NivaaOpp)
+usethis::use_data(hospital_structure, overwrite = TRUE)
 
 # Fagområde
 fagomr <- yaml::read_yaml("data-raw/fag.yml")

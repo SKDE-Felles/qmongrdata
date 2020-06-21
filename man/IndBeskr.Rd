@@ -4,7 +4,8 @@
 \name{IndBeskr}
 \alias{IndBeskr}
 \title{Beskrivelse av kvalitetsindikatorer}
-\format{Dataramme med ei rad per indikator. Som variabler er ulike beskrivende elementer for indikatoren
+\format{
+Dataramme med ei rad per indikator. Som variabler er ulike beskrivende elementer for indikatoren
 
 \describe{
 \item{IndID}{Indikatorens iD. Består av registernavn og et løpenummer. Eks nkr_nakke2, intensiv1}
@@ -18,7 +19,8 @@ Kan eksempelvis være parameteren som benyttes i valgtVar for å hente ut tilret
 \item{MaalRetn}{Angir om ønsket målnivået for variabelen er høyt (1) eller lavt (09. Heltall: 0,1 }
 \item{BeskrivelseKort}{Kort, men noe detaljert beskrivelse av indikatoren. Tekst.}
 \item{BeskrivelseLang}{Utfyllende beskrivelse av indikatoren. Tekst.}
-}}
+}
+}
 \source{
 Organisasjonsnumre og struktur kan finnes ved hjelp av Brønnøyaundregisteret:
 \url{https://w2.brreg.no/enhet/sok/}

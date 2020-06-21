@@ -21,7 +21,23 @@
 #' \url{https://w2.brreg.no/enhet/sok/}
 "SykehusNavnStruktur"
 
-
+#' Oversikt over sykehusstruktur og navn
+#'
+#' Datasett som inneholder oversikt over organisasjonsnummer og navn for RHF, HF og sykehus.
+#' Organisasjonsnummer er hentet fra Brønnøysundregisteret. Navn fra Brønnøysundregisteret er også med, samt
+#' "selvvalgte" kortnavn for både HF og sykehus.
+#'
+#' @format Dataramme med ei rad per sykehus og RHF, HF og sykehusnavn som variabler
+#' \describe{
+#'   \item{OrgNr}{Sykehusets eller helseforetaket sitt organisasjonsnummer i Brønnøysundregisteret}
+#'   \item{OrgNavnEnhetsreg}{Sykehusets eller helseforetaket sitt navn i Brønnøysundregisteret}
+#'   \item{Kortnavn}{Sykehusets eller helseforetaket sitt kortnavn}
+#'   \item{Nivaa}{Nivået til organisasjonen. 3 for sykehus; 2 for HF; 1 for RHF; 0 for Nasjonalt}
+#'   \item{NivaaOpp}{Organisasjonsnummer til overordnet enhet}
+#' }
+#' @source Organisasjonsnumre og struktur kan finnes ved hjelp av Brønnøyaundregisteret:
+#' \url{https://w2.brreg.no/enhet/sok/}
+"hospital_structure"
 
 #' Beskrivelse av kvalitetsindikatorer
 #'
