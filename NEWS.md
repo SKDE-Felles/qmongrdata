@@ -1,3 +1,8 @@
+# qmongrdata 0.3.0
+
+* New hospital structure file
+* Data from Hoftebrudd
+
 # qmongrdata 0.2.5
 
 * Fix mistake in IndBeskr data. IndID and Register were swapped for nra
