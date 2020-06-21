@@ -4,7 +4,9 @@
 \name{fagomr}
 \alias{fagomr}
 \title{Fagområdeinndeling}
-\format{An object of class \code{list} of length 18.}
+\format{
+An object of class \code{list} of length 18.
+}
 \usage{
 fagomr
 }

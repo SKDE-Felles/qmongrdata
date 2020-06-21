@@ -4,7 +4,8 @@
 \name{SykehusNavnStruktur}
 \alias{SykehusNavnStruktur}
 \title{Oversikt over sykehusstruktur og navn}
-\format{Dataramme med ei rad per sykehus og RHF, HF og sykehusnavn som variabler
+\format{
+Dataramme med ei rad per sykehus og RHF, HF og sykehusnavn som variabler
 \describe{
 \item{OrgNrRHF}{RHF'ets organisasjonsnummer i Brønnøysundregisteret}
 \item{RHF}{Regionalt Helseforetak}
@@ -16,7 +17,8 @@
 \item{SykehusnavnLang}{Sykehusets navn "hos SKDE", dvs. navnet som har blitt benyttet i helseatlas.}
 \item{SykehusNavn}{Sykehusets kortnavn}
 \item{TaMed}{Indikator (0/1) som angir om sykehuset er vanlig å ha med i div. oversikter}
-}}
+}
+}
 \source{
 Organisasjonsnumre og struktur kan finnes ved hjelp av Brønnøyaundregisteret:
 \url{https://w2.brreg.no/enhet/sok/}
