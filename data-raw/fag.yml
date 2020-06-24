@@ -3,6 +3,12 @@ hjerte:
     key:
         - ablanor
         - noric
+        - hjerteinfarkt
+        - hjerneslag
+        - hjertestans
+        - hjertesvikt
+        - hjertekirurgi
+        - norkar
 kreft:
     name: "Kreft"
     key:
