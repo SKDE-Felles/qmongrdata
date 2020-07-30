@@ -4,7 +4,7 @@
 
 #Indikatorbeskrivelser
 
-IndBeskr <- readxl::read_excel("data-raw/Indikatorbeskrivelser.xlsx")
+IndBeskr <- read.csv2("data-raw/IndBeskr.csv", fileEncoding = "UTF-8")
 usethis::use_data(IndBeskr, overwrite = TRUE)
 
 ## Sykehusstruktur
@@ -40,7 +40,7 @@ library(nakke)
 RegData <- NakkeRegDataSQL()
 RegData <- NakkePreprosess(RegData)
 
-KvalIndDataNakke <- tilretteleggDataNakke(RegData = RegData, datoFra = "2014-01-01", aar=0) 
+KvalIndDataNakke <- tilretteleggDataNakke(RegData = RegData, datoFra = "2014-01-01", aar=0)
 usethis::use_data(KvalIndDataNakke, overwrite = TRUE)
 
 #-------------- INTENSIV -----------------------------------
@@ -48,7 +48,7 @@ library(intensiv)
 RegData <- NIRRegDataSQL(datoFra = "2016-01-01")
 RegData <- NIRPreprosess(RegData)
 
-KvalIndDataIntensiv <- intensiv::tilretteleggKvalIndData(RegData, 
+KvalIndDataIntensiv <- intensiv::tilretteleggKvalIndData(RegData,
                                                          datoFra="2016-01-01", datoTil=Sys.Date())
 
 #----------------Legge til nytt datasett NB: Må overskrive gamle data fra registeret som oppdateres---------------
@@ -94,8 +94,8 @@ usethis::use_data(KvalIndData, overwrite = TRUE)
 #' @export
 
 tilretteleggDataNakke <- function(RegData = RegData, datoFra = '2014-01-01', aar=0,
-                           filUt='dummy'){ #valgtVar, 
-  
+                           filUt='dummy'){ #valgtVar,
+
 nyID <- c('114288'='4000020', '109820'='974589095', '105783'='974749025',
           '103469'='874716782', '601161'='974795787', '999920'='913705440',
           '105588'='974557746', '999998'='999998', '110771'='973129856',
@@ -118,11 +118,11 @@ for (valgtVar in kvalIndParam){
                                 myelopati=myelopati, fremBak=fremBak) #, hovedkat=hovedkat) # #, datoTil=datoTil)
   NakkeKvalInd1 <- NakkeUtvalg$RegData[ , resultatVariable]
   NakkeKvalInd1$kvalIndID <- indikatorID[which(kvalIndParam == valgtVar)]
-  
+
   NakkeKvalInd <- rbind(NakkeKvalInd, NakkeKvalInd1)
   #info <- c(NakkeVarSpes$tittel, NakkeUtvalg$utvalgTxt)
   #NakkeKvalInd$info <- c(info, rep(NA, dim(NakkeKvalInd)[1]-length(info)))
-}  
+}
 
   # 114288=4000020, 109820=974589095, 105783=974749025, 103469=874716782, 601161=974795787, 999920=913705440,
   # 105588=974557746, 999998=999998, 110771=973129856, 4212372=4212372, 4211880=999999003, 4211879=813381192
