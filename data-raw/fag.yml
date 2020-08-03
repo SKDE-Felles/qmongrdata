@@ -64,7 +64,7 @@ tarm:
 gyn:
     name: "Gynekologi"
     key:
-        - gyn_endoskopi
+        - nger
         - kvinl_inkontinens
 
 nyre:
@@ -83,7 +83,7 @@ rehab:
     name: "Rehabilitering"
     key:
         - nnrr
-        - ryggmargsskade
+        - norscir
 
 autoimmun:
     name: "Autoimmune sykdommer"
