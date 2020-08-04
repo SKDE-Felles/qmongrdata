@@ -50,7 +50,7 @@
 | Norsk Porfyriregister | porfyri |
 | Norsk register for analinkontinens (NRA) | nra | &#10004; | &#10004; |
 | Norsk register for gastrokirurgi (NoRGast) | norgast | &#10004; | &#10004; | &#10004; | &#10004; |
-| Norsk register for invasiv kardiologi (NORIC) | noric |  | &#10004; |
+| Norsk register for invasiv kardiologi (NORIC) | noric | &#10004; | &#10004; |
 | Norsk register for personer som utredes for kognitive symptomer i spesialisthelsetjenesten – NorKog (OUS HF) | norkog |
 | Norsk ryggmargsskaderegister - NorSCIR  | norscir |
 | Norsk vaskulittregister & biobank (NorVas) | norvas | &#10004; | &#10004; |
