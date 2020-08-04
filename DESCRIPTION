@@ -16,3 +16,10 @@ RoxygenNote: 7.1.1
 Suggests: 
     testthat (>= 2.1.0)
 Depends: R (>= 3.5)
+Imports:
+    rlang,
+    magrittr,
+    dplyr,
+    qmongr
+Remotes:
+    mong/qmongr@*release

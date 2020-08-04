@@ -9,3 +9,4 @@
 ^pkgdown$
 ^data-raw$
 ^.lintr$
+^registre_overview.md$
