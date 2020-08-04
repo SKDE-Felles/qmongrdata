@@ -22,7 +22,7 @@
 | Nasjonalt register for langtids mekanisk ventilasjon | mek_vent |
 | Nasjonalt register for leddproteser | leddprotese |
 | Nasjonalt register for lungekreft (KRG/OUS HF)  | lungekreft |
-| Nasjonalt register for lymfoide maligniteter (KRG/OUS HF)  | lymfoid | &#10004; | &#10004; |
+| Nasjonalt register for lymfoide maligniteter (KRG/OUS HF)  | lymfoid | &#10004; | &#10004; | &#10004; |
 | Nasjonalt register for melanom (KRG/OUS HF)  | melanom |
 | Nasjonalt register for organspesifikke autoimmune sykdommer (ROAS) | roas |
 | Nasjonalt register for prostatakreft (KRG/OUS HF)  | prostata |
@@ -30,7 +30,7 @@
 | Nasjonalt traumeregister (OUS HF) | traume |
 | Nordisk kvalitetsregister for hidradenitis suppurativa (HISREG) | hisreg |
 | Norsk diabetesregister for voksne | diabetes_voksne |
-| Norsk gynekologisk endoskopiregister - NGER (Sykehuset Vestfold HF) | nger |  | &#10004; |
+| Norsk gynekologisk endoskopiregister - NGER (Sykehuset Vestfold HF) | nger | &#10004; | &#10004; |
 | Norsk hjerneslagregister | hjerneslag |  | &#10004; |
 | Norsk hjerteinfarktregister  | hjerteinfarkt |  | &#10004; |
 | Norsk hjertesviktregister | hjertesvikt |
