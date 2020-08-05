@@ -146,36 +146,14 @@ for (valgtVar in kvalIndParam){
 
 #-------------- lymfoid -----------------------------------
 
-lymfoid <- read.csv2("data-raw/lymfoide_maligniteter.csv", fileEncoding = "UTF-8") %>%
-  dplyr::filter(OrgNrShus != 1) %>% # filter out norge data
-  dplyr::filter(!(KvalIndID %in% c("lymfoid7", "lymfoid8", "lymfoid9")))
+lymfoid <- read.csv2("data-raw/lymfoide_maligniteter.csv", fileEncoding = "UTF-8")
 
-
-# Convert Norge to Resterende Norge
-test_agg <- lymfoid %>% dplyr::group_by(KvalIndID, Aar) %>%
-  dplyr::summarise(Variabel2 = sum(Variabel), Nevner2 = sum(Nevner), .groups = "keep")
-
-norge <- read.csv2("data-raw/lymfoide_maligniteter.csv", fileEncoding = "UTF-8") %>%
-  dplyr::filter(OrgNrShus == 1) %>% # only keep norge data
-  dplyr::filter(!(KvalIndID %in% c("lymfoid7", "lymfoid8", "lymfoid9")))
-
-combined <- dplyr::full_join(norge, test_agg, by = c("Aar", "KvalIndID"))
-
-combined$Variabel <- combined$Variabel - combined$Variabel2
-combined$Nevner <- combined$Nevner - combined$Nevner2
-
-combined$Nevner2 <- NULL
-combined$Variabel2 <- NULL
-
-lymfoid <- rbind(lymfoid, combined)
-
-
-# Add Nevner column
 KvalIndData <- qmongrdata::KvalIndData
-KvalIndData$Nevner <- 1
 
-KvalIndData <- rbind(KvalIndData,
-                     lymfoid)
+# Filtrer ut tidligere lymfoid-data
+KvalIndData <- KvalIndData[substr(KvalIndData$KvalIndID, 1, 7) != "lymfoid", ]
+
+KvalIndData <- rbind(KvalIndData, lymfoid)
 
 usethis::use_data(KvalIndData, overwrite = TRUE)
 

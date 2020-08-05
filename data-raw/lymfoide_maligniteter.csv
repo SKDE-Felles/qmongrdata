@@ -1,5 +1,5 @@
 Aar;ShNavn;ReshId;OrgNrShus;Variabel;Nevner;KvalIndID
-2019;Norge;99;1;1154;2223;lymfoid_dekgrad_utred
+2019;Norge;99;1;27;66;lymfoid_dekgrad_utred
 2019;Diakonhjemmet;105;974116804;33;119;lymfoid_dekgrad_utred
 2019;Vestre Viken, Bærum;202;974705788;16;54;lymfoid_dekgrad_utred
 2019;Ahus, Lørenskog;208;974706490;19;152;lymfoid_dekgrad_utred
@@ -30,7 +30,7 @@ Aar;ShNavn;ReshId;OrgNrShus;Variabel;Nevner;KvalIndID
 2019;Helse Nord-Trøndelag, Levanger;1701;974754118;39;45;lymfoid_dekgrad_utred
 2019;Nordlandssykehuset, Bodø;1801;974795361;42;44;lymfoid_dekgrad_utred
 2019;UNN, Tromsø;1903;974795787;64;110;lymfoid_dekgrad_utred
-2018;Norge;99;1;1531;2141;lymfoid_dekgrad_utred
+2018;Norge;99;1;62;87;lymfoid_dekgrad_utred
 2018;Diakonhjemmet;105;974116804;26;82;lymfoid_dekgrad_utred
 2018;Vestre Viken, Bærum;202;974705788;24;37;lymfoid_dekgrad_utred
 2018;Ahus, Lørenskog;208;974706490;54;137;lymfoid_dekgrad_utred
@@ -62,7 +62,7 @@ Aar;ShNavn;ReshId;OrgNrShus;Variabel;Nevner;KvalIndID
 2018;Nordlandssykehuset, Bodø;1801;974795361;55;59;lymfoid_dekgrad_utred
 2018;UNN, Tromsø;1903;974795787;61;113;lymfoid_dekgrad_utred
 2018;Finnmarkssykehuset, Hammerfest;2001;974795833;10;12;lymfoid_dekgrad_utred
-2017;Norge;99;1;1354;1986;lymfoid_dekgrad_utred
+2017;Norge;99;1;34;57;lymfoid_dekgrad_utred
 2017;Diakonhjemmet;105;974116804;19;86;lymfoid_dekgrad_utred
 2017;Vestre Viken, Bærum;202;974705788;23;47;lymfoid_dekgrad_utred
 2017;Ahus, Lørenskog;208;974706490;6;115;lymfoid_dekgrad_utred
@@ -94,7 +94,7 @@ Aar;ShNavn;ReshId;OrgNrShus;Variabel;Nevner;KvalIndID
 2017;Helse Nord-Trøndelag, Levanger;1701;974754118;43;45;lymfoid_dekgrad_utred
 2017;Nordlandssykehuset, Bodø;1801;974795361;48;51;lymfoid_dekgrad_utred
 2017;UNN, Tromsø;1903;974795787;49;80;lymfoid_dekgrad_utred
-2016;Norge;99;1;1419;2080;lymfoid_dekgrad_utred
+2016;Norge;99;1;40;69;lymfoid_dekgrad_utred
 2016;Diakonhjemmet;105;974116804;19;85;lymfoid_dekgrad_utred
 2016;Vestre Viken, Bærum;202;974705788;34;48;lymfoid_dekgrad_utred
 2016;Ahus, Lørenskog;208;974706490;19;126;lymfoid_dekgrad_utred
@@ -126,7 +126,7 @@ Aar;ShNavn;ReshId;OrgNrShus;Variabel;Nevner;KvalIndID
 2016;Helse Nord-Trøndelag, Namsos;1702;974753898;2;15;lymfoid_dekgrad_utred
 2016;Nordlandssykehuset, Bodø;1801;974795361;44;46;lymfoid_dekgrad_utred
 2016;UNN, Tromsø;1903;974795787;47;96;lymfoid_dekgrad_utred
-2015;Norge;99;1;1583;2138;lymfoid_dekgrad_utred
+2015;Norge;99;1;38;56;lymfoid_dekgrad_utred
 2015;Diakonhjemmet;105;974116804;20;76;lymfoid_dekgrad_utred
 2015;Vestre Viken, Bærum;202;974705788;35;57;lymfoid_dekgrad_utred
 2015;Ahus, Lørenskog;208;974706490;32;138;lymfoid_dekgrad_utred
@@ -160,7 +160,7 @@ Aar;ShNavn;ReshId;OrgNrShus;Variabel;Nevner;KvalIndID
 2015;Helgelandsykehuset, Mo i Rana;1807;974795515;10;16;lymfoid_dekgrad_utred
 2015;Helgelandsykehuset, Sandnessjøen;1809;974795477;8;14;lymfoid_dekgrad_utred
 2015;UNN, Tromsø;1903;974795787;78;116;lymfoid_dekgrad_utred
-2014;Norge;99;1;1532;1909;lymfoid_dekgrad_utred
+2014;Norge;99;1;57;71;lymfoid_dekgrad_utred
 2014;Diakonhjemmet;105;974116804;43;75;lymfoid_dekgrad_utred
 2014;Vestre Viken, Bærum;202;974705788;30;40;lymfoid_dekgrad_utred
 2014;Ahus, Lørenskog;208;974706490;58;101;lymfoid_dekgrad_utred
@@ -191,7 +191,7 @@ Aar;ShNavn;ReshId;OrgNrShus;Variabel;Nevner;KvalIndID
 2014;Helse Nord-Trøndelag, Namsos;1702;974753898;6;11;lymfoid_dekgrad_utred
 2014;Nordlandssykehuset, Bodø;1801;974795361;43;43;lymfoid_dekgrad_utred
 2014;UNN, Tromsø;1903;974795787;75;89;lymfoid_dekgrad_utred
-2013;Norge;99;1;1568;1894;lymfoid_dekgrad_utred
+2013;Norge;99;1;50;59;lymfoid_dekgrad_utred
 2013;Diakonhjemmet;105;974116804;40;60;lymfoid_dekgrad_utred
 2013;Vestre Viken, Bærum;202;974705788;33;41;lymfoid_dekgrad_utred
 2013;Ahus, Lørenskog;208;974706490;82;110;lymfoid_dekgrad_utred
@@ -224,7 +224,7 @@ Aar;ShNavn;ReshId;OrgNrShus;Variabel;Nevner;KvalIndID
 2013;Helse Nord-Trøndelag, Namsos;1702;974753898;9;13;lymfoid_dekgrad_utred
 2013;Nordlandssykehuset, Bodø;1801;974795361;44;48;lymfoid_dekgrad_utred
 2013;UNN, Tromsø;1903;974795787;64;82;lymfoid_dekgrad_utred
-2012;Norge;99;1;1588;1921;lymfoid_dekgrad_utred
+2012;Norge;99;1;70;85;lymfoid_dekgrad_utred
 2012;Diakonhjemmet;105;974116804;33;55;lymfoid_dekgrad_utred
 2012;Vestre Viken, Bærum;202;974705788;46;53;lymfoid_dekgrad_utred
 2012;Ahus, Lørenskog;208;974706490;75;99;lymfoid_dekgrad_utred
@@ -253,7 +253,7 @@ Aar;ShNavn;ReshId;OrgNrShus;Variabel;Nevner;KvalIndID
 2012;Helse Nord-Trøndelag, Levanger;1701;974754118;30;31;lymfoid_dekgrad_utred
 2012;Nordlandssykehuset, Bodø;1801;974795361;45;49;lymfoid_dekgrad_utred
 2012;UNN, Tromsø;1903;974795787;85;89;lymfoid_dekgrad_utred
-2011;Norge;99;1;1556;1866;lymfoid_dekgrad_utred
+2011;Norge;99;1;73;83;lymfoid_dekgrad_utred
 2011;Diakonhjemmet;105;974116804;39;53;lymfoid_dekgrad_utred
 2011;Vestre Viken, Bærum;202;974705788;48;59;lymfoid_dekgrad_utred
 2011;Ahus, Lørenskog;208;974706490;87;101;lymfoid_dekgrad_utred
@@ -283,7 +283,7 @@ Aar;ShNavn;ReshId;OrgNrShus;Variabel;Nevner;KvalIndID
 2011;Helse Nord-Trøndelag, Levanger;1701;974754118;37;38;lymfoid_dekgrad_utred
 2011;Nordlandssykehuset, Bodø;1801;974795361;55;55;lymfoid_dekgrad_utred
 2011;UNN, Tromsø;1903;974795787;94;98;lymfoid_dekgrad_utred
-2019;Norge;99;1;1076;1119;lymfoid_diag_non_hodgkin
+2019;Norge;99;1;654;658;lymfoid_diag_non_hodgkin
 2019;Diakonhjemmet;105;974116804;58;61;lymfoid_diag_non_hodgkin
 2019;Vestre Viken, Bærum;202;974705788;20;21;lymfoid_diag_non_hodgkin
 2019;Diakonhjemmet sykehus;304;974116804;11;11;lymfoid_diag_non_hodgkin
@@ -301,7 +301,7 @@ Aar;ShNavn;ReshId;OrgNrShus;Variabel;Nevner;KvalIndID
 2019;Helse Møre og Romsdal, Ålesund;1504;974747138;19;31;lymfoid_diag_non_hodgkin
 2019;Helse Nord-Trøndelag, Levanger;1701;974754118;19;19;lymfoid_diag_non_hodgkin
 2019;Nordlandssykehuset, Bodø;1801;974795361;16;21;lymfoid_diag_non_hodgkin
-2018;Norge;99;1;1014;1063;lymfoid_diag_non_hodgkin
+2018;Norge;99;1;617;623;lymfoid_diag_non_hodgkin
 2018;Diakonhjemmet;105;974116804;41;43;lymfoid_diag_non_hodgkin
 2018;Vestre Viken, Bærum;202;974705788;11;11;lymfoid_diag_non_hodgkin
 2018;Diakonhjemmet sykehus;304;974116804;17;17;lymfoid_diag_non_hodgkin
@@ -321,7 +321,7 @@ Aar;ShNavn;ReshId;OrgNrShus;Variabel;Nevner;KvalIndID
 2018;Helse Nord-Trøndelag, Levanger;1701;974754118;17;17;lymfoid_diag_non_hodgkin
 2018;Helse Nord-Trøndelag, Namsos;1702;974753898;10;10;lymfoid_diag_non_hodgkin
 2018;Nordlandssykehuset, Bodø;1801;974795361;20;29;lymfoid_diag_non_hodgkin
-2017;Norge;99;1;910;961;lymfoid_diag_non_hodgkin
+2017;Norge;99;1;537;544;lymfoid_diag_non_hodgkin
 2017;Diakonhjemmet;105;974116804;41;47;lymfoid_diag_non_hodgkin
 2017;Vestre Viken, Bærum;202;974705788;17;18;lymfoid_diag_non_hodgkin
 2017;Diakonhjemmet sykehus;304;974116804;15;15;lymfoid_diag_non_hodgkin
@@ -361,7 +361,7 @@ Aar;ShNavn;ReshId;OrgNrShus;Variabel;Nevner;KvalIndID
 2019;Helgeland HF;1801;983974929;14;15;lymfoid_stadium_non_hodgkin
 2019;Nordlandssykehuset HF;1802;983974910;21;23;lymfoid_stadium_non_hodgkin
 2019;UNN HF;1803;983974899;24;26;lymfoid_stadium_non_hodgkin
-2019;Norge;9999;1;598;622;lymfoid_stadium_non_hodgkin
+2019;Norge;9999;1;14;16;lymfoid_stadium_non_hodgkin
 2018;Østfold HF;101;983971768;35;35;lymfoid_stadium_non_hodgkin
 2018;Akershus HF;102;983971636;62;62;lymfoid_stadium_non_hodgkin
 2018;OUS HF;103;993467049;47;48;lymfoid_stadium_non_hodgkin
@@ -384,7 +384,7 @@ Aar;ShNavn;ReshId;OrgNrShus;Variabel;Nevner;KvalIndID
 2018;Nordlandssykehuset HF;1802;983974910;23;23;lymfoid_stadium_non_hodgkin
 2018;UNN HF;1803;983974899;14;15;lymfoid_stadium_non_hodgkin
 2018;Helse Finnmark HF;1804;983974880;9;13;lymfoid_stadium_non_hodgkin
-2018;Norge;9999;1;739;775;lymfoid_stadium_non_hodgkin
+2018;Norge;9999;1;0;0;lymfoid_stadium_non_hodgkin
 2017;Østfold HF;101;983971768;29;29;lymfoid_stadium_non_hodgkin
 2017;Akershus HF;102;983971636;47;47;lymfoid_stadium_non_hodgkin
 2017;OUS HF;103;993467049;34;34;lymfoid_stadium_non_hodgkin
@@ -405,7 +405,7 @@ Aar;ShNavn;ReshId;OrgNrShus;Variabel;Nevner;KvalIndID
 2017;Nordlandssykehuset HF;1802;983974910;29;29;lymfoid_stadium_non_hodgkin
 2017;UNN HF;1803;983974899;16;18;lymfoid_stadium_non_hodgkin
 2017;Helse Finnmark HF;1804;983974880;8;10;lymfoid_stadium_non_hodgkin
-2017;Norge;9999;1;675;711;lymfoid_stadium_non_hodgkin
+2017;Norge;9999;1;10;13;lymfoid_stadium_non_hodgkin
 2016;Østfold HF;101;983971768;40;43;lymfoid_stadium_non_hodgkin
 2016;Akershus HF;102;983971636;44;45;lymfoid_stadium_non_hodgkin
 2016;OUS HF;103;993467049;47;48;lymfoid_stadium_non_hodgkin
@@ -427,7 +427,7 @@ Aar;ShNavn;ReshId;OrgNrShus;Variabel;Nevner;KvalIndID
 2016;Helgeland HF;1801;983974929;6;10;lymfoid_stadium_non_hodgkin
 2016;Nordlandssykehuset HF;1802;983974910;23;23;lymfoid_stadium_non_hodgkin
 2016;UNN HF;1803;983974899;13;15;lymfoid_stadium_non_hodgkin
-2016;Norge;9999;1;704;739;lymfoid_stadium_non_hodgkin
+2016;Norge;9999;1;6;7;lymfoid_stadium_non_hodgkin
 2015;Østfold HF;101;983971768;32;33;lymfoid_stadium_non_hodgkin
 2015;Akershus HF;102;983971636;46;51;lymfoid_stadium_non_hodgkin
 2015;OUS HF;103;993467049;37;40;lymfoid_stadium_non_hodgkin
@@ -450,7 +450,7 @@ Aar;ShNavn;ReshId;OrgNrShus;Variabel;Nevner;KvalIndID
 2015;Nordlandssykehuset HF;1802;983974910;31;34;lymfoid_stadium_non_hodgkin
 2015;UNN HF;1803;983974899;23;26;lymfoid_stadium_non_hodgkin
 2015;Helse Finnmark HF;1804;983974880;11;12;lymfoid_stadium_non_hodgkin
-2015;Norge;9999;1;759;804;lymfoid_stadium_non_hodgkin
+2015;Norge;9999;1;0;0;lymfoid_stadium_non_hodgkin
 2014;Østfold HF;101;983971768;32;40;lymfoid_stadium_non_hodgkin
 2014;Akershus HF;102;983971636;64;71;lymfoid_stadium_non_hodgkin
 2014;OUS HF;103;993467049;28;31;lymfoid_stadium_non_hodgkin
@@ -472,7 +472,7 @@ Aar;ShNavn;ReshId;OrgNrShus;Variabel;Nevner;KvalIndID
 2014;Helgeland HF;1801;983974929;15;17;lymfoid_stadium_non_hodgkin
 2014;Nordlandssykehuset HF;1802;983974910;23;26;lymfoid_stadium_non_hodgkin
 2014;UNN HF;1803;983974899;22;28;lymfoid_stadium_non_hodgkin
-2014;Norge;9999;1;741;820;lymfoid_stadium_non_hodgkin
+2014;Norge;9999;1;9;9;lymfoid_stadium_non_hodgkin
 2013;Østfold HF;101;983971768;34;37;lymfoid_stadium_non_hodgkin
 2013;Akershus HF;102;983971636;82;89;lymfoid_stadium_non_hodgkin
 2013;OUS HF;103;993467049;33;35;lymfoid_stadium_non_hodgkin
@@ -495,7 +495,7 @@ Aar;ShNavn;ReshId;OrgNrShus;Variabel;Nevner;KvalIndID
 2013;Nordlandssykehuset HF;1802;983974910;28;32;lymfoid_stadium_non_hodgkin
 2013;UNN HF;1803;983974899;26;26;lymfoid_stadium_non_hodgkin
 2013;Helse Finnmark HF;1804;983974880;6;10;lymfoid_stadium_non_hodgkin
-2013;Norge;9999;1;741;826;lymfoid_stadium_non_hodgkin
+2013;Norge;9999;1;0;0;lymfoid_stadium_non_hodgkin
 2012;Østfold HF;101;983971768;36;42;lymfoid_stadium_non_hodgkin
 2012;Akershus HF;102;983971636;69;77;lymfoid_stadium_non_hodgkin
 2012;OUS HF;103;993467049;33;37;lymfoid_stadium_non_hodgkin
@@ -518,7 +518,7 @@ Aar;ShNavn;ReshId;OrgNrShus;Variabel;Nevner;KvalIndID
 2012;Nordlandssykehuset HF;1802;983974910;22;27;lymfoid_stadium_non_hodgkin
 2012;UNN HF;1803;983974899;25;27;lymfoid_stadium_non_hodgkin
 2012;Helse Finnmark HF;1804;983974880;9;11;lymfoid_stadium_non_hodgkin
-2012;Norge;9999;1;726;826;lymfoid_stadium_non_hodgkin
+2012;Norge;9999;1;0;0;lymfoid_stadium_non_hodgkin
 2011;Østfold HF;101;983971768;33;36;lymfoid_stadium_non_hodgkin
 2011;Akershus HF;102;983971636;68;75;lymfoid_stadium_non_hodgkin
 2011;OUS HF;103;993467049;37;39;lymfoid_stadium_non_hodgkin
@@ -540,7 +540,7 @@ Aar;ShNavn;ReshId;OrgNrShus;Variabel;Nevner;KvalIndID
 2011;Nordlandssykehuset HF;1802;983974910;24;32;lymfoid_stadium_non_hodgkin
 2011;UNN HF;1803;983974899;38;42;lymfoid_stadium_non_hodgkin
 2011;Helse Finnmark HF;1804;983974880;15;17;lymfoid_stadium_non_hodgkin
-2011;Norge;9999;1;692;782;lymfoid_stadium_non_hodgkin
+2011;Norge;9999;1;8;9;lymfoid_stadium_non_hodgkin
 2019;Østfold HF;101;983971768;26;26;lymfoid_flowcytometri
 2019;Akershus HF;102;983971636;38;41;lymfoid_flowcytometri
 2019;OUS HF;103;993467049;13;14;lymfoid_flowcytometri
@@ -555,7 +555,7 @@ Aar;ShNavn;ReshId;OrgNrShus;Variabel;Nevner;KvalIndID
 2019;Helse Møre og Romsdal HF;1501;997005562;11;15;lymfoid_flowcytometri
 2019;St. Olavs HF;1502;883974832;8;10;lymfoid_flowcytometri
 2019;Nord-Trøndelag HF;1503;983974791;9;10;lymfoid_flowcytometri
-2019;Norge;9999;1;279;303;lymfoid_flowcytometri
+2019;Norge;9999;1;36;43;lymfoid_flowcytometri
 2018;Østfold HF;101;983971768;12;12;lymfoid_flowcytometri
 2018;Akershus HF;102;983971636;30;31;lymfoid_flowcytometri
 2018;OUS HF;103;993467049;20;20;lymfoid_flowcytometri
@@ -565,7 +565,7 @@ Aar;ShNavn;ReshId;OrgNrShus;Variabel;Nevner;KvalIndID
 2018;Sørlandet HF;110;983975240;14;14;lymfoid_flowcytometri
 2018;Helse Møre og Romsdal HF;1501;997005562;11;12;lymfoid_flowcytometri
 2018;Nord-Trøndelag HF;1503;983974791;14;16;lymfoid_flowcytometri
-2018;Norge;9999;1;254;261;lymfoid_flowcytometri
+2018;Norge;9999;1;82;85;lymfoid_flowcytometri
 2017;Østfold HF;101;983971768;21;21;lymfoid_flowcytometri
 2017;Akershus HF;102;983971636;32;33;lymfoid_flowcytometri
 2017;OUS HF;103;993467049;16;16;lymfoid_flowcytometri
@@ -579,7 +579,7 @@ Aar;ShNavn;ReshId;OrgNrShus;Variabel;Nevner;KvalIndID
 2017;Helse Møre og Romsdal HF;1501;997005562;11;11;lymfoid_flowcytometri
 2017;St. Olavs HF;1502;883974832;12;12;lymfoid_flowcytometri
 2017;Nord-Trøndelag HF;1503;983974791;14;20;lymfoid_flowcytometri
-2017;Norge;9999;1;269;281;lymfoid_flowcytometri
+2017;Norge;9999;1;38;40;lymfoid_flowcytometri
 2016;Østfold HF;101;983971768;32;32;lymfoid_flowcytometri
 2016;Akershus HF;102;983971636;36;36;lymfoid_flowcytometri
 2016;OUS HF;103;993467049;16;16;lymfoid_flowcytometri
@@ -593,7 +593,7 @@ Aar;ShNavn;ReshId;OrgNrShus;Variabel;Nevner;KvalIndID
 2016;Helse Møre og Romsdal HF;1501;997005562;12;15;lymfoid_flowcytometri
 2016;St. Olavs HF;1502;883974832;9;11;lymfoid_flowcytometri
 2016;Nord-Trøndelag HF;1503;983974791;10;18;lymfoid_flowcytometri
-2016;Norge;9999;1;294;318;lymfoid_flowcytometri
+2016;Norge;9999;1;37;39;lymfoid_flowcytometri
 2015;Østfold HF;101;983971768;16;16;lymfoid_flowcytometri
 2015;Akershus HF;102;983971636;37;40;lymfoid_flowcytometri
 2015;OUS HF;103;993467049;23;23;lymfoid_flowcytometri
@@ -608,7 +608,7 @@ Aar;ShNavn;ReshId;OrgNrShus;Variabel;Nevner;KvalIndID
 2015;St. Olavs HF;1502;883974832;10;14;lymfoid_flowcytometri
 2015;Nord-Trøndelag HF;1503;983974791;9;17;lymfoid_flowcytometri
 2015;UNN HF;1803;983974899;7;10;lymfoid_flowcytometri
-2015;Norge;9999;1;284;330;lymfoid_flowcytometri
+2015;Norge;9999;1;28;42;lymfoid_flowcytometri
 2014;Akershus HF;102;983971636;32;38;lymfoid_flowcytometri
 2014;OUS HF;103;993467049;14;14;lymfoid_flowcytometri
 2014;Innlandet HF;106;983971709;16;18;lymfoid_flowcytometri
@@ -621,7 +621,7 @@ Aar;ShNavn;ReshId;OrgNrShus;Variabel;Nevner;KvalIndID
 2014;Helse Møre og Romsdal HF;1501;997005562;9;13;lymfoid_flowcytometri
 2014;St. Olavs HF;1502;883974832;9;14;lymfoid_flowcytometri
 2014;Nord-Trøndelag HF;1503;983974791;7;13;lymfoid_flowcytometri
-2014;Norge;9999;1;226;270;lymfoid_flowcytometri
+2014;Norge;9999;1;37;46;lymfoid_flowcytometri
 2013;Østfold HF;101;983971768;11;12;lymfoid_flowcytometri
 2013;Akershus HF;102;983971636;27;27;lymfoid_flowcytometri
 2013;OUS HF;103;993467049;15;16;lymfoid_flowcytometri
@@ -636,7 +636,7 @@ Aar;ShNavn;ReshId;OrgNrShus;Variabel;Nevner;KvalIndID
 2013;Haraldsplass HF;1104;984027737;8;15;lymfoid_flowcytometri
 2013;Helse Møre og Romsdal HF;1501;997005562;7;12;lymfoid_flowcytometri
 2013;St. Olavs HF;1502;883974832;10;15;lymfoid_flowcytometri
-2013;Norge;9999;1;218;266;lymfoid_flowcytometri
+2013;Norge;9999;1;24;40;lymfoid_flowcytometri
 2012;Østfold HF;101;983971768;14;14;lymfoid_flowcytometri
 2012;Akershus HF;102;983971636;18;20;lymfoid_flowcytometri
 2012;OUS HF;103;993467049;13;13;lymfoid_flowcytometri
@@ -650,7 +650,7 @@ Aar;ShNavn;ReshId;OrgNrShus;Variabel;Nevner;KvalIndID
 2012;Helse Bergen HF;1103;983974724;9;16;lymfoid_flowcytometri
 2012;Helse Førde HF;1105;983974732;9;10;lymfoid_flowcytometri
 2012;St. Olavs HF;1502;883974832;11;18;lymfoid_flowcytometri
-2012;Norge;9999;1;227;275;lymfoid_flowcytometri
+2012;Norge;9999;1;32;49;lymfoid_flowcytometri
 2011;Akershus HF;102;983971636;30;33;lymfoid_flowcytometri
 2011;OUS HF;103;993467049;12;14;lymfoid_flowcytometri
 2011;Innlandet HF;106;983971709;23;25;lymfoid_flowcytometri
@@ -663,8 +663,8 @@ Aar;ShNavn;ReshId;OrgNrShus;Variabel;Nevner;KvalIndID
 2011;Helse Møre og Romsdal HF;1501;997005562;8;12;lymfoid_flowcytometri
 2011;St. Olavs HF;1502;883974832;8;13;lymfoid_flowcytometri
 2011;Nord-Trøndelag HF;1503;983974791;5;10;lymfoid_flowcytometri
-2011;Norge;9999;1;213;272;lymfoid_flowcytometri
-2019;Norge;99;1;395;444;lymfoid_biopsi
+2011;Norge;9999;1;32;45;lymfoid_flowcytometri
+2019;Norge;99;1;82;97;lymfoid_biopsi
 2019;Diakonhjemmet;105;974116804;19;23;lymfoid_biopsi
 2019;Vestre Viken, Bærum;202;974705788;24;24;lymfoid_biopsi
 2019;Ahus, Lørenskog;208;974706490;34;34;lymfoid_biopsi
@@ -681,7 +681,7 @@ Aar;ShNavn;ReshId;OrgNrShus;Variabel;Nevner;KvalIndID
 2019;Helse Nord-Trøndelag, Levanger;1701;974754118;6;10;lymfoid_biopsi
 2019;Nordlandssykehuset, Bodø;1801;974795361;10;12;lymfoid_biopsi
 2019;UNN, Tromsø;1903;974795787;10;16;lymfoid_biopsi
-2018;Norge;99;1;356;437;lymfoid_biopsi
+2018;Norge;99;1;85;103;lymfoid_biopsi
 2018;Diakonhjemmet;105;974116804;22;24;lymfoid_biopsi
 2018;Vestre Viken, Bærum;202;974705788;16;16;lymfoid_biopsi
 2018;Ahus, Lørenskog;208;974706490;29;30;lymfoid_biopsi
@@ -700,7 +700,7 @@ Aar;ShNavn;ReshId;OrgNrShus;Variabel;Nevner;KvalIndID
 2018;Helse Nord-Trøndelag, Levanger;1701;974754118;8;10;lymfoid_biopsi
 2018;Nordlandssykehuset, Bodø;1801;974795361;10;14;lymfoid_biopsi
 2018;UNN, Tromsø;1903;974795787;8;13;lymfoid_biopsi
-2017;Norge;99;1;346;420;lymfoid_biopsi
+2017;Norge;99;1;104;126;lymfoid_biopsi
 2017;Diakonhjemmet;105;974116804;27;29;lymfoid_biopsi
 2017;Vestre Viken, Bærum;202;974705788;18;18;lymfoid_biopsi
 2017;Ahus, Lørenskog;208;974706490;40;42;lymfoid_biopsi
@@ -716,7 +716,7 @@ Aar;ShNavn;ReshId;OrgNrShus;Variabel;Nevner;KvalIndID
 2017;Helse Møre og Romsdal, Ålesund;1504;974747138;7;12;lymfoid_biopsi
 2017;St. Olavs hospital;1608;974749025;17;20;lymfoid_biopsi
 2017;Nordlandssykehuset, Bodø;1801;974795361;6;12;lymfoid_biopsi
-2019;Norge;99;1;263;444;lymfoid_fish
+2019;Norge;99;1;53;97;lymfoid_fish
 2019;Diakonhjemmet;105;974116804;15;23;lymfoid_fish
 2019;Vestre Viken, Bærum;202;974705788;10;24;lymfoid_fish
 2019;Ahus, Lørenskog;208;974706490;3;34;lymfoid_fish
@@ -733,82 +733,3 @@ Aar;ShNavn;ReshId;OrgNrShus;Variabel;Nevner;KvalIndID
 2019;Helse Nord-Trøndelag, Levanger;1701;974754118;4;10;lymfoid_fish
 2019;Nordlandssykehuset, Bodø;1801;974795361;6;12;lymfoid_fish
 2019;UNN, Tromsø;1903;974795787;12;16;lymfoid_fish
-2015-2019;Helse Sør-Øst;100;991324968;1;3285;lymfoid7
-2015-2019;Østfold HF;101;983971768;1;375;lymfoid7
-2015-2019;Akershus HF;102;983971636;1;603;lymfoid7
-2015-2019;OUS HF;103;993467049;1;261;lymfoid7
-2015-2019;Lovisenberg HF;104;965985166;1;104;lymfoid7
-2015-2019;Diakonhjemmet HF;105;982791952;1;170;lymfoid7
-2015-2019;Innlandet HF;106;983971709;1;438;lymfoid7
-2015-2019;Vestre Viken HF;107;894166762;1;510;lymfoid7
-2015-2019;Telemark HF;108;983975267;1;214;lymfoid7
-2015-2019;Vestfold HF;109;983975259;1;286;lymfoid7
-2015-2019;Sørlandet HF;110;983975240;1;324;lymfoid7
-2015-2019;Helse Vest;1100;983658725;1;1205;lymfoid7
-2015-2019;Helse Stavanger HF;1101;983974678;1;383;lymfoid7
-2015-2019;Helse Fonna HF;1102;983974694;1;228;lymfoid7
-2015-2019;Helse Bergen HF;1103;983974724;1;333;lymfoid7
-2015-2019;Haraldsplass HF;1104;984027737;1;149;lymfoid7
-2015-2019;Helse Førde HF;1105;983974732;1;112;lymfoid7
-2015-2019;Helse Midt-Norge;1500;983658776;1;920;lymfoid7
-2015-2019;Helse Møre og Romsdal HF;1501;997005562;1;358;lymfoid7
-2015-2019;St. Olavs HF;1502;883974832;1;364;lymfoid7
-2015-2019;Nord-Trøndelag HF;1503;983974791;1;198;lymfoid7
-2015-2019;Helse Nord;1800;883658752;1;608;lymfoid7
-2015-2019;Helgeland HF;1801;983974929;1;98;lymfoid7
-2015-2019;Nordlandssykehuset HF;1802;983974910;1;169;lymfoid7
-2015-2019;UNN HF;1803;983974899;1;255;lymfoid7
-2015-2019;Helse Finnmark HF;1804;983974880;1;86;lymfoid7
-2015-2019;Norge;9999;1;1;6018;lymfoid7
-2015-2019;Helse Sør-Øst;100;991324968;1;1147;lymfoid8
-2015-2019;Østfold HF;101;983971768;1;122;lymfoid8
-2015-2019;Akershus HF;102;983971636;1;213;lymfoid8
-2015-2019;OUS HF;103;993467049;1;107;lymfoid8
-2015-2019;Lovisenberg HF;104;965985166;1;33;lymfoid8
-2015-2019;Diakonhjemmet HF;105;982791952;1;48;lymfoid8
-2015-2019;Innlandet HF;106;983971709;1;155;lymfoid8
-2015-2019;Vestre Viken HF;107;894166762;1;201;lymfoid8
-2015-2019;Telemark HF;108;983975267;1;67;lymfoid8
-2015-2019;Vestfold HF;109;983975259;1;116;lymfoid8
-2015-2019;Sørlandet HF;110;983975240;1;85;lymfoid8
-2015-2019;Helse Vest;1100;983658725;1;306;lymfoid8
-2015-2019;Helse Stavanger HF;1101;983974678;1;117;lymfoid8
-2015-2019;Helse Fonna HF;1102;983974694;1;42;lymfoid8
-2015-2019;Helse Bergen HF;1103;983974724;1;75;lymfoid8
-2015-2019;Haraldsplass HF;1104;984027737;1;34;lymfoid8
-2015-2019;Helse Førde HF;1105;983974732;1;38;lymfoid8
-2015-2019;Helse Midt-Norge;1500;983658776;1;252;lymfoid8
-2015-2019;Helse Møre og Romsdal HF;1501;997005562;1;95;lymfoid8
-2015-2019;St. Olavs HF;1502;883974832;1;67;lymfoid8
-2015-2019;Nord-Trøndelag HF;1503;983974791;1;90;lymfoid8
-2015-2019;Helse Nord;1800;883658752;1;140;lymfoid8
-2015-2019;Nordlandssykehuset HF;1802;983974910;1;44;lymfoid8
-2015-2019;UNN HF;1803;983974899;1;57;lymfoid8
-2015-2019;Norge;9999;1;1;1845;lymfoid8
-2015-2019;Norge;99;1;1;2087;lymfoid9
-2015-2019;Helse Sør-Øst;100;991324968;1;1180;lymfoid9
-2015-2019;Diakonhjemmet;105;974116804;0;103;lymfoid9
-2015-2019;Vestre Viken, Bærum;202;974705788;1;86;lymfoid9
-2015-2019;Ahus, Lørenskog;208;974706490;0;167;lymfoid9
-2015-2019;Oslo Universitetssykehus;300;993467049;1;160;lymfoid9
-2015-2019;Diakonhjemmet sykehus;304;974116804;1;49;lymfoid9
-2015-2019;Sykehuset Innlandet, Elverum;404;974631768;0;32;lymfoid9
-2015-2019;Sykehuset Innlandet, Gjøvik;501;974632535;1;66;lymfoid9
-2015-2019;Sykehuset Innlandet, Lillehammer;502;874632562;0;54;lymfoid9
-2015-2019;Vestre Viken, Drammen;601;974631326;0;51;lymfoid9
-2015-2019;Vestre Viken, Hønefoss;605;974631407;1;36;lymfoid9
-2015-2019;Sykehuset i Vestfold, Tønsberg;707;974633574;1;116;lymfoid9
-2015-2019;Sykehuset Telemark, Skien;808;974633191;1;73;lymfoid9
-2015-2019;Sørlandet Sykehus, Kristiansand;1005;974733013;1;63;lymfoid9
-2015-2019;Helse Vest;1100;983658725;1;430;lymfoid9
-2015-2019;Helse-Fonna, Haugesund;1101;974724774;1;36;lymfoid9
-2015-2019;Stavanger universitetssjukehus;1107;974703300;1;136;lymfoid9
-2015-2019;Haukeland universitetssjukehus;1305;974557746;1;168;lymfoid9
-2015-2019;Helse-Førde, Førde;1406;974744570;1;60;lymfoid9
-2015-2019;Helse Midt-Norge;1500;983658776;1;291;lymfoid9
-2015-2019;Helse Møre og Romsdal, Ålesund;1504;974747138;1;46;lymfoid9
-2015-2019;St. Olavs hospital;1608;974749025;1;144;lymfoid9
-2015-2019;Helse Nord-Trøndelag, Levanger;1701;974754118;0;38;lymfoid9
-2015-2019;Helse Nord;1800;883658752;1;186;lymfoid9
-2015-2019;Nordlandssykehuset, Bodø;1801;974795361;1;50;lymfoid9
-2015-2019;UNN, Tromsø;1903;974795787;1;72;lymfoid9
