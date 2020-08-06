@@ -64,7 +64,7 @@ Please note that the 'qmongrdata' project is released with a
 | Norsk diabetesregister for voksne | diabetes_voksne |
 | Norsk gynekologisk endoskopiregister - NGER (Sykehuset Vestfold HF) | nger | &#10004; | &#10004; |
 | Norsk hjerneslagregister | hjerneslag |  | &#10004; |
-| Norsk hjerteinfarktregister  | hjerteinfarkt |  | &#10004; |
+| Norsk hjerteinfarktregister  | hjerteinfarkt | &#10004; | &#10004; |
 | Norsk hjertesviktregister | hjertesvikt |
 | Norsk Intensiv- og pandemiregister | intensiv | &#10004; | &#10004; | &#10004; | &#10004; |
 | Norsk karkirurgisk register - NORKAR | norkar |  | &#10004; |
