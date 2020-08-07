@@ -1,735 +1,735 @@
-Aar;ShNavn;ReshId;OrgNrShus;Variabel;Nevner;KvalIndID
-2019;Norge;99;1;27;66;lymfoid_dekgrad_utred
-2019;Diakonhjemmet;105;974116804;33;119;lymfoid_dekgrad_utred
-2019;Vestre Viken, Bærum;202;974705788;16;54;lymfoid_dekgrad_utred
-2019;Ahus, Lørenskog;208;974706490;19;152;lymfoid_dekgrad_utred
-2019;Oslo Universitetssykehus;300;993467049;206;344;lymfoid_dekgrad_utred
-2019;Diakonhjemmet sykehus;304;974116804;1;25;lymfoid_dekgrad_utred
-2019;Lovisenberg Diakonale Sykehus;306;974207532;18;25;lymfoid_dekgrad_utred
-2019;Ahus, Kongsvinger;402;974631776;2;12;lymfoid_dekgrad_utred
-2019;Sykehuset Innlandet, Hamar;403;974724960;7;18;lymfoid_dekgrad_utred
-2019;Sykehuset Innlandet, Elverum;404;974631768;5;30;lymfoid_dekgrad_utred
-2019;Sykehuset Innlandet, Gjøvik;501;974632535;5;44;lymfoid_dekgrad_utred
-2019;Sykehuset Innlandet, Lillehammer;502;874632562;24;55;lymfoid_dekgrad_utred
-2019;Vestre Viken, Drammen;601;974631326;30;57;lymfoid_dekgrad_utred
-2019;Vestre Viken, Kongsberg;602;974631385;10;15;lymfoid_dekgrad_utred
-2019;Vestre Viken, Hønefoss;605;974631407;8;21;lymfoid_dekgrad_utred
-2019;Sykehuset i Vestfold, Tønsberg;707;974633574;101;113;lymfoid_dekgrad_utred
-2019;Sykehuset Telemark, Notodden;805;974633159;13;15;lymfoid_dekgrad_utred
-2019;Sykehuset Telemark, Skien;808;974633191;53;59;lymfoid_dekgrad_utred
-2019;Sørlandet Sykehus, Kristiansand;1005;974733013;22;90;lymfoid_dekgrad_utred
-2019;Helse-Fonna, Haugesund;1101;974724774;26;46;lymfoid_dekgrad_utred
-2019;Stavanger universitetssjukehus;1107;974703300;102;139;lymfoid_dekgrad_utred
-2019;Haraldsplass Diakonale Sykehus;1302;974316285;12;19;lymfoid_dekgrad_utred
-2019;Haukeland universitetssjukehus;1305;974557746;118;195;lymfoid_dekgrad_utred
-2019;Helse-Førde, Førde;1406;974744570;33;43;lymfoid_dekgrad_utred
-2019;Helse Møre og Romsdal, Kristiansund;1501;974746948;4;14;lymfoid_dekgrad_utred
-2019;Helse Møre og Romsdal, Molde;1502;974745569;8;24;lymfoid_dekgrad_utred
-2019;Helse Møre og Romsdal, Ålesund;1504;974747138;8;50;lymfoid_dekgrad_utred
-2019;St. Olavs hospital;1608;974749025;98;180;lymfoid_dekgrad_utred
-2019;Helse Nord-Trøndelag, Levanger;1701;974754118;39;45;lymfoid_dekgrad_utred
-2019;Nordlandssykehuset, Bodø;1801;974795361;42;44;lymfoid_dekgrad_utred
-2019;UNN, Tromsø;1903;974795787;64;110;lymfoid_dekgrad_utred
-2018;Norge;99;1;62;87;lymfoid_dekgrad_utred
-2018;Diakonhjemmet;105;974116804;26;82;lymfoid_dekgrad_utred
-2018;Vestre Viken, Bærum;202;974705788;24;37;lymfoid_dekgrad_utred
-2018;Ahus, Lørenskog;208;974706490;54;137;lymfoid_dekgrad_utred
-2018;Oslo Universitetssykehus;300;993467049;370;404;lymfoid_dekgrad_utred
-2018;Diakonhjemmet sykehus;304;974116804;1;28;lymfoid_dekgrad_utred
-2018;Lovisenberg Diakonale Sykehus;306;974207532;25;25;lymfoid_dekgrad_utred
-2018;Ahus, Kongsvinger;402;974631776;5;11;lymfoid_dekgrad_utred
-2018;Sykehuset Innlandet, Hamar;403;974724960;10;22;lymfoid_dekgrad_utred
-2018;Sykehuset Innlandet, Elverum;404;974631768;2;17;lymfoid_dekgrad_utred
-2018;Sykehuset Innlandet, Gjøvik;501;974632535;7;35;lymfoid_dekgrad_utred
-2018;Sykehuset Innlandet, Lillehammer;502;874632562;15;33;lymfoid_dekgrad_utred
-2018;Vestre Viken, Drammen;601;974631326;46;60;lymfoid_dekgrad_utred
-2018;Vestre Viken, Kongsberg;602;974631385;11;15;lymfoid_dekgrad_utred
-2018;Vestre Viken, Hønefoss;605;974631407;14;29;lymfoid_dekgrad_utred
-2018;Sykehuset i Vestfold, Tønsberg;707;974633574;88;95;lymfoid_dekgrad_utred
-2018;Sykehuset Telemark, Skien;808;974633191;49;51;lymfoid_dekgrad_utred
-2018;Sørlandet Sykehus, Kristiansand;1005;974733013;67;76;lymfoid_dekgrad_utred
-2018;Helse-Fonna, Haugesund;1101;974724774;22;40;lymfoid_dekgrad_utred
-2018;Stavanger universitetssjukehus;1107;974703300;114;138;lymfoid_dekgrad_utred
-2018;Haukeland universitetssjukehus;1305;974557746;142;193;lymfoid_dekgrad_utred
-2018;Helse-Førde, Førde;1406;974744570;20;37;lymfoid_dekgrad_utred
-2018;Helse Møre og Romsdal, Kristiansund;1501;974746948;11;11;lymfoid_dekgrad_utred
-2018;Helse Møre og Romsdal, Molde;1502;974745569;25;28;lymfoid_dekgrad_utred
-2018;Helse Møre og Romsdal, Volda;1503;974747545;1;11;lymfoid_dekgrad_utred
-2018;Helse Møre og Romsdal, Ålesund;1504;974747138;17;43;lymfoid_dekgrad_utred
-2018;St. Olavs hospital;1608;974749025;126;149;lymfoid_dekgrad_utred
-2018;Helse Nord-Trøndelag, Levanger;1701;974754118;47;49;lymfoid_dekgrad_utred
-2018;Helse Nord-Trøndelag, Namsos;1702;974753898;4;14;lymfoid_dekgrad_utred
-2018;Nordlandssykehuset, Bodø;1801;974795361;55;59;lymfoid_dekgrad_utred
-2018;UNN, Tromsø;1903;974795787;61;113;lymfoid_dekgrad_utred
-2018;Finnmarkssykehuset, Hammerfest;2001;974795833;10;12;lymfoid_dekgrad_utred
-2017;Norge;99;1;34;57;lymfoid_dekgrad_utred
-2017;Diakonhjemmet;105;974116804;19;86;lymfoid_dekgrad_utred
-2017;Vestre Viken, Bærum;202;974705788;23;47;lymfoid_dekgrad_utred
-2017;Ahus, Lørenskog;208;974706490;6;115;lymfoid_dekgrad_utred
-2017;Oslo Universitetssykehus;300;993467049;352;395;lymfoid_dekgrad_utred
-2017;Diakonhjemmet sykehus;304;974116804;4;28;lymfoid_dekgrad_utred
-2017;Lovisenberg Diakonale Sykehus;306;974207532;18;19;lymfoid_dekgrad_utred
-2017;Ahus, Kongsvinger;402;974631776;3;12;lymfoid_dekgrad_utred
-2017;Sykehuset Innlandet, Hamar;403;974724960;2;10;lymfoid_dekgrad_utred
-2017;Sykehuset Innlandet, Elverum;404;974631768;2;16;lymfoid_dekgrad_utred
-2017;Sykehuset Innlandet, Gjøvik;501;974632535;8;40;lymfoid_dekgrad_utred
-2017;Sykehuset Innlandet, Lillehammer;502;874632562;12;43;lymfoid_dekgrad_utred
-2017;Vestre Viken, Drammen;601;974631326;25;38;lymfoid_dekgrad_utred
-2017;Vestre Viken, Kongsberg;602;974631385;7;14;lymfoid_dekgrad_utred
-2017;Vestre Viken, Hønefoss;605;974631407;19;31;lymfoid_dekgrad_utred
-2017;Sykehuset i Vestfold, Tønsberg;707;974633574;85;97;lymfoid_dekgrad_utred
-2017;Sykehuset Telemark, Skien;808;974633191;47;50;lymfoid_dekgrad_utred
-2017;Sørlandet Sykehus , Arendal;904;974631091;8;12;lymfoid_dekgrad_utred
-2017;Sørlandet Sykehus, Kristiansand;1005;974733013;55;68;lymfoid_dekgrad_utred
-2017;Helse-Fonna, Haugesund;1101;974724774;15;27;lymfoid_dekgrad_utred
-2017;Stavanger universitetssjukehus;1107;974703300;83;102;lymfoid_dekgrad_utred
-2017;Haraldsplass Diakonale Sykehus;1302;974316285;8;10;lymfoid_dekgrad_utred
-2017;Haukeland universitetssjukehus;1305;974557746;130;177;lymfoid_dekgrad_utred
-2017;Helse-Førde, Førde;1406;974744570;22;34;lymfoid_dekgrad_utred
-2017;Helse Møre og Romsdal, Kristiansund;1501;974746948;25;26;lymfoid_dekgrad_utred
-2017;Helse Møre og Romsdal, Molde;1502;974745569;7;34;lymfoid_dekgrad_utred
-2017;Helse Møre og Romsdal, Volda;1503;974747545;2;13;lymfoid_dekgrad_utred
-2017;Helse Møre og Romsdal, Ålesund;1504;974747138;28;40;lymfoid_dekgrad_utred
-2017;St. Olavs hospital;1608;974749025;165;169;lymfoid_dekgrad_utred
-2017;Helse Nord-Trøndelag, Levanger;1701;974754118;43;45;lymfoid_dekgrad_utred
-2017;Nordlandssykehuset, Bodø;1801;974795361;48;51;lymfoid_dekgrad_utred
-2017;UNN, Tromsø;1903;974795787;49;80;lymfoid_dekgrad_utred
-2016;Norge;99;1;40;69;lymfoid_dekgrad_utred
-2016;Diakonhjemmet;105;974116804;19;85;lymfoid_dekgrad_utred
-2016;Vestre Viken, Bærum;202;974705788;34;48;lymfoid_dekgrad_utred
-2016;Ahus, Lørenskog;208;974706490;19;126;lymfoid_dekgrad_utred
-2016;Oslo Universitetssykehus;300;993467049;357;423;lymfoid_dekgrad_utred
-2016;Diakonhjemmet sykehus;304;974116804;12;32;lymfoid_dekgrad_utred
-2016;Lovisenberg Diakonale Sykehus;306;974207532;19;19;lymfoid_dekgrad_utred
-2016;Ahus, Kongsvinger;402;974631776;8;17;lymfoid_dekgrad_utred
-2016;Sykehuset Innlandet, Hamar;403;974724960;4;32;lymfoid_dekgrad_utred
-2016;Sykehuset Innlandet, Elverum;404;974631768;2;12;lymfoid_dekgrad_utred
-2016;Sykehuset Innlandet, Gjøvik;501;974632535;10;39;lymfoid_dekgrad_utred
-2016;Sykehuset Innlandet, Lillehammer;502;874632562;0;31;lymfoid_dekgrad_utred
-2016;Vestre Viken, Drammen;601;974631326;41;46;lymfoid_dekgrad_utred
-2016;Vestre Viken, Kongsberg;602;974631385;8;12;lymfoid_dekgrad_utred
-2016;Vestre Viken, Hønefoss;605;974631407;11;18;lymfoid_dekgrad_utred
-2016;Sykehuset i Vestfold, Tønsberg;707;974633574;60;84;lymfoid_dekgrad_utred
-2016;Sykehuset Telemark, Skien;808;974633191;43;55;lymfoid_dekgrad_utred
-2016;Sørlandet Sykehus , Arendal;904;974631091;15;22;lymfoid_dekgrad_utred
-2016;Sørlandet Sykehus, Kristiansand;1005;974733013;52;63;lymfoid_dekgrad_utred
-2016;Helse-Fonna, Haugesund;1101;974724774;27;39;lymfoid_dekgrad_utred
-2016;Stavanger universitetssjukehus;1107;974703300;127;141;lymfoid_dekgrad_utred
-2016;Haraldsplass Diakonale Sykehus;1302;974316285;10;14;lymfoid_dekgrad_utred
-2016;Haukeland universitetssjukehus;1305;974557746;127;177;lymfoid_dekgrad_utred
-2016;Helse-Førde, Førde;1406;974744570;26;41;lymfoid_dekgrad_utred
-2016;Helse Møre og Romsdal, Kristiansund;1501;974746948;12;12;lymfoid_dekgrad_utred
-2016;Helse Møre og Romsdal, Molde;1502;974745569;4;18;lymfoid_dekgrad_utred
-2016;Helse Møre og Romsdal, Ålesund;1504;974747138;44;46;lymfoid_dekgrad_utred
-2016;St. Olavs hospital;1608;974749025;157;164;lymfoid_dekgrad_utred
-2016;Helse Nord-Trøndelag, Levanger;1701;974754118;38;38;lymfoid_dekgrad_utred
-2016;Helse Nord-Trøndelag, Namsos;1702;974753898;2;15;lymfoid_dekgrad_utred
-2016;Nordlandssykehuset, Bodø;1801;974795361;44;46;lymfoid_dekgrad_utred
-2016;UNN, Tromsø;1903;974795787;47;96;lymfoid_dekgrad_utred
-2015;Norge;99;1;38;56;lymfoid_dekgrad_utred
-2015;Diakonhjemmet;105;974116804;20;76;lymfoid_dekgrad_utred
-2015;Vestre Viken, Bærum;202;974705788;35;57;lymfoid_dekgrad_utred
-2015;Ahus, Lørenskog;208;974706490;32;138;lymfoid_dekgrad_utred
-2015;Oslo Universitetssykehus;300;993467049;377;426;lymfoid_dekgrad_utred
-2015;Diakonhjemmet sykehus;304;974116804;20;25;lymfoid_dekgrad_utred
-2015;Lovisenberg Diakonale Sykehus;306;974207532;12;18;lymfoid_dekgrad_utred
-2015;Ahus, Kongsvinger;402;974631776;5;13;lymfoid_dekgrad_utred
-2015;Sykehuset Innlandet, Hamar;403;974724960;1;14;lymfoid_dekgrad_utred
-2015;Sykehuset Innlandet, Elverum;404;974631768;1;18;lymfoid_dekgrad_utred
-2015;Sykehuset Innlandet, Gjøvik;501;974632535;20;37;lymfoid_dekgrad_utred
-2015;Sykehuset Innlandet, Lillehammer;502;874632562;6;29;lymfoid_dekgrad_utred
-2015;Vestre Viken, Drammen;601;974631326;44;58;lymfoid_dekgrad_utred
-2015;Vestre Viken, Kongsberg;602;974631385;14;18;lymfoid_dekgrad_utred
-2015;Vestre Viken, Hønefoss;605;974631407;17;21;lymfoid_dekgrad_utred
-2015;Sykehuset i Vestfold, Tønsberg;707;974633574;71;74;lymfoid_dekgrad_utred
-2015;Sykehuset Telemark, Skien;808;974633191;57;60;lymfoid_dekgrad_utred
-2015;Sørlandet Sykehus , Arendal;904;974631091;14;17;lymfoid_dekgrad_utred
-2015;Sørlandet Sykehus, Kristiansand;1005;974733013;52;61;lymfoid_dekgrad_utred
-2015;Helse-Fonna, Haugesund;1101;974724774;37;52;lymfoid_dekgrad_utred
-2015;Stavanger universitetssjukehus;1107;974703300;125;148;lymfoid_dekgrad_utred
-2015;Haraldsplass Diakonale Sykehus;1302;974316285;8;11;lymfoid_dekgrad_utred
-2015;Haukeland universitetssjukehus;1305;974557746;127;161;lymfoid_dekgrad_utred
-2015;Helse-Førde, Førde;1406;974744570;26;38;lymfoid_dekgrad_utred
-2015;Helse Møre og Romsdal, Kristiansund;1501;974746948;15;15;lymfoid_dekgrad_utred
-2015;Helse Møre og Romsdal, Molde;1502;974745569;4;22;lymfoid_dekgrad_utred
-2015;Helse Møre og Romsdal, Ålesund;1504;974747138;35;38;lymfoid_dekgrad_utred
-2015;St. Olavs hospital;1608;974749025;184;188;lymfoid_dekgrad_utred
-2015;Helse Nord-Trøndelag, Levanger;1701;974754118;37;40;lymfoid_dekgrad_utred
-2015;Helse Nord-Trøndelag, Namsos;1702;974753898;3;11;lymfoid_dekgrad_utred
-2015;Nordlandssykehuset, Bodø;1801;974795361;50;52;lymfoid_dekgrad_utred
-2015;Helgelandsykehuset, Mo i Rana;1807;974795515;10;16;lymfoid_dekgrad_utred
-2015;Helgelandsykehuset, Sandnessjøen;1809;974795477;8;14;lymfoid_dekgrad_utred
-2015;UNN, Tromsø;1903;974795787;78;116;lymfoid_dekgrad_utred
-2014;Norge;99;1;57;71;lymfoid_dekgrad_utred
-2014;Diakonhjemmet;105;974116804;43;75;lymfoid_dekgrad_utred
-2014;Vestre Viken, Bærum;202;974705788;30;40;lymfoid_dekgrad_utred
-2014;Ahus, Lørenskog;208;974706490;58;101;lymfoid_dekgrad_utred
-2014;Oslo Universitetssykehus;300;993467049;324;372;lymfoid_dekgrad_utred
-2014;Diakonhjemmet sykehus;304;974116804;7;19;lymfoid_dekgrad_utred
-2014;Lovisenberg Diakonale Sykehus;306;974207532;10;12;lymfoid_dekgrad_utred
-2014;Ahus, Kongsvinger;402;974631776;10;13;lymfoid_dekgrad_utred
-2014;Sykehuset Innlandet, Hamar;403;974724960;2;20;lymfoid_dekgrad_utred
-2014;Sykehuset Innlandet, Elverum;404;974631768;3;11;lymfoid_dekgrad_utred
-2014;Sykehuset Innlandet, Gjøvik;501;974632535;16;34;lymfoid_dekgrad_utred
-2014;Sykehuset Innlandet, Lillehammer;502;874632562;13;25;lymfoid_dekgrad_utred
-2014;Vestre Viken, Drammen;601;974631326;59;67;lymfoid_dekgrad_utred
-2014;Vestre Viken, Kongsberg;602;974631385;13;15;lymfoid_dekgrad_utred
-2014;Vestre Viken, Hønefoss;605;974631407;17;18;lymfoid_dekgrad_utred
-2014;Sykehuset i Vestfold, Tønsberg;707;974633574;61;84;lymfoid_dekgrad_utred
-2014;Sykehuset Telemark, Skien;808;974633191;51;54;lymfoid_dekgrad_utred
-2014;Sørlandet Sykehus , Arendal;904;974631091;26;26;lymfoid_dekgrad_utred
-2014;Sørlandet Sykehus, Kristiansand;1005;974733013;49;52;lymfoid_dekgrad_utred
-2014;Helse-Fonna, Haugesund;1101;974724774;31;44;lymfoid_dekgrad_utred
-2014;Stavanger universitetssjukehus;1107;974703300;114;121;lymfoid_dekgrad_utred
-2014;Haukeland universitetssjukehus;1305;974557746;145;178;lymfoid_dekgrad_utred
-2014;Helse-Førde, Førde;1406;974744570;32;39;lymfoid_dekgrad_utred
-2014;Helse Møre og Romsdal, Kristiansund;1501;974746948;12;13;lymfoid_dekgrad_utred
-2014;Helse Møre og Romsdal, Molde;1502;974745569;2;21;lymfoid_dekgrad_utred
-2014;Helse Møre og Romsdal, Ålesund;1504;974747138;49;52;lymfoid_dekgrad_utred
-2014;St. Olavs hospital;1608;974749025;146;155;lymfoid_dekgrad_utred
-2014;Helse Nord-Trøndelag, Levanger;1701;974754118;28;34;lymfoid_dekgrad_utred
-2014;Helse Nord-Trøndelag, Namsos;1702;974753898;6;11;lymfoid_dekgrad_utred
-2014;Nordlandssykehuset, Bodø;1801;974795361;43;43;lymfoid_dekgrad_utred
-2014;UNN, Tromsø;1903;974795787;75;89;lymfoid_dekgrad_utred
-2013;Norge;99;1;50;59;lymfoid_dekgrad_utred
-2013;Diakonhjemmet;105;974116804;40;60;lymfoid_dekgrad_utred
-2013;Vestre Viken, Bærum;202;974705788;33;41;lymfoid_dekgrad_utred
-2013;Ahus, Lørenskog;208;974706490;82;110;lymfoid_dekgrad_utred
-2013;Oslo Universitetssykehus;300;993467049;363;417;lymfoid_dekgrad_utred
-2013;Diakonhjemmet sykehus;304;974116804;17;24;lymfoid_dekgrad_utred
-2013;Lovisenberg Diakonale Sykehus;306;974207532;19;20;lymfoid_dekgrad_utred
-2013;Ahus, Kongsvinger;402;974631776;10;15;lymfoid_dekgrad_utred
-2013;Sykehuset Innlandet, Hamar;403;974724960;2;18;lymfoid_dekgrad_utred
-2013;Sykehuset Innlandet, Elverum;404;974631768;4;15;lymfoid_dekgrad_utred
-2013;Sykehuset Innlandet, Gjøvik;501;974632535;25;45;lymfoid_dekgrad_utred
-2013;Sykehuset Innlandet, Lillehammer;502;874632562;19;32;lymfoid_dekgrad_utred
-2013;Vestre Viken, Drammen;601;974631326;39;41;lymfoid_dekgrad_utred
-2013;Vestre Viken, Kongsberg;602;974631385;17;19;lymfoid_dekgrad_utred
-2013;Vestre Viken, Hønefoss;605;974631407;17;20;lymfoid_dekgrad_utred
-2013;Sykehuset i Vestfold, Tønsberg;707;974633574;52;62;lymfoid_dekgrad_utred
-2013;Sykehuset Telemark, Skien;808;974633191;49;53;lymfoid_dekgrad_utred
-2013;Sørlandet Sykehus , Arendal;904;974631091;24;25;lymfoid_dekgrad_utred
-2013;Sørlandet Sykehus, Kristiansand;1005;974733013;66;70;lymfoid_dekgrad_utred
-2013;Helse-Fonna, Haugesund;1101;974724774;20;26;lymfoid_dekgrad_utred
-2013;Stavanger universitetssjukehus;1107;974703300;90;97;lymfoid_dekgrad_utred
-2013;Voss sjukehus;1203;974743272;10;10;lymfoid_dekgrad_utred
-2013;Haukeland universitetssjukehus;1305;974557746;110;147;lymfoid_dekgrad_utred
-2013;Helse-Førde, Førde;1406;974744570;28;38;lymfoid_dekgrad_utred
-2013;Helse Møre og Romsdal, Kristiansund;1501;974746948;17;17;lymfoid_dekgrad_utred
-2013;Helse Møre og Romsdal, Molde;1502;974745569;9;18;lymfoid_dekgrad_utred
-2013;Helse Møre og Romsdal, Volda;1503;974747545;9;12;lymfoid_dekgrad_utred
-2013;Helse Møre og Romsdal, Ålesund;1504;974747138;40;42;lymfoid_dekgrad_utred
-2013;St. Olavs hospital;1608;974749025;155;162;lymfoid_dekgrad_utred
-2013;Helse Nord-Trøndelag, Levanger;1701;974754118;35;36;lymfoid_dekgrad_utred
-2013;Helse Nord-Trøndelag, Namsos;1702;974753898;9;13;lymfoid_dekgrad_utred
-2013;Nordlandssykehuset, Bodø;1801;974795361;44;48;lymfoid_dekgrad_utred
-2013;UNN, Tromsø;1903;974795787;64;82;lymfoid_dekgrad_utred
-2012;Norge;99;1;70;85;lymfoid_dekgrad_utred
-2012;Diakonhjemmet;105;974116804;33;55;lymfoid_dekgrad_utred
-2012;Vestre Viken, Bærum;202;974705788;46;53;lymfoid_dekgrad_utred
-2012;Ahus, Lørenskog;208;974706490;75;99;lymfoid_dekgrad_utred
-2012;Oslo Universitetssykehus;300;993467049;355;414;lymfoid_dekgrad_utred
-2012;Diakonhjemmet sykehus;304;974116804;18;20;lymfoid_dekgrad_utred
-2012;Lovisenberg Diakonale Sykehus;306;974207532;15;16;lymfoid_dekgrad_utred
-2012;Sykehuset Innlandet, Hamar;403;974724960;5;24;lymfoid_dekgrad_utred
-2012;Sykehuset Innlandet, Elverum;404;974631768;8;13;lymfoid_dekgrad_utred
-2012;Sykehuset Innlandet, Gjøvik;501;974632535;17;35;lymfoid_dekgrad_utred
-2012;Sykehuset Innlandet, Lillehammer;502;874632562;23;30;lymfoid_dekgrad_utred
-2012;Vestre Viken, Drammen;601;974631326;47;54;lymfoid_dekgrad_utred
-2012;Vestre Viken, Kongsberg;602;974631385;11;15;lymfoid_dekgrad_utred
-2012;Vestre Viken, Hønefoss;605;974631407;26;26;lymfoid_dekgrad_utred
-2012;Sykehuset i Vestfold, Tønsberg;707;974633574;46;63;lymfoid_dekgrad_utred
-2012;Sykehuset Telemark, Skien;808;974633191;38;54;lymfoid_dekgrad_utred
-2012;Sørlandet Sykehus , Arendal;904;974631091;30;30;lymfoid_dekgrad_utred
-2012;Sørlandet Sykehus, Kristiansand;1005;974733013;52;54;lymfoid_dekgrad_utred
-2012;Helse-Fonna, Haugesund;1101;974724774;38;51;lymfoid_dekgrad_utred
-2012;Stavanger universitetssjukehus;1107;974703300;92;106;lymfoid_dekgrad_utred
-2012;Haukeland universitetssjukehus;1305;974557746;128;180;lymfoid_dekgrad_utred
-2012;Helse-Førde, Førde;1406;974744570;36;39;lymfoid_dekgrad_utred
-2012;Helse Møre og Romsdal, Kristiansund;1501;974746948;10;12;lymfoid_dekgrad_utred
-2012;Helse Møre og Romsdal, Molde;1502;974745569;9;18;lymfoid_dekgrad_utred
-2012;Helse Møre og Romsdal, Ålesund;1504;974747138;38;40;lymfoid_dekgrad_utred
-2012;St. Olavs hospital;1608;974749025;162;166;lymfoid_dekgrad_utred
-2012;Helse Nord-Trøndelag, Levanger;1701;974754118;30;31;lymfoid_dekgrad_utred
-2012;Nordlandssykehuset, Bodø;1801;974795361;45;49;lymfoid_dekgrad_utred
-2012;UNN, Tromsø;1903;974795787;85;89;lymfoid_dekgrad_utred
-2011;Norge;99;1;73;83;lymfoid_dekgrad_utred
-2011;Diakonhjemmet;105;974116804;39;53;lymfoid_dekgrad_utred
-2011;Vestre Viken, Bærum;202;974705788;48;59;lymfoid_dekgrad_utred
-2011;Ahus, Lørenskog;208;974706490;87;101;lymfoid_dekgrad_utred
-2011;Oslo Universitetssykehus;300;993467049;250;320;lymfoid_dekgrad_utred
-2011;Diakonhjemmet sykehus;304;974116804;21;23;lymfoid_dekgrad_utred
-2011;Lovisenberg Diakonale Sykehus;306;974207532;16;16;lymfoid_dekgrad_utred
-2011;Ahus, Kongsvinger;402;974631776;19;20;lymfoid_dekgrad_utred
-2011;Sykehuset Innlandet, Hamar;403;974724960;1;17;lymfoid_dekgrad_utred
-2011;Sykehuset Innlandet, Elverum;404;974631768;15;27;lymfoid_dekgrad_utred
-2011;Sykehuset Innlandet, Gjøvik;501;974632535;17;24;lymfoid_dekgrad_utred
-2011;Sykehuset Innlandet, Lillehammer;502;874632562;34;40;lymfoid_dekgrad_utred
-2011;Vestre Viken, Drammen;601;974631326;39;45;lymfoid_dekgrad_utred
-2011;Vestre Viken, Kongsberg;602;974631385;14;21;lymfoid_dekgrad_utred
-2011;Sykehuset i Vestfold, Tønsberg;707;974633574;64;75;lymfoid_dekgrad_utred
-2011;Sykehuset Telemark, Skien;808;974633191;46;56;lymfoid_dekgrad_utred
-2011;Sørlandet Sykehus , Arendal;904;974631091;38;40;lymfoid_dekgrad_utred
-2011;Sørlandet Sykehus, Kristiansand;1005;974733013;52;54;lymfoid_dekgrad_utred
-2011;Helse-Fonna, Haugesund;1101;974724774;32;46;lymfoid_dekgrad_utred
-2011;Stavanger universitetssjukehus;1107;974703300;104;107;lymfoid_dekgrad_utred
-2011;Haukeland universitetssjukehus;1305;974557746;127;172;lymfoid_dekgrad_utred
-2011;Helse-Førde, Førde;1406;974744570;29;35;lymfoid_dekgrad_utred
-2011;Helse Møre og Romsdal, Kristiansund;1501;974746948;12;13;lymfoid_dekgrad_utred
-2011;Helse Møre og Romsdal, Molde;1502;974745569;18;30;lymfoid_dekgrad_utred
-2011;Helse Møre og Romsdal, Volda;1503;974747545;5;11;lymfoid_dekgrad_utred
-2011;Helse Møre og Romsdal, Ålesund;1504;974747138;42;45;lymfoid_dekgrad_utred
-2011;St. Olavs hospital;1608;974749025;128;142;lymfoid_dekgrad_utred
-2011;Helse Nord-Trøndelag, Levanger;1701;974754118;37;38;lymfoid_dekgrad_utred
-2011;Nordlandssykehuset, Bodø;1801;974795361;55;55;lymfoid_dekgrad_utred
-2011;UNN, Tromsø;1903;974795787;94;98;lymfoid_dekgrad_utred
-2019;Norge;99;1;654;658;lymfoid_diag_non_hodgkin
-2019;Diakonhjemmet;105;974116804;58;61;lymfoid_diag_non_hodgkin
-2019;Vestre Viken, Bærum;202;974705788;20;21;lymfoid_diag_non_hodgkin
-2019;Diakonhjemmet sykehus;304;974116804;11;11;lymfoid_diag_non_hodgkin
-2019;Lovisenberg Diakonale Sykehus;306;974207532;10;11;lymfoid_diag_non_hodgkin
-2019;Sykehuset Innlandet, Elverum;404;974631768;14;14;lymfoid_diag_non_hodgkin
-2019;Sykehuset Innlandet, Gjøvik;501;974632535;23;23;lymfoid_diag_non_hodgkin
-2019;Sykehuset Innlandet, Lillehammer;502;874632562;27;27;lymfoid_diag_non_hodgkin
-2019;Vestre Viken, Drammen;601;974631326;37;38;lymfoid_diag_non_hodgkin
-2019;Sykehuset i Vestfold, Tønsberg;707;974633574;50;50;lymfoid_diag_non_hodgkin
-2019;Sykehuset Telemark, Skien;808;974633191;29;29;lymfoid_diag_non_hodgkin
-2019;Sørlandet Sykehus, Kristiansand;1005;974733013;33;48;lymfoid_diag_non_hodgkin
-2019;Helse-Fonna, Haugesund;1101;974724774;29;29;lymfoid_diag_non_hodgkin
-2019;Helse-Førde, Førde;1406;974744570;16;17;lymfoid_diag_non_hodgkin
-2019;Helse Møre og Romsdal, Molde;1502;974745569;11;11;lymfoid_diag_non_hodgkin
-2019;Helse Møre og Romsdal, Ålesund;1504;974747138;19;31;lymfoid_diag_non_hodgkin
-2019;Helse Nord-Trøndelag, Levanger;1701;974754118;19;19;lymfoid_diag_non_hodgkin
-2019;Nordlandssykehuset, Bodø;1801;974795361;16;21;lymfoid_diag_non_hodgkin
-2018;Norge;99;1;617;623;lymfoid_diag_non_hodgkin
-2018;Diakonhjemmet;105;974116804;41;43;lymfoid_diag_non_hodgkin
-2018;Vestre Viken, Bærum;202;974705788;11;11;lymfoid_diag_non_hodgkin
-2018;Diakonhjemmet sykehus;304;974116804;17;17;lymfoid_diag_non_hodgkin
-2018;Sykehuset Innlandet, Hamar;403;974724960;11;11;lymfoid_diag_non_hodgkin
-2018;Sykehuset Innlandet, Elverum;404;974631768;14;14;lymfoid_diag_non_hodgkin
-2018;Sykehuset Innlandet, Gjøvik;501;974632535;16;16;lymfoid_diag_non_hodgkin
-2018;Sykehuset Innlandet, Lillehammer;502;874632562;27;27;lymfoid_diag_non_hodgkin
-2018;Vestre Viken, Drammen;601;974631326;32;34;lymfoid_diag_non_hodgkin
-2018;Vestre Viken, Hønefoss;605;974631407;12;12;lymfoid_diag_non_hodgkin
-2018;Sykehuset i Vestfold, Tønsberg;707;974633574;47;47;lymfoid_diag_non_hodgkin
-2018;Sykehuset Telemark, Skien;808;974633191;26;26;lymfoid_diag_non_hodgkin
-2018;Sørlandet Sykehus, Kristiansand;1005;974733013;28;43;lymfoid_diag_non_hodgkin
-2018;Helse-Fonna, Haugesund;1101;974724774;25;25;lymfoid_diag_non_hodgkin
-2018;Helse-Førde, Førde;1406;974744570;21;21;lymfoid_diag_non_hodgkin
-2018;Helse Møre og Romsdal, Molde;1502;974745569;16;16;lymfoid_diag_non_hodgkin
-2018;Helse Møre og Romsdal, Ålesund;1504;974747138;6;21;lymfoid_diag_non_hodgkin
-2018;Helse Nord-Trøndelag, Levanger;1701;974754118;17;17;lymfoid_diag_non_hodgkin
-2018;Helse Nord-Trøndelag, Namsos;1702;974753898;10;10;lymfoid_diag_non_hodgkin
-2018;Nordlandssykehuset, Bodø;1801;974795361;20;29;lymfoid_diag_non_hodgkin
-2017;Norge;99;1;537;544;lymfoid_diag_non_hodgkin
-2017;Diakonhjemmet;105;974116804;41;47;lymfoid_diag_non_hodgkin
-2017;Vestre Viken, Bærum;202;974705788;17;18;lymfoid_diag_non_hodgkin
-2017;Diakonhjemmet sykehus;304;974116804;15;15;lymfoid_diag_non_hodgkin
-2017;Sykehuset Innlandet, Hamar;403;974724960;11;11;lymfoid_diag_non_hodgkin
-2017;Sykehuset Innlandet, Elverum;404;974631768;12;12;lymfoid_diag_non_hodgkin
-2017;Sykehuset Innlandet, Gjøvik;501;974632535;20;20;lymfoid_diag_non_hodgkin
-2017;Sykehuset Innlandet, Lillehammer;502;874632562;18;18;lymfoid_diag_non_hodgkin
-2017;Vestre Viken, Drammen;601;974631326;30;30;lymfoid_diag_non_hodgkin
-2017;Vestre Viken, Hønefoss;605;974631407;15;15;lymfoid_diag_non_hodgkin
-2017;Sykehuset i Vestfold, Tønsberg;707;974633574;46;46;lymfoid_diag_non_hodgkin
-2017;Sykehuset Telemark, Skien;808;974633191;25;25;lymfoid_diag_non_hodgkin
-2017;Sørlandet Sykehus, Kristiansand;1005;974733013;21;38;lymfoid_diag_non_hodgkin
-2017;Helse-Fonna, Haugesund;1101;974724774;12;12;lymfoid_diag_non_hodgkin
-2017;Helse-Førde, Førde;1406;974744570;11;11;lymfoid_diag_non_hodgkin
-2017;Helse Møre og Romsdal, Kristiansund;1501;974746948;10;11;lymfoid_diag_non_hodgkin
-2017;Helse Møre og Romsdal, Molde;1502;974745569;18;20;lymfoid_diag_non_hodgkin
-2017;Helse Møre og Romsdal, Ålesund;1504;974747138;13;24;lymfoid_diag_non_hodgkin
-2017;Helse Nord-Trøndelag, Levanger;1701;974754118;18;18;lymfoid_diag_non_hodgkin
-2017;Nordlandssykehuset, Bodø;1801;974795361;20;26;lymfoid_diag_non_hodgkin
-2019;Østfold HF;101;983971768;29;29;lymfoid_stadium_non_hodgkin
-2019;Akershus HF;102;983971636;28;28;lymfoid_stadium_non_hodgkin
-2019;OUS HF;103;993467049;29;29;lymfoid_stadium_non_hodgkin
-2019;Diakonhjemmet HF;105;982791952;17;18;lymfoid_stadium_non_hodgkin
-2019;Innlandet HF;106;983971709;27;29;lymfoid_stadium_non_hodgkin
-2019;Vestre Viken HF;107;894166762;48;48;lymfoid_stadium_non_hodgkin
-2019;Telemark HF;108;983975267;36;36;lymfoid_stadium_non_hodgkin
-2019;Vestfold HF;109;983975259;45;46;lymfoid_stadium_non_hodgkin
-2019;Sørlandet HF;110;983975240;17;18;lymfoid_stadium_non_hodgkin
-2019;Helse Stavanger HF;1101;983974678;43;43;lymfoid_stadium_non_hodgkin
-2019;Helse Fonna HF;1102;983974694;26;27;lymfoid_stadium_non_hodgkin
-2019;Helse Bergen HF;1103;983974724;50;50;lymfoid_stadium_non_hodgkin
-2019;Haraldsplass HF;1104;984027737;22;25;lymfoid_stadium_non_hodgkin
-2019;Helse Førde HF;1105;983974732;13;15;lymfoid_stadium_non_hodgkin
-2019;Helse Møre og Romsdal HF;1501;997005562;16;18;lymfoid_stadium_non_hodgkin
-2019;St. Olavs HF;1502;883974832;56;58;lymfoid_stadium_non_hodgkin
-2019;Nord-Trøndelag HF;1503;983974791;23;25;lymfoid_stadium_non_hodgkin
-2019;Helgeland HF;1801;983974929;14;15;lymfoid_stadium_non_hodgkin
-2019;Nordlandssykehuset HF;1802;983974910;21;23;lymfoid_stadium_non_hodgkin
-2019;UNN HF;1803;983974899;24;26;lymfoid_stadium_non_hodgkin
-2019;Norge;9999;1;14;16;lymfoid_stadium_non_hodgkin
-2018;Østfold HF;101;983971768;35;35;lymfoid_stadium_non_hodgkin
-2018;Akershus HF;102;983971636;62;62;lymfoid_stadium_non_hodgkin
-2018;OUS HF;103;993467049;47;48;lymfoid_stadium_non_hodgkin
-2018;Lovisenberg HF;104;965985166;19;20;lymfoid_stadium_non_hodgkin
-2018;Diakonhjemmet HF;105;982791952;21;22;lymfoid_stadium_non_hodgkin
-2018;Innlandet HF;106;983971709;55;56;lymfoid_stadium_non_hodgkin
-2018;Vestre Viken HF;107;894166762;53;56;lymfoid_stadium_non_hodgkin
-2018;Telemark HF;108;983975267;34;35;lymfoid_stadium_non_hodgkin
-2018;Vestfold HF;109;983975259;50;50;lymfoid_stadium_non_hodgkin
-2018;Sørlandet HF;110;983975240;36;44;lymfoid_stadium_non_hodgkin
-2018;Helse Stavanger HF;1101;983974678;59;60;lymfoid_stadium_non_hodgkin
-2018;Helse Fonna HF;1102;983974694;16;16;lymfoid_stadium_non_hodgkin
-2018;Helse Bergen HF;1103;983974724;49;52;lymfoid_stadium_non_hodgkin
-2018;Haraldsplass HF;1104;984027737;18;18;lymfoid_stadium_non_hodgkin
-2018;Helse Førde HF;1105;983974732;11;16;lymfoid_stadium_non_hodgkin
-2018;Helse Møre og Romsdal HF;1501;997005562;34;36;lymfoid_stadium_non_hodgkin
-2018;St. Olavs HF;1502;883974832;48;49;lymfoid_stadium_non_hodgkin
-2018;Nord-Trøndelag HF;1503;983974791;32;34;lymfoid_stadium_non_hodgkin
-2018;Helgeland HF;1801;983974929;14;15;lymfoid_stadium_non_hodgkin
-2018;Nordlandssykehuset HF;1802;983974910;23;23;lymfoid_stadium_non_hodgkin
-2018;UNN HF;1803;983974899;14;15;lymfoid_stadium_non_hodgkin
-2018;Helse Finnmark HF;1804;983974880;9;13;lymfoid_stadium_non_hodgkin
-2018;Norge;9999;1;0;0;lymfoid_stadium_non_hodgkin
-2017;Østfold HF;101;983971768;29;29;lymfoid_stadium_non_hodgkin
-2017;Akershus HF;102;983971636;47;47;lymfoid_stadium_non_hodgkin
-2017;OUS HF;103;993467049;34;34;lymfoid_stadium_non_hodgkin
-2017;Lovisenberg HF;104;965985166;15;15;lymfoid_stadium_non_hodgkin
-2017;Diakonhjemmet HF;105;982791952;30;32;lymfoid_stadium_non_hodgkin
-2017;Innlandet HF;106;983971709;44;44;lymfoid_stadium_non_hodgkin
-2017;Vestre Viken HF;107;894166762;58;58;lymfoid_stadium_non_hodgkin
-2017;Telemark HF;108;983975267;28;29;lymfoid_stadium_non_hodgkin
-2017;Vestfold HF;109;983975259;44;47;lymfoid_stadium_non_hodgkin
-2017;Sørlandet HF;110;983975240;36;37;lymfoid_stadium_non_hodgkin
-2017;Helse Stavanger HF;1101;983974678;41;45;lymfoid_stadium_non_hodgkin
-2017;Helse Fonna HF;1102;983974694;15;17;lymfoid_stadium_non_hodgkin
-2017;Helse Bergen HF;1103;983974724;43;43;lymfoid_stadium_non_hodgkin
-2017;Haraldsplass HF;1104;984027737;22;22;lymfoid_stadium_non_hodgkin
-2017;Helse Møre og Romsdal HF;1501;997005562;42;46;lymfoid_stadium_non_hodgkin
-2017;St. Olavs HF;1502;883974832;59;65;lymfoid_stadium_non_hodgkin
-2017;Nord-Trøndelag HF;1503;983974791;25;31;lymfoid_stadium_non_hodgkin
-2017;Nordlandssykehuset HF;1802;983974910;29;29;lymfoid_stadium_non_hodgkin
-2017;UNN HF;1803;983974899;16;18;lymfoid_stadium_non_hodgkin
-2017;Helse Finnmark HF;1804;983974880;8;10;lymfoid_stadium_non_hodgkin
-2017;Norge;9999;1;10;13;lymfoid_stadium_non_hodgkin
-2016;Østfold HF;101;983971768;40;43;lymfoid_stadium_non_hodgkin
-2016;Akershus HF;102;983971636;44;45;lymfoid_stadium_non_hodgkin
-2016;OUS HF;103;993467049;47;48;lymfoid_stadium_non_hodgkin
-2016;Lovisenberg HF;104;965985166;10;12;lymfoid_stadium_non_hodgkin
-2016;Diakonhjemmet HF;105;982791952;18;18;lymfoid_stadium_non_hodgkin
-2016;Innlandet HF;106;983971709;37;38;lymfoid_stadium_non_hodgkin
-2016;Vestre Viken HF;107;894166762;78;81;lymfoid_stadium_non_hodgkin
-2016;Telemark HF;108;983975267;29;29;lymfoid_stadium_non_hodgkin
-2016;Vestfold HF;109;983975259;42;43;lymfoid_stadium_non_hodgkin
-2016;Sørlandet HF;110;983975240;43;44;lymfoid_stadium_non_hodgkin
-2016;Helse Stavanger HF;1101;983974678;58;59;lymfoid_stadium_non_hodgkin
-2016;Helse Fonna HF;1102;983974694;24;25;lymfoid_stadium_non_hodgkin
-2016;Helse Bergen HF;1103;983974724;41;43;lymfoid_stadium_non_hodgkin
-2016;Haraldsplass HF;1104;984027737;23;24;lymfoid_stadium_non_hodgkin
-2016;Helse Førde HF;1105;983974732;13;16;lymfoid_stadium_non_hodgkin
-2016;Helse Møre og Romsdal HF;1501;997005562;41;44;lymfoid_stadium_non_hodgkin
-2016;St. Olavs HF;1502;883974832;43;46;lymfoid_stadium_non_hodgkin
-2016;Nord-Trøndelag HF;1503;983974791;25;26;lymfoid_stadium_non_hodgkin
-2016;Helgeland HF;1801;983974929;6;10;lymfoid_stadium_non_hodgkin
-2016;Nordlandssykehuset HF;1802;983974910;23;23;lymfoid_stadium_non_hodgkin
-2016;UNN HF;1803;983974899;13;15;lymfoid_stadium_non_hodgkin
-2016;Norge;9999;1;6;7;lymfoid_stadium_non_hodgkin
-2015;Østfold HF;101;983971768;32;33;lymfoid_stadium_non_hodgkin
-2015;Akershus HF;102;983971636;46;51;lymfoid_stadium_non_hodgkin
-2015;OUS HF;103;993467049;37;40;lymfoid_stadium_non_hodgkin
-2015;Lovisenberg HF;104;965985166;15;15;lymfoid_stadium_non_hodgkin
-2015;Diakonhjemmet HF;105;982791952;19;20;lymfoid_stadium_non_hodgkin
-2015;Innlandet HF;106;983971709;52;52;lymfoid_stadium_non_hodgkin
-2015;Vestre Viken HF;107;894166762;70;75;lymfoid_stadium_non_hodgkin
-2015;Telemark HF;108;983975267;37;37;lymfoid_stadium_non_hodgkin
-2015;Vestfold HF;109;983975259;35;38;lymfoid_stadium_non_hodgkin
-2015;Sørlandet HF;110;983975240;41;42;lymfoid_stadium_non_hodgkin
-2015;Helse Stavanger HF;1101;983974678;63;66;lymfoid_stadium_non_hodgkin
-2015;Helse Fonna HF;1102;983974694;41;45;lymfoid_stadium_non_hodgkin
-2015;Helse Bergen HF;1103;983974724;33;36;lymfoid_stadium_non_hodgkin
-2015;Haraldsplass HF;1104;984027737;19;19;lymfoid_stadium_non_hodgkin
-2015;Helse Førde HF;1105;983974732;13;15;lymfoid_stadium_non_hodgkin
-2015;Helse Møre og Romsdal HF;1501;997005562;36;37;lymfoid_stadium_non_hodgkin
-2015;St. Olavs HF;1502;883974832;60;63;lymfoid_stadium_non_hodgkin
-2015;Nord-Trøndelag HF;1503;983974791;30;32;lymfoid_stadium_non_hodgkin
-2015;Helgeland HF;1801;983974929;15;16;lymfoid_stadium_non_hodgkin
-2015;Nordlandssykehuset HF;1802;983974910;31;34;lymfoid_stadium_non_hodgkin
-2015;UNN HF;1803;983974899;23;26;lymfoid_stadium_non_hodgkin
-2015;Helse Finnmark HF;1804;983974880;11;12;lymfoid_stadium_non_hodgkin
-2015;Norge;9999;1;0;0;lymfoid_stadium_non_hodgkin
-2014;Østfold HF;101;983971768;32;40;lymfoid_stadium_non_hodgkin
-2014;Akershus HF;102;983971636;64;71;lymfoid_stadium_non_hodgkin
-2014;OUS HF;103;993467049;28;31;lymfoid_stadium_non_hodgkin
-2014;Lovisenberg HF;104;965985166;10;11;lymfoid_stadium_non_hodgkin
-2014;Diakonhjemmet HF;105;982791952;15;16;lymfoid_stadium_non_hodgkin
-2014;Innlandet HF;106;983971709;46;51;lymfoid_stadium_non_hodgkin
-2014;Vestre Viken HF;107;894166762;84;86;lymfoid_stadium_non_hodgkin
-2014;Telemark HF;108;983975267;28;28;lymfoid_stadium_non_hodgkin
-2014;Vestfold HF;109;983975259;34;37;lymfoid_stadium_non_hodgkin
-2014;Sørlandet HF;110;983975240;52;55;lymfoid_stadium_non_hodgkin
-2014;Helse Stavanger HF;1101;983974678;62;65;lymfoid_stadium_non_hodgkin
-2014;Helse Fonna HF;1102;983974694;26;30;lymfoid_stadium_non_hodgkin
-2014;Helse Bergen HF;1103;983974724;48;56;lymfoid_stadium_non_hodgkin
-2014;Haraldsplass HF;1104;984027737;16;17;lymfoid_stadium_non_hodgkin
-2014;Helse Førde HF;1105;983974732;13;18;lymfoid_stadium_non_hodgkin
-2014;Helse Møre og Romsdal HF;1501;997005562;39;48;lymfoid_stadium_non_hodgkin
-2014;St. Olavs HF;1502;883974832;59;60;lymfoid_stadium_non_hodgkin
-2014;Nord-Trøndelag HF;1503;983974791;16;20;lymfoid_stadium_non_hodgkin
-2014;Helgeland HF;1801;983974929;15;17;lymfoid_stadium_non_hodgkin
-2014;Nordlandssykehuset HF;1802;983974910;23;26;lymfoid_stadium_non_hodgkin
-2014;UNN HF;1803;983974899;22;28;lymfoid_stadium_non_hodgkin
-2014;Norge;9999;1;9;9;lymfoid_stadium_non_hodgkin
-2013;Østfold HF;101;983971768;34;37;lymfoid_stadium_non_hodgkin
-2013;Akershus HF;102;983971636;82;89;lymfoid_stadium_non_hodgkin
-2013;OUS HF;103;993467049;33;35;lymfoid_stadium_non_hodgkin
-2013;Lovisenberg HF;104;965985166;14;14;lymfoid_stadium_non_hodgkin
-2013;Diakonhjemmet HF;105;982791952;19;22;lymfoid_stadium_non_hodgkin
-2013;Innlandet HF;106;983971709;43;50;lymfoid_stadium_non_hodgkin
-2013;Vestre Viken HF;107;894166762;73;80;lymfoid_stadium_non_hodgkin
-2013;Telemark HF;108;983975267;29;30;lymfoid_stadium_non_hodgkin
-2013;Vestfold HF;109;983975259;42;47;lymfoid_stadium_non_hodgkin
-2013;Sørlandet HF;110;983975240;51;56;lymfoid_stadium_non_hodgkin
-2013;Helse Stavanger HF;1101;983974678;41;48;lymfoid_stadium_non_hodgkin
-2013;Helse Fonna HF;1102;983974694;23;28;lymfoid_stadium_non_hodgkin
-2013;Helse Bergen HF;1103;983974724;25;30;lymfoid_stadium_non_hodgkin
-2013;Haraldsplass HF;1104;984027737;11;11;lymfoid_stadium_non_hodgkin
-2013;Helse Førde HF;1105;983974732;13;16;lymfoid_stadium_non_hodgkin
-2013;Helse Møre og Romsdal HF;1501;997005562;42;47;lymfoid_stadium_non_hodgkin
-2013;St. Olavs HF;1502;883974832;67;71;lymfoid_stadium_non_hodgkin
-2013;Nord-Trøndelag HF;1503;983974791;30;37;lymfoid_stadium_non_hodgkin
-2013;Helgeland HF;1801;983974929;9;10;lymfoid_stadium_non_hodgkin
-2013;Nordlandssykehuset HF;1802;983974910;28;32;lymfoid_stadium_non_hodgkin
-2013;UNN HF;1803;983974899;26;26;lymfoid_stadium_non_hodgkin
-2013;Helse Finnmark HF;1804;983974880;6;10;lymfoid_stadium_non_hodgkin
-2013;Norge;9999;1;0;0;lymfoid_stadium_non_hodgkin
-2012;Østfold HF;101;983971768;36;42;lymfoid_stadium_non_hodgkin
-2012;Akershus HF;102;983971636;69;77;lymfoid_stadium_non_hodgkin
-2012;OUS HF;103;993467049;33;37;lymfoid_stadium_non_hodgkin
-2012;Lovisenberg HF;104;965985166;12;12;lymfoid_stadium_non_hodgkin
-2012;Diakonhjemmet HF;105;982791952;27;30;lymfoid_stadium_non_hodgkin
-2012;Innlandet HF;106;983971709;55;62;lymfoid_stadium_non_hodgkin
-2012;Vestre Viken HF;107;894166762;78;82;lymfoid_stadium_non_hodgkin
-2012;Telemark HF;108;983975267;27;30;lymfoid_stadium_non_hodgkin
-2012;Vestfold HF;109;983975259;23;27;lymfoid_stadium_non_hodgkin
-2012;Sørlandet HF;110;983975240;53;55;lymfoid_stadium_non_hodgkin
-2012;Helse Stavanger HF;1101;983974678;44;52;lymfoid_stadium_non_hodgkin
-2012;Helse Fonna HF;1102;983974694;20;24;lymfoid_stadium_non_hodgkin
-2012;Helse Bergen HF;1103;983974724;35;41;lymfoid_stadium_non_hodgkin
-2012;Haraldsplass HF;1104;984027737;10;14;lymfoid_stadium_non_hodgkin
-2012;Helse Førde HF;1105;983974732;19;22;lymfoid_stadium_non_hodgkin
-2012;Helse Møre og Romsdal HF;1501;997005562;42;46;lymfoid_stadium_non_hodgkin
-2012;St. Olavs HF;1502;883974832;53;64;lymfoid_stadium_non_hodgkin
-2012;Nord-Trøndelag HF;1503;983974791;23;27;lymfoid_stadium_non_hodgkin
-2012;Helgeland HF;1801;983974929;11;17;lymfoid_stadium_non_hodgkin
-2012;Nordlandssykehuset HF;1802;983974910;22;27;lymfoid_stadium_non_hodgkin
-2012;UNN HF;1803;983974899;25;27;lymfoid_stadium_non_hodgkin
-2012;Helse Finnmark HF;1804;983974880;9;11;lymfoid_stadium_non_hodgkin
-2012;Norge;9999;1;0;0;lymfoid_stadium_non_hodgkin
-2011;Østfold HF;101;983971768;33;36;lymfoid_stadium_non_hodgkin
-2011;Akershus HF;102;983971636;68;75;lymfoid_stadium_non_hodgkin
-2011;OUS HF;103;993467049;37;39;lymfoid_stadium_non_hodgkin
-2011;Diakonhjemmet HF;105;982791952;19;21;lymfoid_stadium_non_hodgkin
-2011;Innlandet HF;106;983971709;45;53;lymfoid_stadium_non_hodgkin
-2011;Vestre Viken HF;107;894166762;66;67;lymfoid_stadium_non_hodgkin
-2011;Telemark HF;108;983975267;25;29;lymfoid_stadium_non_hodgkin
-2011;Vestfold HF;109;983975259;36;38;lymfoid_stadium_non_hodgkin
-2011;Sørlandet HF;110;983975240;51;55;lymfoid_stadium_non_hodgkin
-2011;Helse Stavanger HF;1101;983974678;41;42;lymfoid_stadium_non_hodgkin
-2011;Helse Fonna HF;1102;983974694;23;32;lymfoid_stadium_non_hodgkin
-2011;Helse Bergen HF;1103;983974724;29;37;lymfoid_stadium_non_hodgkin
-2011;Haraldsplass HF;1104;984027737;19;21;lymfoid_stadium_non_hodgkin
-2011;Helse Førde HF;1105;983974732;10;15;lymfoid_stadium_non_hodgkin
-2011;Helse Møre og Romsdal HF;1501;997005562;37;43;lymfoid_stadium_non_hodgkin
-2011;St. Olavs HF;1502;883974832;40;44;lymfoid_stadium_non_hodgkin
-2011;Nord-Trøndelag HF;1503;983974791;15;19;lymfoid_stadium_non_hodgkin
-2011;Helgeland HF;1801;983974929;13;16;lymfoid_stadium_non_hodgkin
-2011;Nordlandssykehuset HF;1802;983974910;24;32;lymfoid_stadium_non_hodgkin
-2011;UNN HF;1803;983974899;38;42;lymfoid_stadium_non_hodgkin
-2011;Helse Finnmark HF;1804;983974880;15;17;lymfoid_stadium_non_hodgkin
-2011;Norge;9999;1;8;9;lymfoid_stadium_non_hodgkin
-2019;Østfold HF;101;983971768;26;26;lymfoid_flowcytometri
-2019;Akershus HF;102;983971636;38;41;lymfoid_flowcytometri
-2019;OUS HF;103;993467049;13;14;lymfoid_flowcytometri
-2019;Lovisenberg HF;104;965985166;11;11;lymfoid_flowcytometri
-2019;Innlandet HF;106;983971709;29;29;lymfoid_flowcytometri
-2019;Vestre Viken HF;107;894166762;34;34;lymfoid_flowcytometri
-2019;Vestfold HF;109;983975259;17;17;lymfoid_flowcytometri
-2019;Sørlandet HF;110;983975240;10;10;lymfoid_flowcytometri
-2019;Helse Stavanger HF;1101;983974678;18;22;lymfoid_flowcytometri
-2019;Helse Bergen HF;1103;983974724;9;11;lymfoid_flowcytometri
-2019;Helse Førde HF;1105;983974732;10;10;lymfoid_flowcytometri
-2019;Helse Møre og Romsdal HF;1501;997005562;11;15;lymfoid_flowcytometri
-2019;St. Olavs HF;1502;883974832;8;10;lymfoid_flowcytometri
-2019;Nord-Trøndelag HF;1503;983974791;9;10;lymfoid_flowcytometri
-2019;Norge;9999;1;36;43;lymfoid_flowcytometri
-2018;Østfold HF;101;983971768;12;12;lymfoid_flowcytometri
-2018;Akershus HF;102;983971636;30;31;lymfoid_flowcytometri
-2018;OUS HF;103;993467049;20;20;lymfoid_flowcytometri
-2018;Innlandet HF;106;983971709;21;21;lymfoid_flowcytometri
-2018;Vestre Viken HF;107;894166762;33;33;lymfoid_flowcytometri
-2018;Vestfold HF;109;983975259;17;17;lymfoid_flowcytometri
-2018;Sørlandet HF;110;983975240;14;14;lymfoid_flowcytometri
-2018;Helse Møre og Romsdal HF;1501;997005562;11;12;lymfoid_flowcytometri
-2018;Nord-Trøndelag HF;1503;983974791;14;16;lymfoid_flowcytometri
-2018;Norge;9999;1;82;85;lymfoid_flowcytometri
-2017;Østfold HF;101;983971768;21;21;lymfoid_flowcytometri
-2017;Akershus HF;102;983971636;32;33;lymfoid_flowcytometri
-2017;OUS HF;103;993467049;16;16;lymfoid_flowcytometri
-2017;Diakonhjemmet HF;105;982791952;11;11;lymfoid_flowcytometri
-2017;Innlandet HF;106;983971709;21;22;lymfoid_flowcytometri
-2017;Vestre Viken HF;107;894166762;30;30;lymfoid_flowcytometri
-2017;Telemark HF;108;983975267;10;10;lymfoid_flowcytometri
-2017;Vestfold HF;109;983975259;20;20;lymfoid_flowcytometri
-2017;Sørlandet HF;110;983975240;18;18;lymfoid_flowcytometri
-2017;Helse Stavanger HF;1101;983974678;15;17;lymfoid_flowcytometri
-2017;Helse Møre og Romsdal HF;1501;997005562;11;11;lymfoid_flowcytometri
-2017;St. Olavs HF;1502;883974832;12;12;lymfoid_flowcytometri
-2017;Nord-Trøndelag HF;1503;983974791;14;20;lymfoid_flowcytometri
-2017;Norge;9999;1;38;40;lymfoid_flowcytometri
-2016;Østfold HF;101;983971768;32;32;lymfoid_flowcytometri
-2016;Akershus HF;102;983971636;36;36;lymfoid_flowcytometri
-2016;OUS HF;103;993467049;16;16;lymfoid_flowcytometri
-2016;Innlandet HF;106;983971709;35;36;lymfoid_flowcytometri
-2016;Vestre Viken HF;107;894166762;30;31;lymfoid_flowcytometri
-2016;Telemark HF;108;983975267;11;11;lymfoid_flowcytometri
-2016;Vestfold HF;109;983975259;20;20;lymfoid_flowcytometri
-2016;Sørlandet HF;110;983975240;14;14;lymfoid_flowcytometri
-2016;Helse Stavanger HF;1101;983974678;19;23;lymfoid_flowcytometri
-2016;Helse Bergen HF;1103;983974724;13;16;lymfoid_flowcytometri
-2016;Helse Møre og Romsdal HF;1501;997005562;12;15;lymfoid_flowcytometri
-2016;St. Olavs HF;1502;883974832;9;11;lymfoid_flowcytometri
-2016;Nord-Trøndelag HF;1503;983974791;10;18;lymfoid_flowcytometri
-2016;Norge;9999;1;37;39;lymfoid_flowcytometri
-2015;Østfold HF;101;983971768;16;16;lymfoid_flowcytometri
-2015;Akershus HF;102;983971636;37;40;lymfoid_flowcytometri
-2015;OUS HF;103;993467049;23;23;lymfoid_flowcytometri
-2015;Innlandet HF;106;983971709;20;20;lymfoid_flowcytometri
-2015;Vestre Viken HF;107;894166762;37;38;lymfoid_flowcytometri
-2015;Telemark HF;108;983975267;17;17;lymfoid_flowcytometri
-2015;Vestfold HF;109;983975259;21;22;lymfoid_flowcytometri
-2015;Sørlandet HF;110;983975240;15;15;lymfoid_flowcytometri
-2015;Helse Stavanger HF;1101;983974678;18;22;lymfoid_flowcytometri
-2015;Helse Bergen HF;1103;983974724;13;16;lymfoid_flowcytometri
-2015;Helse Møre og Romsdal HF;1501;997005562;13;18;lymfoid_flowcytometri
-2015;St. Olavs HF;1502;883974832;10;14;lymfoid_flowcytometri
-2015;Nord-Trøndelag HF;1503;983974791;9;17;lymfoid_flowcytometri
-2015;UNN HF;1803;983974899;7;10;lymfoid_flowcytometri
-2015;Norge;9999;1;28;42;lymfoid_flowcytometri
-2014;Akershus HF;102;983971636;32;38;lymfoid_flowcytometri
-2014;OUS HF;103;993467049;14;14;lymfoid_flowcytometri
-2014;Innlandet HF;106;983971709;16;18;lymfoid_flowcytometri
-2014;Vestre Viken HF;107;894166762;37;38;lymfoid_flowcytometri
-2014;Telemark HF;108;983975267;12;12;lymfoid_flowcytometri
-2014;Vestfold HF;109;983975259;24;25;lymfoid_flowcytometri
-2014;Sørlandet HF;110;983975240;10;11;lymfoid_flowcytometri
-2014;Helse Stavanger HF;1101;983974678;12;17;lymfoid_flowcytometri
-2014;Helse Bergen HF;1103;983974724;7;11;lymfoid_flowcytometri
-2014;Helse Møre og Romsdal HF;1501;997005562;9;13;lymfoid_flowcytometri
-2014;St. Olavs HF;1502;883974832;9;14;lymfoid_flowcytometri
-2014;Nord-Trøndelag HF;1503;983974791;7;13;lymfoid_flowcytometri
-2014;Norge;9999;1;37;46;lymfoid_flowcytometri
-2013;Østfold HF;101;983971768;11;12;lymfoid_flowcytometri
-2013;Akershus HF;102;983971636;27;27;lymfoid_flowcytometri
-2013;OUS HF;103;993467049;15;16;lymfoid_flowcytometri
-2013;Diakonhjemmet HF;105;982791952;14;15;lymfoid_flowcytometri
-2013;Innlandet HF;106;983971709;16;20;lymfoid_flowcytometri
-2013;Vestre Viken HF;107;894166762;20;20;lymfoid_flowcytometri
-2013;Telemark HF;108;983975267;15;15;lymfoid_flowcytometri
-2013;Vestfold HF;109;983975259;17;18;lymfoid_flowcytometri
-2013;Sørlandet HF;110;983975240;17;18;lymfoid_flowcytometri
-2013;Helse Stavanger HF;1101;983974678;11;13;lymfoid_flowcytometri
-2013;Helse Bergen HF;1103;983974724;6;10;lymfoid_flowcytometri
-2013;Haraldsplass HF;1104;984027737;8;15;lymfoid_flowcytometri
-2013;Helse Møre og Romsdal HF;1501;997005562;7;12;lymfoid_flowcytometri
-2013;St. Olavs HF;1502;883974832;10;15;lymfoid_flowcytometri
-2013;Norge;9999;1;24;40;lymfoid_flowcytometri
-2012;Østfold HF;101;983971768;14;14;lymfoid_flowcytometri
-2012;Akershus HF;102;983971636;18;20;lymfoid_flowcytometri
-2012;OUS HF;103;993467049;13;13;lymfoid_flowcytometri
-2012;Innlandet HF;106;983971709;18;19;lymfoid_flowcytometri
-2012;Vestre Viken HF;107;894166762;37;38;lymfoid_flowcytometri
-2012;Telemark HF;108;983975267;10;11;lymfoid_flowcytometri
-2012;Vestfold HF;109;983975259;17;19;lymfoid_flowcytometri
-2012;Sørlandet HF;110;983975240;15;16;lymfoid_flowcytometri
-2012;Helse Stavanger HF;1101;983974678;17;21;lymfoid_flowcytometri
-2012;Helse Fonna HF;1102;983974694;7;11;lymfoid_flowcytometri
-2012;Helse Bergen HF;1103;983974724;9;16;lymfoid_flowcytometri
-2012;Helse Førde HF;1105;983974732;9;10;lymfoid_flowcytometri
-2012;St. Olavs HF;1502;883974832;11;18;lymfoid_flowcytometri
-2012;Norge;9999;1;32;49;lymfoid_flowcytometri
-2011;Akershus HF;102;983971636;30;33;lymfoid_flowcytometri
-2011;OUS HF;103;993467049;12;14;lymfoid_flowcytometri
-2011;Innlandet HF;106;983971709;23;25;lymfoid_flowcytometri
-2011;Vestre Viken HF;107;894166762;37;42;lymfoid_flowcytometri
-2011;Telemark HF;108;983975267;14;14;lymfoid_flowcytometri
-2011;Vestfold HF;109;983975259;14;16;lymfoid_flowcytometri
-2011;Sørlandet HF;110;983975240;12;16;lymfoid_flowcytometri
-2011;Helse Stavanger HF;1101;983974678;13;19;lymfoid_flowcytometri
-2011;Helse Bergen HF;1103;983974724;5;13;lymfoid_flowcytometri
-2011;Helse Møre og Romsdal HF;1501;997005562;8;12;lymfoid_flowcytometri
-2011;St. Olavs HF;1502;883974832;8;13;lymfoid_flowcytometri
-2011;Nord-Trøndelag HF;1503;983974791;5;10;lymfoid_flowcytometri
-2011;Norge;9999;1;32;45;lymfoid_flowcytometri
-2019;Norge;99;1;82;97;lymfoid_biopsi
-2019;Diakonhjemmet;105;974116804;19;23;lymfoid_biopsi
-2019;Vestre Viken, Bærum;202;974705788;24;24;lymfoid_biopsi
-2019;Ahus, Lørenskog;208;974706490;34;34;lymfoid_biopsi
-2019;OUS, Ullevål;320;974589095;22;22;lymfoid_biopsi
-2019;Sykehuset Innlandet, Gjøvik;501;974632535;16;16;lymfoid_biopsi
-2019;Sykehuset Innlandet, Lillehammer;502;874632562;15;15;lymfoid_biopsi
-2019;Sykehuset i Vestfold, Tønsberg;707;974633574;33;34;lymfoid_biopsi
-2019;Sykehuset Telemark, Skien;808;974633191;14;16;lymfoid_biopsi
-2019;Sørlandet Sykehus, Kristiansand;1005;974733013;12;18;lymfoid_biopsi
-2019;Stavanger universitetssjukehus;1107;974703300;34;37;lymfoid_biopsi
-2019;Haukeland universitetssjukehus;1305;974557746;29;33;lymfoid_biopsi
-2019;Helse-Førde, Førde;1406;974744570;12;12;lymfoid_biopsi
-2019;St. Olavs hospital;1608;974749025;23;25;lymfoid_biopsi
-2019;Helse Nord-Trøndelag, Levanger;1701;974754118;6;10;lymfoid_biopsi
-2019;Nordlandssykehuset, Bodø;1801;974795361;10;12;lymfoid_biopsi
-2019;UNN, Tromsø;1903;974795787;10;16;lymfoid_biopsi
-2018;Norge;99;1;85;103;lymfoid_biopsi
-2018;Diakonhjemmet;105;974116804;22;24;lymfoid_biopsi
-2018;Vestre Viken, Bærum;202;974705788;16;16;lymfoid_biopsi
-2018;Ahus, Lørenskog;208;974706490;29;30;lymfoid_biopsi
-2018;OUS, Ullevål;320;974589095;23;23;lymfoid_biopsi
-2018;Sykehuset Innlandet, Hamar;403;974724960;10;10;lymfoid_biopsi
-2018;Sykehuset Innlandet, Gjøvik;501;974632535;10;12;lymfoid_biopsi
-2018;Vestre Viken, Drammen;601;974631326;5;16;lymfoid_biopsi
-2018;Vestre Viken, Hønefoss;605;974631407;9;12;lymfoid_biopsi
-2018;Sykehuset i Vestfold, Tønsberg;707;974633574;11;20;lymfoid_biopsi
-2018;Sykehuset Telemark, Skien;808;974633191;9;10;lymfoid_biopsi
-2018;Sørlandet Sykehus, Kristiansand;1005;974733013;12;16;lymfoid_biopsi
-2018;Stavanger universitetssjukehus;1107;974703300;16;25;lymfoid_biopsi
-2018;Haukeland universitetssjukehus;1305;974557746;31;37;lymfoid_biopsi
-2018;Helse-Førde, Førde;1406;974744570;15;15;lymfoid_biopsi
-2018;St. Olavs hospital;1608;974749025;27;31;lymfoid_biopsi
-2018;Helse Nord-Trøndelag, Levanger;1701;974754118;8;10;lymfoid_biopsi
-2018;Nordlandssykehuset, Bodø;1801;974795361;10;14;lymfoid_biopsi
-2018;UNN, Tromsø;1903;974795787;8;13;lymfoid_biopsi
-2017;Norge;99;1;104;126;lymfoid_biopsi
-2017;Diakonhjemmet;105;974116804;27;29;lymfoid_biopsi
-2017;Vestre Viken, Bærum;202;974705788;18;18;lymfoid_biopsi
-2017;Ahus, Lørenskog;208;974706490;40;42;lymfoid_biopsi
-2017;OUS, Ullevål;320;974589095;13;18;lymfoid_biopsi
-2017;Sykehuset Innlandet, Gjøvik;501;974632535;14;16;lymfoid_biopsi
-2017;Sykehuset Innlandet, Lillehammer;502;874632562;17;17;lymfoid_biopsi
-2017;Sykehuset i Vestfold, Tønsberg;707;974633574;9;19;lymfoid_biopsi
-2017;Sykehuset Telemark, Skien;808;974633191;15;16;lymfoid_biopsi
-2017;Sørlandet Sykehus, Kristiansand;1005;974733013;9;12;lymfoid_biopsi
-2017;Stavanger universitetssjukehus;1107;974703300;11;16;lymfoid_biopsi
-2017;Haukeland universitetssjukehus;1305;974557746;28;35;lymfoid_biopsi
-2017;Helse-Førde, Førde;1406;974744570;11;12;lymfoid_biopsi
-2017;Helse Møre og Romsdal, Ålesund;1504;974747138;7;12;lymfoid_biopsi
-2017;St. Olavs hospital;1608;974749025;17;20;lymfoid_biopsi
-2017;Nordlandssykehuset, Bodø;1801;974795361;6;12;lymfoid_biopsi
-2019;Norge;99;1;53;97;lymfoid_fish
-2019;Diakonhjemmet;105;974116804;15;23;lymfoid_fish
-2019;Vestre Viken, Bærum;202;974705788;10;24;lymfoid_fish
-2019;Ahus, Lørenskog;208;974706490;3;34;lymfoid_fish
-2019;OUS, Ullevål;320;974589095;19;22;lymfoid_fish
-2019;Sykehuset Innlandet, Gjøvik;501;974632535;10;16;lymfoid_fish
-2019;Sykehuset Innlandet, Lillehammer;502;874632562;11;15;lymfoid_fish
-2019;Sykehuset i Vestfold, Tønsberg;707;974633574;22;34;lymfoid_fish
-2019;Sykehuset Telemark, Skien;808;974633191;13;16;lymfoid_fish
-2019;Sørlandet Sykehus, Kristiansand;1005;974733013;11;18;lymfoid_fish
-2019;Stavanger universitetssjukehus;1107;974703300;27;37;lymfoid_fish
-2019;Haukeland universitetssjukehus;1305;974557746;17;33;lymfoid_fish
-2019;Helse-Førde, Førde;1406;974744570;10;12;lymfoid_fish
-2019;St. Olavs hospital;1608;974749025;20;25;lymfoid_fish
-2019;Helse Nord-Trøndelag, Levanger;1701;974754118;4;10;lymfoid_fish
-2019;Nordlandssykehuset, Bodø;1801;974795361;6;12;lymfoid_fish
-2019;UNN, Tromsø;1903;974795787;12;16;lymfoid_fish
+"year";"orgnr";"var";"ind_id";"denominator"
+2019;1;27;"lymfoid_dekgrad_utred";66
+2019;974116804;33;"lymfoid_dekgrad_utred";119
+2019;974705788;16;"lymfoid_dekgrad_utred";54
+2019;974706490;19;"lymfoid_dekgrad_utred";152
+2019;993467049;206;"lymfoid_dekgrad_utred";344
+2019;974116804;1;"lymfoid_dekgrad_utred";25
+2019;974207532;18;"lymfoid_dekgrad_utred";25
+2019;974631776;2;"lymfoid_dekgrad_utred";12
+2019;974724960;7;"lymfoid_dekgrad_utred";18
+2019;974631768;5;"lymfoid_dekgrad_utred";30
+2019;974632535;5;"lymfoid_dekgrad_utred";44
+2019;874632562;24;"lymfoid_dekgrad_utred";55
+2019;974631326;30;"lymfoid_dekgrad_utred";57
+2019;974631385;10;"lymfoid_dekgrad_utred";15
+2019;974631407;8;"lymfoid_dekgrad_utred";21
+2019;974633574;101;"lymfoid_dekgrad_utred";113
+2019;974633159;13;"lymfoid_dekgrad_utred";15
+2019;974633191;53;"lymfoid_dekgrad_utred";59
+2019;974733013;22;"lymfoid_dekgrad_utred";90
+2019;974724774;26;"lymfoid_dekgrad_utred";46
+2019;974703300;102;"lymfoid_dekgrad_utred";139
+2019;974316285;12;"lymfoid_dekgrad_utred";19
+2019;974557746;118;"lymfoid_dekgrad_utred";195
+2019;974744570;33;"lymfoid_dekgrad_utred";43
+2019;974746948;4;"lymfoid_dekgrad_utred";14
+2019;974745569;8;"lymfoid_dekgrad_utred";24
+2019;974747138;8;"lymfoid_dekgrad_utred";50
+2019;974749025;98;"lymfoid_dekgrad_utred";180
+2019;974754118;39;"lymfoid_dekgrad_utred";45
+2019;974795361;42;"lymfoid_dekgrad_utred";44
+2019;974795787;64;"lymfoid_dekgrad_utred";110
+2018;1;62;"lymfoid_dekgrad_utred";87
+2018;974116804;26;"lymfoid_dekgrad_utred";82
+2018;974705788;24;"lymfoid_dekgrad_utred";37
+2018;974706490;54;"lymfoid_dekgrad_utred";137
+2018;993467049;370;"lymfoid_dekgrad_utred";404
+2018;974116804;1;"lymfoid_dekgrad_utred";28
+2018;974207532;25;"lymfoid_dekgrad_utred";25
+2018;974631776;5;"lymfoid_dekgrad_utred";11
+2018;974724960;10;"lymfoid_dekgrad_utred";22
+2018;974631768;2;"lymfoid_dekgrad_utred";17
+2018;974632535;7;"lymfoid_dekgrad_utred";35
+2018;874632562;15;"lymfoid_dekgrad_utred";33
+2018;974631326;46;"lymfoid_dekgrad_utred";60
+2018;974631385;11;"lymfoid_dekgrad_utred";15
+2018;974631407;14;"lymfoid_dekgrad_utred";29
+2018;974633574;88;"lymfoid_dekgrad_utred";95
+2018;974633191;49;"lymfoid_dekgrad_utred";51
+2018;974733013;67;"lymfoid_dekgrad_utred";76
+2018;974724774;22;"lymfoid_dekgrad_utred";40
+2018;974703300;114;"lymfoid_dekgrad_utred";138
+2018;974557746;142;"lymfoid_dekgrad_utred";193
+2018;974744570;20;"lymfoid_dekgrad_utred";37
+2018;974746948;11;"lymfoid_dekgrad_utred";11
+2018;974745569;25;"lymfoid_dekgrad_utred";28
+2018;974747545;1;"lymfoid_dekgrad_utred";11
+2018;974747138;17;"lymfoid_dekgrad_utred";43
+2018;974749025;126;"lymfoid_dekgrad_utred";149
+2018;974754118;47;"lymfoid_dekgrad_utred";49
+2018;974753898;4;"lymfoid_dekgrad_utred";14
+2018;974795361;55;"lymfoid_dekgrad_utred";59
+2018;974795787;61;"lymfoid_dekgrad_utred";113
+2018;974795833;10;"lymfoid_dekgrad_utred";12
+2017;1;34;"lymfoid_dekgrad_utred";57
+2017;974116804;19;"lymfoid_dekgrad_utred";86
+2017;974705788;23;"lymfoid_dekgrad_utred";47
+2017;974706490;6;"lymfoid_dekgrad_utred";115
+2017;993467049;352;"lymfoid_dekgrad_utred";395
+2017;974116804;4;"lymfoid_dekgrad_utred";28
+2017;974207532;18;"lymfoid_dekgrad_utred";19
+2017;974631776;3;"lymfoid_dekgrad_utred";12
+2017;974724960;2;"lymfoid_dekgrad_utred";10
+2017;974631768;2;"lymfoid_dekgrad_utred";16
+2017;974632535;8;"lymfoid_dekgrad_utred";40
+2017;874632562;12;"lymfoid_dekgrad_utred";43
+2017;974631326;25;"lymfoid_dekgrad_utred";38
+2017;974631385;7;"lymfoid_dekgrad_utred";14
+2017;974631407;19;"lymfoid_dekgrad_utred";31
+2017;974633574;85;"lymfoid_dekgrad_utred";97
+2017;974633191;47;"lymfoid_dekgrad_utred";50
+2017;974631091;8;"lymfoid_dekgrad_utred";12
+2017;974733013;55;"lymfoid_dekgrad_utred";68
+2017;974724774;15;"lymfoid_dekgrad_utred";27
+2017;974703300;83;"lymfoid_dekgrad_utred";102
+2017;974316285;8;"lymfoid_dekgrad_utred";10
+2017;974557746;130;"lymfoid_dekgrad_utred";177
+2017;974744570;22;"lymfoid_dekgrad_utred";34
+2017;974746948;25;"lymfoid_dekgrad_utred";26
+2017;974745569;7;"lymfoid_dekgrad_utred";34
+2017;974747545;2;"lymfoid_dekgrad_utred";13
+2017;974747138;28;"lymfoid_dekgrad_utred";40
+2017;974749025;165;"lymfoid_dekgrad_utred";169
+2017;974754118;43;"lymfoid_dekgrad_utred";45
+2017;974795361;48;"lymfoid_dekgrad_utred";51
+2017;974795787;49;"lymfoid_dekgrad_utred";80
+2016;1;40;"lymfoid_dekgrad_utred";69
+2016;974116804;19;"lymfoid_dekgrad_utred";85
+2016;974705788;34;"lymfoid_dekgrad_utred";48
+2016;974706490;19;"lymfoid_dekgrad_utred";126
+2016;993467049;357;"lymfoid_dekgrad_utred";423
+2016;974116804;12;"lymfoid_dekgrad_utred";32
+2016;974207532;19;"lymfoid_dekgrad_utred";19
+2016;974631776;8;"lymfoid_dekgrad_utred";17
+2016;974724960;4;"lymfoid_dekgrad_utred";32
+2016;974631768;2;"lymfoid_dekgrad_utred";12
+2016;974632535;10;"lymfoid_dekgrad_utred";39
+2016;874632562;0;"lymfoid_dekgrad_utred";31
+2016;974631326;41;"lymfoid_dekgrad_utred";46
+2016;974631385;8;"lymfoid_dekgrad_utred";12
+2016;974631407;11;"lymfoid_dekgrad_utred";18
+2016;974633574;60;"lymfoid_dekgrad_utred";84
+2016;974633191;43;"lymfoid_dekgrad_utred";55
+2016;974631091;15;"lymfoid_dekgrad_utred";22
+2016;974733013;52;"lymfoid_dekgrad_utred";63
+2016;974724774;27;"lymfoid_dekgrad_utred";39
+2016;974703300;127;"lymfoid_dekgrad_utred";141
+2016;974316285;10;"lymfoid_dekgrad_utred";14
+2016;974557746;127;"lymfoid_dekgrad_utred";177
+2016;974744570;26;"lymfoid_dekgrad_utred";41
+2016;974746948;12;"lymfoid_dekgrad_utred";12
+2016;974745569;4;"lymfoid_dekgrad_utred";18
+2016;974747138;44;"lymfoid_dekgrad_utred";46
+2016;974749025;157;"lymfoid_dekgrad_utred";164
+2016;974754118;38;"lymfoid_dekgrad_utred";38
+2016;974753898;2;"lymfoid_dekgrad_utred";15
+2016;974795361;44;"lymfoid_dekgrad_utred";46
+2016;974795787;47;"lymfoid_dekgrad_utred";96
+2015;1;38;"lymfoid_dekgrad_utred";56
+2015;974116804;20;"lymfoid_dekgrad_utred";76
+2015;974705788;35;"lymfoid_dekgrad_utred";57
+2015;974706490;32;"lymfoid_dekgrad_utred";138
+2015;993467049;377;"lymfoid_dekgrad_utred";426
+2015;974116804;20;"lymfoid_dekgrad_utred";25
+2015;974207532;12;"lymfoid_dekgrad_utred";18
+2015;974631776;5;"lymfoid_dekgrad_utred";13
+2015;974724960;1;"lymfoid_dekgrad_utred";14
+2015;974631768;1;"lymfoid_dekgrad_utred";18
+2015;974632535;20;"lymfoid_dekgrad_utred";37
+2015;874632562;6;"lymfoid_dekgrad_utred";29
+2015;974631326;44;"lymfoid_dekgrad_utred";58
+2015;974631385;14;"lymfoid_dekgrad_utred";18
+2015;974631407;17;"lymfoid_dekgrad_utred";21
+2015;974633574;71;"lymfoid_dekgrad_utred";74
+2015;974633191;57;"lymfoid_dekgrad_utred";60
+2015;974631091;14;"lymfoid_dekgrad_utred";17
+2015;974733013;52;"lymfoid_dekgrad_utred";61
+2015;974724774;37;"lymfoid_dekgrad_utred";52
+2015;974703300;125;"lymfoid_dekgrad_utred";148
+2015;974316285;8;"lymfoid_dekgrad_utred";11
+2015;974557746;127;"lymfoid_dekgrad_utred";161
+2015;974744570;26;"lymfoid_dekgrad_utred";38
+2015;974746948;15;"lymfoid_dekgrad_utred";15
+2015;974745569;4;"lymfoid_dekgrad_utred";22
+2015;974747138;35;"lymfoid_dekgrad_utred";38
+2015;974749025;184;"lymfoid_dekgrad_utred";188
+2015;974754118;37;"lymfoid_dekgrad_utred";40
+2015;974753898;3;"lymfoid_dekgrad_utred";11
+2015;974795361;50;"lymfoid_dekgrad_utred";52
+2015;974795515;10;"lymfoid_dekgrad_utred";16
+2015;974795477;8;"lymfoid_dekgrad_utred";14
+2015;974795787;78;"lymfoid_dekgrad_utred";116
+2014;1;57;"lymfoid_dekgrad_utred";71
+2014;974116804;43;"lymfoid_dekgrad_utred";75
+2014;974705788;30;"lymfoid_dekgrad_utred";40
+2014;974706490;58;"lymfoid_dekgrad_utred";101
+2014;993467049;324;"lymfoid_dekgrad_utred";372
+2014;974116804;7;"lymfoid_dekgrad_utred";19
+2014;974207532;10;"lymfoid_dekgrad_utred";12
+2014;974631776;10;"lymfoid_dekgrad_utred";13
+2014;974724960;2;"lymfoid_dekgrad_utred";20
+2014;974631768;3;"lymfoid_dekgrad_utred";11
+2014;974632535;16;"lymfoid_dekgrad_utred";34
+2014;874632562;13;"lymfoid_dekgrad_utred";25
+2014;974631326;59;"lymfoid_dekgrad_utred";67
+2014;974631385;13;"lymfoid_dekgrad_utred";15
+2014;974631407;17;"lymfoid_dekgrad_utred";18
+2014;974633574;61;"lymfoid_dekgrad_utred";84
+2014;974633191;51;"lymfoid_dekgrad_utred";54
+2014;974631091;26;"lymfoid_dekgrad_utred";26
+2014;974733013;49;"lymfoid_dekgrad_utred";52
+2014;974724774;31;"lymfoid_dekgrad_utred";44
+2014;974703300;114;"lymfoid_dekgrad_utred";121
+2014;974557746;145;"lymfoid_dekgrad_utred";178
+2014;974744570;32;"lymfoid_dekgrad_utred";39
+2014;974746948;12;"lymfoid_dekgrad_utred";13
+2014;974745569;2;"lymfoid_dekgrad_utred";21
+2014;974747138;49;"lymfoid_dekgrad_utred";52
+2014;974749025;146;"lymfoid_dekgrad_utred";155
+2014;974754118;28;"lymfoid_dekgrad_utred";34
+2014;974753898;6;"lymfoid_dekgrad_utred";11
+2014;974795361;43;"lymfoid_dekgrad_utred";43
+2014;974795787;75;"lymfoid_dekgrad_utred";89
+2013;1;50;"lymfoid_dekgrad_utred";59
+2013;974116804;40;"lymfoid_dekgrad_utred";60
+2013;974705788;33;"lymfoid_dekgrad_utred";41
+2013;974706490;82;"lymfoid_dekgrad_utred";110
+2013;993467049;363;"lymfoid_dekgrad_utred";417
+2013;974116804;17;"lymfoid_dekgrad_utred";24
+2013;974207532;19;"lymfoid_dekgrad_utred";20
+2013;974631776;10;"lymfoid_dekgrad_utred";15
+2013;974724960;2;"lymfoid_dekgrad_utred";18
+2013;974631768;4;"lymfoid_dekgrad_utred";15
+2013;974632535;25;"lymfoid_dekgrad_utred";45
+2013;874632562;19;"lymfoid_dekgrad_utred";32
+2013;974631326;39;"lymfoid_dekgrad_utred";41
+2013;974631385;17;"lymfoid_dekgrad_utred";19
+2013;974631407;17;"lymfoid_dekgrad_utred";20
+2013;974633574;52;"lymfoid_dekgrad_utred";62
+2013;974633191;49;"lymfoid_dekgrad_utred";53
+2013;974631091;24;"lymfoid_dekgrad_utred";25
+2013;974733013;66;"lymfoid_dekgrad_utred";70
+2013;974724774;20;"lymfoid_dekgrad_utred";26
+2013;974703300;90;"lymfoid_dekgrad_utred";97
+2013;974743272;10;"lymfoid_dekgrad_utred";10
+2013;974557746;110;"lymfoid_dekgrad_utred";147
+2013;974744570;28;"lymfoid_dekgrad_utred";38
+2013;974746948;17;"lymfoid_dekgrad_utred";17
+2013;974745569;9;"lymfoid_dekgrad_utred";18
+2013;974747545;9;"lymfoid_dekgrad_utred";12
+2013;974747138;40;"lymfoid_dekgrad_utred";42
+2013;974749025;155;"lymfoid_dekgrad_utred";162
+2013;974754118;35;"lymfoid_dekgrad_utred";36
+2013;974753898;9;"lymfoid_dekgrad_utred";13
+2013;974795361;44;"lymfoid_dekgrad_utred";48
+2013;974795787;64;"lymfoid_dekgrad_utred";82
+2012;1;70;"lymfoid_dekgrad_utred";85
+2012;974116804;33;"lymfoid_dekgrad_utred";55
+2012;974705788;46;"lymfoid_dekgrad_utred";53
+2012;974706490;75;"lymfoid_dekgrad_utred";99
+2012;993467049;355;"lymfoid_dekgrad_utred";414
+2012;974116804;18;"lymfoid_dekgrad_utred";20
+2012;974207532;15;"lymfoid_dekgrad_utred";16
+2012;974724960;5;"lymfoid_dekgrad_utred";24
+2012;974631768;8;"lymfoid_dekgrad_utred";13
+2012;974632535;17;"lymfoid_dekgrad_utred";35
+2012;874632562;23;"lymfoid_dekgrad_utred";30
+2012;974631326;47;"lymfoid_dekgrad_utred";54
+2012;974631385;11;"lymfoid_dekgrad_utred";15
+2012;974631407;26;"lymfoid_dekgrad_utred";26
+2012;974633574;46;"lymfoid_dekgrad_utred";63
+2012;974633191;38;"lymfoid_dekgrad_utred";54
+2012;974631091;30;"lymfoid_dekgrad_utred";30
+2012;974733013;52;"lymfoid_dekgrad_utred";54
+2012;974724774;38;"lymfoid_dekgrad_utred";51
+2012;974703300;92;"lymfoid_dekgrad_utred";106
+2012;974557746;128;"lymfoid_dekgrad_utred";180
+2012;974744570;36;"lymfoid_dekgrad_utred";39
+2012;974746948;10;"lymfoid_dekgrad_utred";12
+2012;974745569;9;"lymfoid_dekgrad_utred";18
+2012;974747138;38;"lymfoid_dekgrad_utred";40
+2012;974749025;162;"lymfoid_dekgrad_utred";166
+2012;974754118;30;"lymfoid_dekgrad_utred";31
+2012;974795361;45;"lymfoid_dekgrad_utred";49
+2012;974795787;85;"lymfoid_dekgrad_utred";89
+2011;1;73;"lymfoid_dekgrad_utred";83
+2011;974116804;39;"lymfoid_dekgrad_utred";53
+2011;974705788;48;"lymfoid_dekgrad_utred";59
+2011;974706490;87;"lymfoid_dekgrad_utred";101
+2011;993467049;250;"lymfoid_dekgrad_utred";320
+2011;974116804;21;"lymfoid_dekgrad_utred";23
+2011;974207532;16;"lymfoid_dekgrad_utred";16
+2011;974631776;19;"lymfoid_dekgrad_utred";20
+2011;974724960;1;"lymfoid_dekgrad_utred";17
+2011;974631768;15;"lymfoid_dekgrad_utred";27
+2011;974632535;17;"lymfoid_dekgrad_utred";24
+2011;874632562;34;"lymfoid_dekgrad_utred";40
+2011;974631326;39;"lymfoid_dekgrad_utred";45
+2011;974631385;14;"lymfoid_dekgrad_utred";21
+2011;974633574;64;"lymfoid_dekgrad_utred";75
+2011;974633191;46;"lymfoid_dekgrad_utred";56
+2011;974631091;38;"lymfoid_dekgrad_utred";40
+2011;974733013;52;"lymfoid_dekgrad_utred";54
+2011;974724774;32;"lymfoid_dekgrad_utred";46
+2011;974703300;104;"lymfoid_dekgrad_utred";107
+2011;974557746;127;"lymfoid_dekgrad_utred";172
+2011;974744570;29;"lymfoid_dekgrad_utred";35
+2011;974746948;12;"lymfoid_dekgrad_utred";13
+2011;974745569;18;"lymfoid_dekgrad_utred";30
+2011;974747545;5;"lymfoid_dekgrad_utred";11
+2011;974747138;42;"lymfoid_dekgrad_utred";45
+2011;974749025;128;"lymfoid_dekgrad_utred";142
+2011;974754118;37;"lymfoid_dekgrad_utred";38
+2011;974795361;55;"lymfoid_dekgrad_utred";55
+2011;974795787;94;"lymfoid_dekgrad_utred";98
+2019;1;654;"lymfoid_diag_non_hodgkin";658
+2019;974116804;58;"lymfoid_diag_non_hodgkin";61
+2019;974705788;20;"lymfoid_diag_non_hodgkin";21
+2019;974116804;11;"lymfoid_diag_non_hodgkin";11
+2019;974207532;10;"lymfoid_diag_non_hodgkin";11
+2019;974631768;14;"lymfoid_diag_non_hodgkin";14
+2019;974632535;23;"lymfoid_diag_non_hodgkin";23
+2019;874632562;27;"lymfoid_diag_non_hodgkin";27
+2019;974631326;37;"lymfoid_diag_non_hodgkin";38
+2019;974633574;50;"lymfoid_diag_non_hodgkin";50
+2019;974633191;29;"lymfoid_diag_non_hodgkin";29
+2019;974733013;33;"lymfoid_diag_non_hodgkin";48
+2019;974724774;29;"lymfoid_diag_non_hodgkin";29
+2019;974744570;16;"lymfoid_diag_non_hodgkin";17
+2019;974745569;11;"lymfoid_diag_non_hodgkin";11
+2019;974747138;19;"lymfoid_diag_non_hodgkin";31
+2019;974754118;19;"lymfoid_diag_non_hodgkin";19
+2019;974795361;16;"lymfoid_diag_non_hodgkin";21
+2018;1;617;"lymfoid_diag_non_hodgkin";623
+2018;974116804;41;"lymfoid_diag_non_hodgkin";43
+2018;974705788;11;"lymfoid_diag_non_hodgkin";11
+2018;974116804;17;"lymfoid_diag_non_hodgkin";17
+2018;974724960;11;"lymfoid_diag_non_hodgkin";11
+2018;974631768;14;"lymfoid_diag_non_hodgkin";14
+2018;974632535;16;"lymfoid_diag_non_hodgkin";16
+2018;874632562;27;"lymfoid_diag_non_hodgkin";27
+2018;974631326;32;"lymfoid_diag_non_hodgkin";34
+2018;974631407;12;"lymfoid_diag_non_hodgkin";12
+2018;974633574;47;"lymfoid_diag_non_hodgkin";47
+2018;974633191;26;"lymfoid_diag_non_hodgkin";26
+2018;974733013;28;"lymfoid_diag_non_hodgkin";43
+2018;974724774;25;"lymfoid_diag_non_hodgkin";25
+2018;974744570;21;"lymfoid_diag_non_hodgkin";21
+2018;974745569;16;"lymfoid_diag_non_hodgkin";16
+2018;974747138;6;"lymfoid_diag_non_hodgkin";21
+2018;974754118;17;"lymfoid_diag_non_hodgkin";17
+2018;974753898;10;"lymfoid_diag_non_hodgkin";10
+2018;974795361;20;"lymfoid_diag_non_hodgkin";29
+2017;1;537;"lymfoid_diag_non_hodgkin";544
+2017;974116804;41;"lymfoid_diag_non_hodgkin";47
+2017;974705788;17;"lymfoid_diag_non_hodgkin";18
+2017;974116804;15;"lymfoid_diag_non_hodgkin";15
+2017;974724960;11;"lymfoid_diag_non_hodgkin";11
+2017;974631768;12;"lymfoid_diag_non_hodgkin";12
+2017;974632535;20;"lymfoid_diag_non_hodgkin";20
+2017;874632562;18;"lymfoid_diag_non_hodgkin";18
+2017;974631326;30;"lymfoid_diag_non_hodgkin";30
+2017;974631407;15;"lymfoid_diag_non_hodgkin";15
+2017;974633574;46;"lymfoid_diag_non_hodgkin";46
+2017;974633191;25;"lymfoid_diag_non_hodgkin";25
+2017;974733013;21;"lymfoid_diag_non_hodgkin";38
+2017;974724774;12;"lymfoid_diag_non_hodgkin";12
+2017;974744570;11;"lymfoid_diag_non_hodgkin";11
+2017;974746948;10;"lymfoid_diag_non_hodgkin";11
+2017;974745569;18;"lymfoid_diag_non_hodgkin";20
+2017;974747138;13;"lymfoid_diag_non_hodgkin";24
+2017;974754118;18;"lymfoid_diag_non_hodgkin";18
+2017;974795361;20;"lymfoid_diag_non_hodgkin";26
+2019;983971768;29;"lymfoid_stadium_non_hodgkin";29
+2019;983971636;28;"lymfoid_stadium_non_hodgkin";28
+2019;993467049;29;"lymfoid_stadium_non_hodgkin";29
+2019;982791952;17;"lymfoid_stadium_non_hodgkin";18
+2019;983971709;27;"lymfoid_stadium_non_hodgkin";29
+2019;894166762;48;"lymfoid_stadium_non_hodgkin";48
+2019;983975267;36;"lymfoid_stadium_non_hodgkin";36
+2019;983975259;45;"lymfoid_stadium_non_hodgkin";46
+2019;983975240;17;"lymfoid_stadium_non_hodgkin";18
+2019;983974678;43;"lymfoid_stadium_non_hodgkin";43
+2019;983974694;26;"lymfoid_stadium_non_hodgkin";27
+2019;983974724;50;"lymfoid_stadium_non_hodgkin";50
+2019;984027737;22;"lymfoid_stadium_non_hodgkin";25
+2019;983974732;13;"lymfoid_stadium_non_hodgkin";15
+2019;997005562;16;"lymfoid_stadium_non_hodgkin";18
+2019;883974832;56;"lymfoid_stadium_non_hodgkin";58
+2019;983974791;23;"lymfoid_stadium_non_hodgkin";25
+2019;983974929;14;"lymfoid_stadium_non_hodgkin";15
+2019;983974910;21;"lymfoid_stadium_non_hodgkin";23
+2019;983974899;24;"lymfoid_stadium_non_hodgkin";26
+2019;1;14;"lymfoid_stadium_non_hodgkin";16
+2018;983971768;35;"lymfoid_stadium_non_hodgkin";35
+2018;983971636;62;"lymfoid_stadium_non_hodgkin";62
+2018;993467049;47;"lymfoid_stadium_non_hodgkin";48
+2018;965985166;19;"lymfoid_stadium_non_hodgkin";20
+2018;982791952;21;"lymfoid_stadium_non_hodgkin";22
+2018;983971709;55;"lymfoid_stadium_non_hodgkin";56
+2018;894166762;53;"lymfoid_stadium_non_hodgkin";56
+2018;983975267;34;"lymfoid_stadium_non_hodgkin";35
+2018;983975259;50;"lymfoid_stadium_non_hodgkin";50
+2018;983975240;36;"lymfoid_stadium_non_hodgkin";44
+2018;983974678;59;"lymfoid_stadium_non_hodgkin";60
+2018;983974694;16;"lymfoid_stadium_non_hodgkin";16
+2018;983974724;49;"lymfoid_stadium_non_hodgkin";52
+2018;984027737;18;"lymfoid_stadium_non_hodgkin";18
+2018;983974732;11;"lymfoid_stadium_non_hodgkin";16
+2018;997005562;34;"lymfoid_stadium_non_hodgkin";36
+2018;883974832;48;"lymfoid_stadium_non_hodgkin";49
+2018;983974791;32;"lymfoid_stadium_non_hodgkin";34
+2018;983974929;14;"lymfoid_stadium_non_hodgkin";15
+2018;983974910;23;"lymfoid_stadium_non_hodgkin";23
+2018;983974899;14;"lymfoid_stadium_non_hodgkin";15
+2018;983974880;9;"lymfoid_stadium_non_hodgkin";13
+2018;1;0;"lymfoid_stadium_non_hodgkin";0
+2017;983971768;29;"lymfoid_stadium_non_hodgkin";29
+2017;983971636;47;"lymfoid_stadium_non_hodgkin";47
+2017;993467049;34;"lymfoid_stadium_non_hodgkin";34
+2017;965985166;15;"lymfoid_stadium_non_hodgkin";15
+2017;982791952;30;"lymfoid_stadium_non_hodgkin";32
+2017;983971709;44;"lymfoid_stadium_non_hodgkin";44
+2017;894166762;58;"lymfoid_stadium_non_hodgkin";58
+2017;983975267;28;"lymfoid_stadium_non_hodgkin";29
+2017;983975259;44;"lymfoid_stadium_non_hodgkin";47
+2017;983975240;36;"lymfoid_stadium_non_hodgkin";37
+2017;983974678;41;"lymfoid_stadium_non_hodgkin";45
+2017;983974694;15;"lymfoid_stadium_non_hodgkin";17
+2017;983974724;43;"lymfoid_stadium_non_hodgkin";43
+2017;984027737;22;"lymfoid_stadium_non_hodgkin";22
+2017;997005562;42;"lymfoid_stadium_non_hodgkin";46
+2017;883974832;59;"lymfoid_stadium_non_hodgkin";65
+2017;983974791;25;"lymfoid_stadium_non_hodgkin";31
+2017;983974910;29;"lymfoid_stadium_non_hodgkin";29
+2017;983974899;16;"lymfoid_stadium_non_hodgkin";18
+2017;983974880;8;"lymfoid_stadium_non_hodgkin";10
+2017;1;10;"lymfoid_stadium_non_hodgkin";13
+2016;983971768;40;"lymfoid_stadium_non_hodgkin";43
+2016;983971636;44;"lymfoid_stadium_non_hodgkin";45
+2016;993467049;47;"lymfoid_stadium_non_hodgkin";48
+2016;965985166;10;"lymfoid_stadium_non_hodgkin";12
+2016;982791952;18;"lymfoid_stadium_non_hodgkin";18
+2016;983971709;37;"lymfoid_stadium_non_hodgkin";38
+2016;894166762;78;"lymfoid_stadium_non_hodgkin";81
+2016;983975267;29;"lymfoid_stadium_non_hodgkin";29
+2016;983975259;42;"lymfoid_stadium_non_hodgkin";43
+2016;983975240;43;"lymfoid_stadium_non_hodgkin";44
+2016;983974678;58;"lymfoid_stadium_non_hodgkin";59
+2016;983974694;24;"lymfoid_stadium_non_hodgkin";25
+2016;983974724;41;"lymfoid_stadium_non_hodgkin";43
+2016;984027737;23;"lymfoid_stadium_non_hodgkin";24
+2016;983974732;13;"lymfoid_stadium_non_hodgkin";16
+2016;997005562;41;"lymfoid_stadium_non_hodgkin";44
+2016;883974832;43;"lymfoid_stadium_non_hodgkin";46
+2016;983974791;25;"lymfoid_stadium_non_hodgkin";26
+2016;983974929;6;"lymfoid_stadium_non_hodgkin";10
+2016;983974910;23;"lymfoid_stadium_non_hodgkin";23
+2016;983974899;13;"lymfoid_stadium_non_hodgkin";15
+2016;1;6;"lymfoid_stadium_non_hodgkin";7
+2015;983971768;32;"lymfoid_stadium_non_hodgkin";33
+2015;983971636;46;"lymfoid_stadium_non_hodgkin";51
+2015;993467049;37;"lymfoid_stadium_non_hodgkin";40
+2015;965985166;15;"lymfoid_stadium_non_hodgkin";15
+2015;982791952;19;"lymfoid_stadium_non_hodgkin";20
+2015;983971709;52;"lymfoid_stadium_non_hodgkin";52
+2015;894166762;70;"lymfoid_stadium_non_hodgkin";75
+2015;983975267;37;"lymfoid_stadium_non_hodgkin";37
+2015;983975259;35;"lymfoid_stadium_non_hodgkin";38
+2015;983975240;41;"lymfoid_stadium_non_hodgkin";42
+2015;983974678;63;"lymfoid_stadium_non_hodgkin";66
+2015;983974694;41;"lymfoid_stadium_non_hodgkin";45
+2015;983974724;33;"lymfoid_stadium_non_hodgkin";36
+2015;984027737;19;"lymfoid_stadium_non_hodgkin";19
+2015;983974732;13;"lymfoid_stadium_non_hodgkin";15
+2015;997005562;36;"lymfoid_stadium_non_hodgkin";37
+2015;883974832;60;"lymfoid_stadium_non_hodgkin";63
+2015;983974791;30;"lymfoid_stadium_non_hodgkin";32
+2015;983974929;15;"lymfoid_stadium_non_hodgkin";16
+2015;983974910;31;"lymfoid_stadium_non_hodgkin";34
+2015;983974899;23;"lymfoid_stadium_non_hodgkin";26
+2015;983974880;11;"lymfoid_stadium_non_hodgkin";12
+2015;1;0;"lymfoid_stadium_non_hodgkin";0
+2014;983971768;32;"lymfoid_stadium_non_hodgkin";40
+2014;983971636;64;"lymfoid_stadium_non_hodgkin";71
+2014;993467049;28;"lymfoid_stadium_non_hodgkin";31
+2014;965985166;10;"lymfoid_stadium_non_hodgkin";11
+2014;982791952;15;"lymfoid_stadium_non_hodgkin";16
+2014;983971709;46;"lymfoid_stadium_non_hodgkin";51
+2014;894166762;84;"lymfoid_stadium_non_hodgkin";86
+2014;983975267;28;"lymfoid_stadium_non_hodgkin";28
+2014;983975259;34;"lymfoid_stadium_non_hodgkin";37
+2014;983975240;52;"lymfoid_stadium_non_hodgkin";55
+2014;983974678;62;"lymfoid_stadium_non_hodgkin";65
+2014;983974694;26;"lymfoid_stadium_non_hodgkin";30
+2014;983974724;48;"lymfoid_stadium_non_hodgkin";56
+2014;984027737;16;"lymfoid_stadium_non_hodgkin";17
+2014;983974732;13;"lymfoid_stadium_non_hodgkin";18
+2014;997005562;39;"lymfoid_stadium_non_hodgkin";48
+2014;883974832;59;"lymfoid_stadium_non_hodgkin";60
+2014;983974791;16;"lymfoid_stadium_non_hodgkin";20
+2014;983974929;15;"lymfoid_stadium_non_hodgkin";17
+2014;983974910;23;"lymfoid_stadium_non_hodgkin";26
+2014;983974899;22;"lymfoid_stadium_non_hodgkin";28
+2014;1;9;"lymfoid_stadium_non_hodgkin";9
+2013;983971768;34;"lymfoid_stadium_non_hodgkin";37
+2013;983971636;82;"lymfoid_stadium_non_hodgkin";89
+2013;993467049;33;"lymfoid_stadium_non_hodgkin";35
+2013;965985166;14;"lymfoid_stadium_non_hodgkin";14
+2013;982791952;19;"lymfoid_stadium_non_hodgkin";22
+2013;983971709;43;"lymfoid_stadium_non_hodgkin";50
+2013;894166762;73;"lymfoid_stadium_non_hodgkin";80
+2013;983975267;29;"lymfoid_stadium_non_hodgkin";30
+2013;983975259;42;"lymfoid_stadium_non_hodgkin";47
+2013;983975240;51;"lymfoid_stadium_non_hodgkin";56
+2013;983974678;41;"lymfoid_stadium_non_hodgkin";48
+2013;983974694;23;"lymfoid_stadium_non_hodgkin";28
+2013;983974724;25;"lymfoid_stadium_non_hodgkin";30
+2013;984027737;11;"lymfoid_stadium_non_hodgkin";11
+2013;983974732;13;"lymfoid_stadium_non_hodgkin";16
+2013;997005562;42;"lymfoid_stadium_non_hodgkin";47
+2013;883974832;67;"lymfoid_stadium_non_hodgkin";71
+2013;983974791;30;"lymfoid_stadium_non_hodgkin";37
+2013;983974929;9;"lymfoid_stadium_non_hodgkin";10
+2013;983974910;28;"lymfoid_stadium_non_hodgkin";32
+2013;983974899;26;"lymfoid_stadium_non_hodgkin";26
+2013;983974880;6;"lymfoid_stadium_non_hodgkin";10
+2013;1;0;"lymfoid_stadium_non_hodgkin";0
+2012;983971768;36;"lymfoid_stadium_non_hodgkin";42
+2012;983971636;69;"lymfoid_stadium_non_hodgkin";77
+2012;993467049;33;"lymfoid_stadium_non_hodgkin";37
+2012;965985166;12;"lymfoid_stadium_non_hodgkin";12
+2012;982791952;27;"lymfoid_stadium_non_hodgkin";30
+2012;983971709;55;"lymfoid_stadium_non_hodgkin";62
+2012;894166762;78;"lymfoid_stadium_non_hodgkin";82
+2012;983975267;27;"lymfoid_stadium_non_hodgkin";30
+2012;983975259;23;"lymfoid_stadium_non_hodgkin";27
+2012;983975240;53;"lymfoid_stadium_non_hodgkin";55
+2012;983974678;44;"lymfoid_stadium_non_hodgkin";52
+2012;983974694;20;"lymfoid_stadium_non_hodgkin";24
+2012;983974724;35;"lymfoid_stadium_non_hodgkin";41
+2012;984027737;10;"lymfoid_stadium_non_hodgkin";14
+2012;983974732;19;"lymfoid_stadium_non_hodgkin";22
+2012;997005562;42;"lymfoid_stadium_non_hodgkin";46
+2012;883974832;53;"lymfoid_stadium_non_hodgkin";64
+2012;983974791;23;"lymfoid_stadium_non_hodgkin";27
+2012;983974929;11;"lymfoid_stadium_non_hodgkin";17
+2012;983974910;22;"lymfoid_stadium_non_hodgkin";27
+2012;983974899;25;"lymfoid_stadium_non_hodgkin";27
+2012;983974880;9;"lymfoid_stadium_non_hodgkin";11
+2012;1;0;"lymfoid_stadium_non_hodgkin";0
+2011;983971768;33;"lymfoid_stadium_non_hodgkin";36
+2011;983971636;68;"lymfoid_stadium_non_hodgkin";75
+2011;993467049;37;"lymfoid_stadium_non_hodgkin";39
+2011;982791952;19;"lymfoid_stadium_non_hodgkin";21
+2011;983971709;45;"lymfoid_stadium_non_hodgkin";53
+2011;894166762;66;"lymfoid_stadium_non_hodgkin";67
+2011;983975267;25;"lymfoid_stadium_non_hodgkin";29
+2011;983975259;36;"lymfoid_stadium_non_hodgkin";38
+2011;983975240;51;"lymfoid_stadium_non_hodgkin";55
+2011;983974678;41;"lymfoid_stadium_non_hodgkin";42
+2011;983974694;23;"lymfoid_stadium_non_hodgkin";32
+2011;983974724;29;"lymfoid_stadium_non_hodgkin";37
+2011;984027737;19;"lymfoid_stadium_non_hodgkin";21
+2011;983974732;10;"lymfoid_stadium_non_hodgkin";15
+2011;997005562;37;"lymfoid_stadium_non_hodgkin";43
+2011;883974832;40;"lymfoid_stadium_non_hodgkin";44
+2011;983974791;15;"lymfoid_stadium_non_hodgkin";19
+2011;983974929;13;"lymfoid_stadium_non_hodgkin";16
+2011;983974910;24;"lymfoid_stadium_non_hodgkin";32
+2011;983974899;38;"lymfoid_stadium_non_hodgkin";42
+2011;983974880;15;"lymfoid_stadium_non_hodgkin";17
+2011;1;8;"lymfoid_stadium_non_hodgkin";9
+2019;983971768;26;"lymfoid_flowcytometri";26
+2019;983971636;38;"lymfoid_flowcytometri";41
+2019;993467049;13;"lymfoid_flowcytometri";14
+2019;965985166;11;"lymfoid_flowcytometri";11
+2019;983971709;29;"lymfoid_flowcytometri";29
+2019;894166762;34;"lymfoid_flowcytometri";34
+2019;983975259;17;"lymfoid_flowcytometri";17
+2019;983975240;10;"lymfoid_flowcytometri";10
+2019;983974678;18;"lymfoid_flowcytometri";22
+2019;983974724;9;"lymfoid_flowcytometri";11
+2019;983974732;10;"lymfoid_flowcytometri";10
+2019;997005562;11;"lymfoid_flowcytometri";15
+2019;883974832;8;"lymfoid_flowcytometri";10
+2019;983974791;9;"lymfoid_flowcytometri";10
+2019;1;36;"lymfoid_flowcytometri";43
+2018;983971768;12;"lymfoid_flowcytometri";12
+2018;983971636;30;"lymfoid_flowcytometri";31
+2018;993467049;20;"lymfoid_flowcytometri";20
+2018;983971709;21;"lymfoid_flowcytometri";21
+2018;894166762;33;"lymfoid_flowcytometri";33
+2018;983975259;17;"lymfoid_flowcytometri";17
+2018;983975240;14;"lymfoid_flowcytometri";14
+2018;997005562;11;"lymfoid_flowcytometri";12
+2018;983974791;14;"lymfoid_flowcytometri";16
+2018;1;82;"lymfoid_flowcytometri";85
+2017;983971768;21;"lymfoid_flowcytometri";21
+2017;983971636;32;"lymfoid_flowcytometri";33
+2017;993467049;16;"lymfoid_flowcytometri";16
+2017;982791952;11;"lymfoid_flowcytometri";11
+2017;983971709;21;"lymfoid_flowcytometri";22
+2017;894166762;30;"lymfoid_flowcytometri";30
+2017;983975267;10;"lymfoid_flowcytometri";10
+2017;983975259;20;"lymfoid_flowcytometri";20
+2017;983975240;18;"lymfoid_flowcytometri";18
+2017;983974678;15;"lymfoid_flowcytometri";17
+2017;997005562;11;"lymfoid_flowcytometri";11
+2017;883974832;12;"lymfoid_flowcytometri";12
+2017;983974791;14;"lymfoid_flowcytometri";20
+2017;1;38;"lymfoid_flowcytometri";40
+2016;983971768;32;"lymfoid_flowcytometri";32
+2016;983971636;36;"lymfoid_flowcytometri";36
+2016;993467049;16;"lymfoid_flowcytometri";16
+2016;983971709;35;"lymfoid_flowcytometri";36
+2016;894166762;30;"lymfoid_flowcytometri";31
+2016;983975267;11;"lymfoid_flowcytometri";11
+2016;983975259;20;"lymfoid_flowcytometri";20
+2016;983975240;14;"lymfoid_flowcytometri";14
+2016;983974678;19;"lymfoid_flowcytometri";23
+2016;983974724;13;"lymfoid_flowcytometri";16
+2016;997005562;12;"lymfoid_flowcytometri";15
+2016;883974832;9;"lymfoid_flowcytometri";11
+2016;983974791;10;"lymfoid_flowcytometri";18
+2016;1;37;"lymfoid_flowcytometri";39
+2015;983971768;16;"lymfoid_flowcytometri";16
+2015;983971636;37;"lymfoid_flowcytometri";40
+2015;993467049;23;"lymfoid_flowcytometri";23
+2015;983971709;20;"lymfoid_flowcytometri";20
+2015;894166762;37;"lymfoid_flowcytometri";38
+2015;983975267;17;"lymfoid_flowcytometri";17
+2015;983975259;21;"lymfoid_flowcytometri";22
+2015;983975240;15;"lymfoid_flowcytometri";15
+2015;983974678;18;"lymfoid_flowcytometri";22
+2015;983974724;13;"lymfoid_flowcytometri";16
+2015;997005562;13;"lymfoid_flowcytometri";18
+2015;883974832;10;"lymfoid_flowcytometri";14
+2015;983974791;9;"lymfoid_flowcytometri";17
+2015;983974899;7;"lymfoid_flowcytometri";10
+2015;1;28;"lymfoid_flowcytometri";42
+2014;983971636;32;"lymfoid_flowcytometri";38
+2014;993467049;14;"lymfoid_flowcytometri";14
+2014;983971709;16;"lymfoid_flowcytometri";18
+2014;894166762;37;"lymfoid_flowcytometri";38
+2014;983975267;12;"lymfoid_flowcytometri";12
+2014;983975259;24;"lymfoid_flowcytometri";25
+2014;983975240;10;"lymfoid_flowcytometri";11
+2014;983974678;12;"lymfoid_flowcytometri";17
+2014;983974724;7;"lymfoid_flowcytometri";11
+2014;997005562;9;"lymfoid_flowcytometri";13
+2014;883974832;9;"lymfoid_flowcytometri";14
+2014;983974791;7;"lymfoid_flowcytometri";13
+2014;1;37;"lymfoid_flowcytometri";46
+2013;983971768;11;"lymfoid_flowcytometri";12
+2013;983971636;27;"lymfoid_flowcytometri";27
+2013;993467049;15;"lymfoid_flowcytometri";16
+2013;982791952;14;"lymfoid_flowcytometri";15
+2013;983971709;16;"lymfoid_flowcytometri";20
+2013;894166762;20;"lymfoid_flowcytometri";20
+2013;983975267;15;"lymfoid_flowcytometri";15
+2013;983975259;17;"lymfoid_flowcytometri";18
+2013;983975240;17;"lymfoid_flowcytometri";18
+2013;983974678;11;"lymfoid_flowcytometri";13
+2013;983974724;6;"lymfoid_flowcytometri";10
+2013;984027737;8;"lymfoid_flowcytometri";15
+2013;997005562;7;"lymfoid_flowcytometri";12
+2013;883974832;10;"lymfoid_flowcytometri";15
+2013;1;24;"lymfoid_flowcytometri";40
+2012;983971768;14;"lymfoid_flowcytometri";14
+2012;983971636;18;"lymfoid_flowcytometri";20
+2012;993467049;13;"lymfoid_flowcytometri";13
+2012;983971709;18;"lymfoid_flowcytometri";19
+2012;894166762;37;"lymfoid_flowcytometri";38
+2012;983975267;10;"lymfoid_flowcytometri";11
+2012;983975259;17;"lymfoid_flowcytometri";19
+2012;983975240;15;"lymfoid_flowcytometri";16
+2012;983974678;17;"lymfoid_flowcytometri";21
+2012;983974694;7;"lymfoid_flowcytometri";11
+2012;983974724;9;"lymfoid_flowcytometri";16
+2012;983974732;9;"lymfoid_flowcytometri";10
+2012;883974832;11;"lymfoid_flowcytometri";18
+2012;1;32;"lymfoid_flowcytometri";49
+2011;983971636;30;"lymfoid_flowcytometri";33
+2011;993467049;12;"lymfoid_flowcytometri";14
+2011;983971709;23;"lymfoid_flowcytometri";25
+2011;894166762;37;"lymfoid_flowcytometri";42
+2011;983975267;14;"lymfoid_flowcytometri";14
+2011;983975259;14;"lymfoid_flowcytometri";16
+2011;983975240;12;"lymfoid_flowcytometri";16
+2011;983974678;13;"lymfoid_flowcytometri";19
+2011;983974724;5;"lymfoid_flowcytometri";13
+2011;997005562;8;"lymfoid_flowcytometri";12
+2011;883974832;8;"lymfoid_flowcytometri";13
+2011;983974791;5;"lymfoid_flowcytometri";10
+2011;1;32;"lymfoid_flowcytometri";45
+2019;1;82;"lymfoid_biopsi";97
+2019;974116804;19;"lymfoid_biopsi";23
+2019;974705788;24;"lymfoid_biopsi";24
+2019;974706490;34;"lymfoid_biopsi";34
+2019;974589095;22;"lymfoid_biopsi";22
+2019;974632535;16;"lymfoid_biopsi";16
+2019;874632562;15;"lymfoid_biopsi";15
+2019;974633574;33;"lymfoid_biopsi";34
+2019;974633191;14;"lymfoid_biopsi";16
+2019;974733013;12;"lymfoid_biopsi";18
+2019;974703300;34;"lymfoid_biopsi";37
+2019;974557746;29;"lymfoid_biopsi";33
+2019;974744570;12;"lymfoid_biopsi";12
+2019;974749025;23;"lymfoid_biopsi";25
+2019;974754118;6;"lymfoid_biopsi";10
+2019;974795361;10;"lymfoid_biopsi";12
+2019;974795787;10;"lymfoid_biopsi";16
+2018;1;85;"lymfoid_biopsi";103
+2018;974116804;22;"lymfoid_biopsi";24
+2018;974705788;16;"lymfoid_biopsi";16
+2018;974706490;29;"lymfoid_biopsi";30
+2018;974589095;23;"lymfoid_biopsi";23
+2018;974724960;10;"lymfoid_biopsi";10
+2018;974632535;10;"lymfoid_biopsi";12
+2018;974631326;5;"lymfoid_biopsi";16
+2018;974631407;9;"lymfoid_biopsi";12
+2018;974633574;11;"lymfoid_biopsi";20
+2018;974633191;9;"lymfoid_biopsi";10
+2018;974733013;12;"lymfoid_biopsi";16
+2018;974703300;16;"lymfoid_biopsi";25
+2018;974557746;31;"lymfoid_biopsi";37
+2018;974744570;15;"lymfoid_biopsi";15
+2018;974749025;27;"lymfoid_biopsi";31
+2018;974754118;8;"lymfoid_biopsi";10
+2018;974795361;10;"lymfoid_biopsi";14
+2018;974795787;8;"lymfoid_biopsi";13
+2017;1;104;"lymfoid_biopsi";126
+2017;974116804;27;"lymfoid_biopsi";29
+2017;974705788;18;"lymfoid_biopsi";18
+2017;974706490;40;"lymfoid_biopsi";42
+2017;974589095;13;"lymfoid_biopsi";18
+2017;974632535;14;"lymfoid_biopsi";16
+2017;874632562;17;"lymfoid_biopsi";17
+2017;974633574;9;"lymfoid_biopsi";19
+2017;974633191;15;"lymfoid_biopsi";16
+2017;974733013;9;"lymfoid_biopsi";12
+2017;974703300;11;"lymfoid_biopsi";16
+2017;974557746;28;"lymfoid_biopsi";35
+2017;974744570;11;"lymfoid_biopsi";12
+2017;974747138;7;"lymfoid_biopsi";12
+2017;974749025;17;"lymfoid_biopsi";20
+2017;974795361;6;"lymfoid_biopsi";12
+2019;1;53;"lymfoid_fish";97
+2019;974116804;15;"lymfoid_fish";23
+2019;974705788;10;"lymfoid_fish";24
+2019;974706490;3;"lymfoid_fish";34
+2019;974589095;19;"lymfoid_fish";22
+2019;974632535;10;"lymfoid_fish";16
+2019;874632562;11;"lymfoid_fish";15
+2019;974633574;22;"lymfoid_fish";34
+2019;974633191;13;"lymfoid_fish";16
+2019;974733013;11;"lymfoid_fish";18
+2019;974703300;27;"lymfoid_fish";37
+2019;974557746;17;"lymfoid_fish";33
+2019;974744570;10;"lymfoid_fish";12
+2019;974749025;20;"lymfoid_fish";25
+2019;974754118;4;"lymfoid_fish";10
+2019;974795361;6;"lymfoid_fish";12
+2019;974795787;12;"lymfoid_fish";16
