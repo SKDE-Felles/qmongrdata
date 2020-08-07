@@ -11,10 +11,14 @@ convert_csv <- function(csv_file) {
                   orgnr = OrgNrShus,
                   var = Variabel)
   
+  if ("nevner" %in% colnames(old_data)) {
+    new_data$denominator <- old_data$nevner
+  }
+
   if ("Nevner" %in% colnames(old_data)) {
     new_data$denominator <- old_data$Nevner
   }
-
+  
   write.csv2(new_data,
              file = csv_file,
              fileEncoding = "UTF-8",
@@ -32,4 +36,5 @@ convert_csv("data-raw/norgastdata.csv")
 convert_csv("data-raw/nkr_rygg.csv")
 convert_csv("data-raw/hoftebrudd.csv")
 convert_csv("data-raw/nnrr.csv")
+convert_csv("data-raw/hjerneslag.csv")
 
