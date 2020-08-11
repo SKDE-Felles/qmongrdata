@@ -32,18 +32,18 @@ Please note that the 'qmongrdata' project is released with a
 
 ## Registre overview
 
-| Name | ID | `csv` | `IndBeskr` | `KvalIndData` | App |
-| --- | --- | ---| --- | --- | --- |
+| Name | ID | `csv` | `IndBeskr` | DG |
+| --- | --- | ---| --- | --- |
 | Cerebral pareseregisteret i Norge (Sykehuset Vestfold HF) | cp |
 | ​Det norske hjertekirurgiregisteret (OUS HF) | hjertekirurgi |
 | Gastronet (Sykehuset Telemark HF) | gastronet |
 | Nasjonalt Barnehofteregister | hofte_barn |
 | Nasjonalt hjertestansregister (OUS HF) | hjertestans |
-| Nasjonalt Hoftebruddregister | hoftebrudd | &#10004; | &#10004; | &#10004; | &#10004; |
+| Nasjonalt Hoftebruddregister | hoftebrudd | &#10004; | &#10004; | &#10004; |
 | Nasjonalt korsbåndregister | korsband |
 | Nasjonalt kvalitetsregister for behandling av skadelig bruk eller avhengighet av rusmidler (KVARUS) | kvarus |
 | Nasjonalt kvalitetsregister for ryggkirurgi | rygg | &#10004; | &#10004; |
-| Nasjonalt kvalitetsregister for ryggkirurgi | nkr_nakke | &#10004; | &#10004; | &#10004; | &#10004; |
+| Nasjonalt kvalitetsregister for ryggkirurgi | nkr_nakke | &#10004; | &#10004; | 
 | Nasjonalt kvalitetsregister for smertebehandling – SmerteReg | smerte |
 | Nasjonalt medisinsk kvalitetsregister for barne- og ungdomsdiabetes (OUS HF) | diabetes_barn |
 | Nasjonalt register for ablasjonsbehandling og elektrofysiologi i Norge (ABLA NOR). | ablanor |
@@ -62,12 +62,12 @@ Please note that the 'qmongrdata' project is released with a
 | Nasjonalt traumeregister (OUS HF) | traume |
 | Nordisk kvalitetsregister for hidradenitis suppurativa (HISREG) | hisreg |
 | Norsk diabetesregister for voksne | diabetes_voksne |
-| Norsk gynekologisk endoskopiregister - NGER (Sykehuset Vestfold HF) | nger | &#10004; | &#10004; |
-| Norsk hjerneslagregister | hjerneslag | &#10004; | &#10004; |
-| Norsk hjerteinfarktregister  | hjerteinfarkt | &#10004; | &#10004; |
+| Norsk gynekologisk endoskopiregister - NGER (Sykehuset Vestfold HF) | nger | &#10004; | &#10004; | &#10004; |
+| Norsk hjerneslagregister | hjerneslag | &#10004; | &#10004; | &#10004; |
+| Norsk hjerteinfarktregister  | hjerteinfarkt | &#10004; | &#10004; | &#10004; |
 | Norsk hjertesviktregister | hjertesvikt |
-| Norsk Intensiv- og pandemiregister | intensiv | &#10004; | &#10004; | &#10004; | &#10004; |
-| Norsk karkirurgisk register - NORKAR | norkar |  | &#10004; |
+| Norsk Intensiv- og pandemiregister | intensiv | &#10004; | &#10004; |
+| Norsk karkirurgisk register - NORKAR | norkar |  | &#10004; | &#10004; |
 | Norsk kvalitetsregister for artrittsykdommer – NorArtritt | norartritt |
 | Norsk kvalitetsregister for behandling av spiseforstyrrelser (NorSpis) | norspis |
 | Norsk kvalitetsregister for fedmekirurgi (SOReg Norge) | fedmekir |
@@ -81,7 +81,7 @@ Please note that the 'qmongrdata' project is released with a
 | Norsk parkinsonregister og biobank | parkinson |
 | Norsk Porfyriregister | porfyri |
 | Norsk register for analinkontinens (NRA) | nra | &#10004; | &#10004; |
-| Norsk register for gastrokirurgi (NoRGast) | norgast | &#10004; | &#10004; | &#10004; | &#10004; |
+| Norsk register for gastrokirurgi (NoRGast) | norgast | &#10004; | &#10004; | 
 | Norsk register for invasiv kardiologi (NORIC) | noric | &#10004; | &#10004; |
 | Norsk register for personer som utredes for kognitive symptomer i spesialisthelsetjenesten – NorKog (OUS HF) | norkog |
 | Norsk ryggmargsskaderegister - NorSCIR  | norscir |
