@@ -2,11 +2,6 @@
 #Må legge til funksjonalitet for at ett og ett register oppdateres i datafila.
 # evt. sjekke på kvalindID
 
-#Indikatorbeskrivelser
-
-IndBeskr <- read.csv2("data-raw/IndBeskr.csv", fileEncoding = "UTF-8")
-usethis::use_data(IndBeskr, overwrite = TRUE)
-
 ## Sykehusstruktur
 SykehusNavnStruktur <- read.csv2("data-raw/SykehusNavnStruktur.csv", stringsAsFactors = FALSE, encoding = "UTF-8")
 
