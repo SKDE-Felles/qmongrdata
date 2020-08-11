@@ -5,7 +5,11 @@ library(magrittr)
 IndBeskr <- read.csv2("data-raw/IndBeskr.csv", fileEncoding = "UTF-8")
 usethis::use_data(IndBeskr, overwrite = TRUE)
 
-###### Legg på dekningsgrad ##########
+#################################################
+######## Legg på dekningsgrad ###################
+# PR https://github.com/mong/qmongrdata/pull/44 #
+#################################################
+
 IndBeskr <- read.csv2("data-raw/IndBeskr.csv", fileEncoding = "UTF-8")
 
 
@@ -37,3 +41,30 @@ write.csv2(IndBeskr, file = "data-raw/IndBeskr.csv", fileEncoding = "UTF-8", row
 
 usethis::use_data(IndBeskr, overwrite = TRUE)
 
+#################################################
+######## Endre kolonnenavn ######################
+# PR https://github.com/mong/qmongrdata/pull/45 #
+#################################################
+
+IndBeskr <- read.csv2("data-raw/IndBeskr.csv", fileEncoding = "UTF-8")
+
+IndBeskr <- IndBeskr %>%
+  dplyr::rename(id = IndID,
+                title = IndTittel,
+                name = IndNavn,
+                type = indikatorType,
+                measure_unit = benevning,
+                min_denominator = minsteNevner,
+                min_value = minVerdi,
+                max_value = maxVerdi,
+                level_green = MaalNivaaGronn,
+                level_yellow = MaalNivaaGul,
+                level_direction = MaalRetn,
+                short_description = BeskrivelseKort,
+                long_description = BeskrivelseLang,
+                registry_name = Register,
+                registry_full_name = FulltRegisterNavn)
+
+write.csv2(IndBeskr, file = "data-raw/IndBeskr.csv", fileEncoding = "UTF-8", row.names = FALSE)
+
+usethis::use_data(IndBeskr, overwrite = TRUE)
