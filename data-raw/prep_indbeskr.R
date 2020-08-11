@@ -29,6 +29,10 @@ IndBeskr <- IndBeskr %>%
   dplyr::mutate(include = dplyr::case_when(indikatorType == "andel" ~ TRUE,
                                            TRUE ~ FALSE))
 
+IndBeskr <- IndBeskr %>%
+  dplyr::mutate(indikatorType = dplyr::case_when(indikatorType == "dg" ~ "andel",
+                                           TRUE ~ "andel"))
+
 write.csv2(IndBeskr, file = "data-raw/IndBeskr.csv", fileEncoding = "UTF-8", row.names = FALSE)
 
 usethis::use_data(IndBeskr, overwrite = TRUE)
