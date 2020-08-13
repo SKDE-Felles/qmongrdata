@@ -39,35 +39,35 @@ Please note that the 'qmongrdata' project is released with a
 
 | Registre | id | csv | descr | DG | v1.0 |
 | --- | --- | ---| --- | --- | --- |
-| Cerebral pareseregisteret i Norge (Sykehuset Vestfold HF) | cp |  |  |  | &#10004;
-| ​Det norske hjertekirurgiregisteret (OUS HF) | hjertekirurgi |  |  |  | &#10004;
-| Gastronet (Sykehuset Telemark HF) | gastronet |
+| Cerebral pareseregisteret i Norge | cp |  |  |  | &#10004;
+| ​Det norske hjertekirurgiregisteret  | hjertekirurgi |  |  |  | &#10004;
+| Gastronet | gastronet |
 | Nasjonalt Barnehofteregister | hofte_barn |
-| Nasjonalt hjertestansregister (OUS HF) | hjertestans | |  |  | &#10004;
+| Nasjonalt hjertestansregister  | hjertestans | |  |  | &#10004;
 | Nasjonalt Hoftebruddregister | hoftebrudd | &#10004; | &#10004; | &#10004; | &#10004;
 | Nasjonalt korsbåndregister | korsband | | | | &#10004;
 | Nasjonalt kvalitetsregister for behandling av skadelig bruk eller avhengighet av rusmidler (KVARUS) | kvarus |
 | Nasjonalt kvalitetsregister for ryggkirurgi | rygg | &#10004; | &#10004; | | &#10004;
 | Nasjonalt kvalitetsregister for ryggkirurgi | nkr_nakke | &#10004; | &#10004; | | &#10004;
 | Nasjonalt kvalitetsregister for smertebehandling – SmerteReg | smerte |
-| Nasjonalt medisinsk kvalitetsregister for barne- og ungdomsdiabetes (OUS HF) | diabetes_barn | | | | &#10004;
+| Nasjonalt medisinsk kvalitetsregister for barne- og ungdomsdiabetes  | diabetes_barn | | | | &#10004;
 | Nasjonalt register for ablasjonsbehandling og elektrofysiologi i Norge (ABLA NOR). | ablanor | | | | &#10004;
 | Nasjonalt register for arvelige og medfødte nevromuskulære sykdommer | muskel |  | &#10004; |
-| Nasjonalt register for barnekreft (KRG/OUS HF)  | barnekreft | | | | &#10004;
-| Nasjonalt register for brystkreft (KRG/OUS HF)  | brystkreft | | | | &#10004;
-| Nasjonalt register for gynekologisk kreft (KRG/OUS HF)  | gynkreft | | | | &#10004;
+| Nasjonalt register for barnekreft  | barnekreft | | | | &#10004;
+| Nasjonalt register for brystkreft  | brystkreft | | | | &#10004;
+| Nasjonalt register for gynekologisk kreft  | gynkreft | | | | &#10004;
 | Nasjonalt register for langtids mekanisk ventilasjon | mek_vent |
 | Nasjonalt register for leddproteser | leddprotese | | | | &#10004;
-| Nasjonalt register for lungekreft (KRG/OUS HF)  | lungekreft | | | | &#10004;
-| Nasjonalt register for lymfoide maligniteter (KRG/OUS HF)  | lymfoid | &#10004; | &#10004; | &#10004; | &#10004;
-| Nasjonalt register for melanom (KRG/OUS HF)  | melanom | | | | &#10004;
+| Nasjonalt register for lungekreft  | lungekreft | | | | &#10004;
+| Nasjonalt register for lymfoide maligniteter  | lymfoid | &#10004; | &#10004; | &#10004; | &#10004;
+| Nasjonalt register for melanom  | melanom | | | | &#10004;
 | Nasjonalt register for organspesifikke autoimmune sykdommer (ROAS) | roas |
-| Nasjonalt register for prostatakreft (KRG/OUS HF)  | prostata | | | | &#10004;
-| Nasjonalt register for tykk- og endetarmskreft (KRG/OUS HF)  | tarmkreft | | | | &#10004;
-| Nasjonalt traumeregister (OUS HF) | traume | | | | &#10004;
+| Nasjonalt register for prostatakreft  | prostata | | | | &#10004;
+| Nasjonalt register for tykk- og endetarmskreft  | tarmkreft | | | | &#10004;
+| Nasjonalt traumeregister  | traume | | | | &#10004;
 | Nordisk kvalitetsregister for hidradenitis suppurativa (HISREG) | hisreg |
 | Norsk diabetesregister for voksne | diabetes_voksne | | | | &#10004;
-| Norsk gynekologisk endoskopiregister - NGER (Sykehuset Vestfold HF) | nger | &#10004; | &#10004; | &#10004; |
+| Norsk gynekologisk endoskopiregister - NGER | nger | &#10004; | &#10004; | &#10004; |
 | Norsk hjerneslagregister | hjerneslag | &#10004; | &#10004; | &#10004; | &#10004;
 | Norsk hjerteinfarktregister  | hjerteinfarkt | &#10004; | &#10004; | &#10004; | &#10004;
 | Norsk hjertesviktregister | hjertesvikt | | | | &#10004;
@@ -78,17 +78,17 @@ Please note that the 'qmongrdata' project is released with a
 | Norsk kvalitetsregister for fedmekirurgi (SOReg Norge) | fedmekir | | | | &#10004;
 | Norsk kvalitetsregister for leppe-kjeve-ganespalte | ganespalt |
 | Norsk Kvalitetsregister Øre-Nese-Hals – Tonsilleregisteret | tonsille | | | | &#10004;
-| Norsk kvinnelig inkontinensregister (OUS HF) | nkir |
+| Norsk kvinnelig inkontinensregister | nkir |
 | Norsk MS register og biobank | ms | | | | &#10004;
 | Norsk Nakke- og Ryggregister | nnrr | &#10004; | &#10004; |
-| Norsk nyfødtmedisinsk kvalitetsregister (OUS HF) | nnk |
-| Norsk nyreregister (OUS HF) | nyre | | | | &#10004;
+| Norsk nyfødtmedisinsk kvalitetsregister  | nnk |
+| Norsk nyreregister  | nyre | | | | &#10004;
 | Norsk parkinsonregister og biobank | parkinson |
 | Norsk Porfyriregister | porfyri |
 | Norsk register for analinkontinens (NRA) | nra | &#10004; | &#10004; |
 | Norsk register for gastrokirurgi (NoRGast) | norgast | &#10004; | &#10004; | 
 | Norsk register for invasiv kardiologi (NORIC) | noric | &#10004; | &#10004; | | &#10004;
-| Norsk register for personer som utredes for kognitive symptomer i spesialisthelsetjenesten – NorKog (OUS HF) | norkog |
+| Norsk register for personer som utredes for kognitive symptomer i spesialisthelsetjenesten – NorKog | norkog |
 | Norsk ryggmargsskaderegister - NorSCIR  | norscir |  | | | &#10004;
 | Norsk vaskulittregister & biobank (NorVas) | norvas | &#10004; | &#10004; |
 
