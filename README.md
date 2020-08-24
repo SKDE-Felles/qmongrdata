@@ -37,11 +37,11 @@ Please note that the 'qmongrdata' project is released with a
 - **DG**: Dekningsgrad as separate indicator exists in `csv` file
 - **v.1.0**: Data from registre wanted in version 1.0
 
-| Registre | id | csv | descr | DG | v1.0 |
-| --- | --- | ---| --- | --- | --- |
-| Nasjonalt Hoftebruddregister | hoftebrudd | &#10004; | &#10004; | &#10004; | &#10004;
-| Nasjonalt register for lymfoide maligniteter  | lymfoid | &#10004; | &#10004; | &#10004; | &#10004;
-| Norsk hjerneslagregister | hjerneslag | &#10004; | &#10004; | &#10004; | &#10004;
+| Registre | id | csv | descr | DG | v1.0 | imongr |
+| --- | --- | ---| --- | --- | --- | --- |
+| Nasjonalt Hoftebruddregister | hoftebrudd | &#10004; | &#10004; | &#10004; | &#10004; | &#10004;
+| Nasjonalt register for lymfoide maligniteter  | lymfoid | &#10004; | &#10004; | &#10004; | &#10004; | &#10004;
+| Norsk hjerneslagregister | hjerneslag | &#10004; | &#10004; | &#10004; | &#10004; | &#10004;
 | Norsk hjerteinfarktregister  | hjerteinfarkt | &#10004; | &#10004; | &#10004; | &#10004;
 | Nasjonalt kvalitetsregister for ryggkirurgi | rygg | &#10004; | &#10004; | | &#10004;
 | Nasjonalt kvalitetsregister for ryggkirurgi | nkr_nakke | &#10004; | &#10004; | | &#10004;
@@ -71,11 +71,11 @@ Please note that the 'qmongrdata' project is released with a
 | Norsk MS register og biobank | ms | | | | &#10004;
 | Norsk nyreregister  | nyre | | | | &#10004;
 | Norsk ryggmargsskaderegister - NorSCIR  | norscir |  | | | &#10004;
-| Norsk gynekologisk endoskopiregister - NGER | nger | &#10004; | &#10004; | &#10004; |
+| Norsk gynekologisk endoskopiregister - NGER | nger | &#10004; | &#10004; | &#10004; | | &#10004; |
 | Norsk Nakke- og Ryggregister | nnrr | &#10004; | &#10004; |
 | Norsk register for analinkontinens (NRA) | nra | &#10004; | &#10004; |
-| Norsk register for gastrokirurgi (NoRGast) | norgast | &#10004; | &#10004; | 
-| Norsk vaskulittregister & biobank (NorVas) | norvas | &#10004; | &#10004; |
+| Norsk register for gastrokirurgi (NoRGast) | norgast | &#10004; | &#10004; | | | &#10004;
+| Norsk vaskulittregister & biobank (NorVas) | norvas | &#10004; | &#10004; | | | &#10004;
 | Nasjonalt register for arvelige og medfødte nevromuskulære sykdommer | muskel |  | &#10004; |
 | Gastronet | gastronet |
 | Nasjonalt Barnehofteregister | hofte_barn |
