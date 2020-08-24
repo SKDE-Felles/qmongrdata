@@ -43,11 +43,11 @@ Please note that the 'qmongrdata' project is released with a
 | Nasjonalt register for lymfoide maligniteter  | lymfoid | &#10004; | &#10004; | &#10004; | &#10004; | &#10004;
 | Norsk hjerneslagregister | hjerneslag | &#10004; | &#10004; | &#10004; | &#10004; | &#10004;
 | Norsk hjerteinfarktregister  | hjerteinfarkt | &#10004; | &#10004; | &#10004; | &#10004; | &#10004;
-| Nasjonalt kvalitetsregister for ryggkirurgi | rygg | &#10004; | &#10004; | | &#10004;
-| Nasjonalt kvalitetsregister for ryggkirurgi | nkr_nakke | &#10004; | &#10004; | | &#10004;
-| Norsk Intensiv- og pandemiregister | intensiv | &#10004; | &#10004; | | &#10004;
-| Norsk register for invasiv kardiologi (NORIC) | noric | &#10004; | &#10004; | | &#10004;
-| Norsk karkirurgisk register - NORKAR | norkar |  | &#10004; | | &#10004;
+| Nasjonalt kvalitetsregister for ryggkirurgi | rygg | &#10004; | &#10004; | | &#10004; | &#10004;
+| Nasjonalt kvalitetsregister for ryggkirurgi | nkr_nakke | | &#10004; | | &#10004;
+| Norsk Intensiv- og pandemiregister | intensiv | | &#10004; | | &#10004;
+| Norsk register for invasiv kardiologi (NORIC) | noric | &#10004; | &#10004; | | &#10004; | &#10004;
+| Norsk karkirurgisk register - NORKAR | norkar | | &#10004; | | &#10004;
 | Cerebral pareseregisteret i Norge | cp |  |  |  | &#10004;
 | ​Det norske hjertekirurgiregisteret  | hjertekirurgi |  |  |  | &#10004;
 | Nasjonalt hjertestansregister  | hjertestans | |  |  | &#10004;
