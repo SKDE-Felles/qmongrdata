@@ -50,21 +50,21 @@ Please note that the 'qmongrdata' project is released with a
 | Norsk Intensiv- og pandemiregister                                                                  | intensiv        |          |          | &#10004; |          | &#10004;
 | Norsk register for invasiv kardiologi (NORIC)                                                       | noric           | &#10004; | &#10004; | &#10004; |          | &#10004; | &#10004;
 | Norsk karkirurgisk register - NORKAR                                                                | norkar          | &#10004; |          | &#10004; |          | &#10004; |
+| Nasjonalt hjertestansregister                                                                       | hjertestans     | &#10004; |          |          |          | &#10004; |
+| Nasjonalt korsbåndregister                                                                          | korsband        | &#10004; |          |          |          | &#10004; |
+| Nasjonalt register for leddproteser                                                                 | leddprotese     | &#10004; |          |          |          | &#10004; |
+| Nasjonalt register for tykk- og endetarmskreft                                                      | tarmkreft       | &#10004; |          |          |          | &#10004; |
+| Nasjonalt traumeregister                                                                            | traume          | &#10004; |          |          |          | &#10004; |
 | Cerebral pareseregisteret i Norge                                                                   | cp              |          |          |          |          | &#10004; |
 | ​Det norske hjertekirurgiregisteret                                                                 | hjertekirurgi   |          |          |          |          | &#10004; |
-| Nasjonalt hjertestansregister                                                                       | hjertestans     | &#10004; |          |          |          | &#10004; |
-| Nasjonalt korsbåndregister                                                                          | korsband        |          |          |          |          | &#10004; |
 | Nasjonalt medisinsk kvalitetsregister for barne- og ungdomsdiabetes                                 | diabetes_barn   |          |          |          |          | &#10004; |
 | Nasjonalt register for ablasjonsbehandling og elektrofysiologi i Norge (ABLA NOR).                  | ablanor         |          |          |          |          | &#10004; |
 | Nasjonalt register for barnekreft                                                                   | barnekreft      |          |          |          |          | &#10004; |
 | Nasjonalt register for brystkreft                                                                   | brystkreft      |          |          |          |          | &#10004; |
 | Nasjonalt register for gynekologisk kreft                                                           | gynkreft        |          |          |          |          | &#10004; |
-| Nasjonalt register for leddproteser                                                                 | leddprotese     |          |          |          |          | &#10004; |
 | Nasjonalt register for lungekreft                                                                   | lungekreft      |          |          |          |          | &#10004; |
 | Nasjonalt register for melanom                                                                      | melanom         |          |          |          |          | &#10004; |
 | Nasjonalt register for prostatakreft                                                                | prostata        |          |          |          |          | &#10004; |
-| Nasjonalt register for tykk- og endetarmskreft                                                      | tarmkreft       | &#10004; |          |          |          | &#10004; |
-| Nasjonalt traumeregister                                                                            | traume          | &#10004; |          |          |          | &#10004; |
 | Norsk hjertesviktregister                                                                           | hjertesvikt     |          |          |          |          | &#10004; |
 | Norsk kvalitetsregister for artrittsykdommer – NorArtritt                                           | norartritt      |          |          |          |          | &#10004; |
 | Norsk diabetesregister for voksne                                                                   | diabetes_voksne |          |          |          |          | &#10004; |
