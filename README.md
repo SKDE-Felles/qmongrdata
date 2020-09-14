@@ -46,24 +46,24 @@ Please note that the 'qmongrdata' project is released with a
 | Norsk hjerneslagregister                                                                            | hjerneslag       | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004;
 | Norsk hjerteinfarktregister                                                                         | hjerteinfarkt    | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004;
 | Nasjonalt korsbåndregister                                                                          | korsband         | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; |
+| Nasjonalt register for leddproteser                                                                 | leddprotese      | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; | &#10004;
 | Nasjonalt kvalitetsregister for ryggkirurgi                                                         | nkr_rygg         | &#10004; | &#10004; | &#10004; |          | &#10004; | &#10004;
 | Norsk register for invasiv kardiologi (NORIC)                                                       | noric            | &#10004; | &#10004; | &#10004; |          | &#10004; | &#10004;
+| Nasjonalt register for tykk- og endetarmskreft                                                      | tarmkreft_colon  | &#10004; | &#10004; | &#10004; |          | &#10004; | &#10004;
+| Nasjonalt register for tykk- og endetarmskreft                                                      | tarmkreft_rectum | &#10004; | &#10004; | &#10004; |          | &#10004; | &#10004;
+| Nasjonalt traumeregister                                                                            | traume           | &#10004; |          | &#10004; |          | &#10004; | &#10004;
+| Nasjonalt register for barnekreft                                                                   | barnekreft       |          |          | &#10004; |          | &#10004; | &#10004;
+| Nasjonalt register for gynekologisk kreft                                                           | gynkreft         |          |          | &#10004; |          | &#10004; | &#10004;
+| Nasjonalt register for lungekreft                                                                   | lungekreft       |          |          | &#10004; |          | &#10004; | &#10004;
 | Nasjonalt kvalitetsregister for ryggkirurgi                                                         | nkr_nakke        |          |          | &#10004; |          | &#10004;
 | Norsk Intensiv- og pandemiregister                                                                  | intensiv         |          |          | &#10004; |          | &#10004;
 | Norsk karkirurgisk register - NORKAR                                                                | norkar           | &#10004; |          | &#10004; |          | &#10004; |
 | Nasjonalt hjertestansregister                                                                       | hjertestans      | &#10004; |          |          |          | &#10004; |
-| Nasjonalt register for leddproteser                                                                 | leddprotese      | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; |
-| Nasjonalt register for tykk- og endetarmskreft                                                      | tarmkreft_colon  | &#10004; | &#10004; | &#10004; |          | &#10004; | &#10004;
-| Nasjonalt register for tykk- og endetarmskreft                                                      | tarmkreft_rectum | &#10004; | &#10004; | &#10004; |          | &#10004; | &#10004;
-| Nasjonalt traumeregister                                                                            | traume           | &#10004; |          |          |          | &#10004; |
 | Cerebral pareseregisteret i Norge                                                                   | cp               |          |          |          |          | &#10004; |
 | ​Det norske hjertekirurgiregisteret                                                                 | hjertekirurgi    |          |          |          |          | &#10004; |
 | Nasjonalt medisinsk kvalitetsregister for barne- og ungdomsdiabetes                                 | diabetes_barn    |          |          |          |          | &#10004; |
 | Nasjonalt register for ablasjonsbehandling og elektrofysiologi i Norge (ABLA NOR).                  | ablanor          |          |          |          |          | &#10004; |
-| Nasjonalt register for barnekreft                                                                   | barnekreft       |          |          |          |          | &#10004; |
 | Nasjonalt register for brystkreft                                                                   | brystkreft       |          |          |          |          | &#10004; |
-| Nasjonalt register for gynekologisk kreft                                                           | gynkreft         |          |          |          |          | &#10004; |
-| Nasjonalt register for lungekreft                                                                   | lungekreft       |          |          |          |          | &#10004; |
 | Nasjonalt register for melanom                                                                      | melanom          |          |          |          |          | &#10004; |
 | Nasjonalt register for prostatakreft                                                                | prostata         |          |          |          |          | &#10004; |
 | Norsk hjertesviktregister                                                                           | hjertesvikt      |          |          |          |          | &#10004; |
@@ -77,7 +77,7 @@ Please note that the 'qmongrdata' project is released with a
 | Norsk gynekologisk endoskopiregister - NGER                                                         | nger             | &#10004; | &#10004; | &#10004; | &#10004; |          | &#10004; |
 | Norsk register for gastrokirurgi (NoRGast)                                                          | norgast          | &#10004; | &#10004; | &#10004; |          |          | &#10004;
 | Norsk vaskulittregister & biobank (NorVas)                                                          | norvas           | &#10004; | &#10004; | &#10004; |          |          | &#10004;
-| Norsk Nakke- og Ryggregister                                                                        | nnrr             | &#10004; | &#10004; | &#10004; |
+| Norsk Nakke- og Ryggregister                                                                        | nnrr             | &#10004; | &#10004; | &#10004; |          |          | &#10004;
 | Norsk register for analinkontinens (NRA)                                                            | nra              | &#10004; | &#10004; | &#10004; |
 | Nasjonalt register for arvelige og medfødte nevromuskulære sykdommer                                | muskel           | &#10004; |          | &#10004; |
 | Gastronet                                                                                           | gastronet        |          |
