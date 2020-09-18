@@ -55,6 +55,7 @@ Please note that the 'qmongrdata' project is released with a
 | Nasjonalt register for barnekreft                                                                   | barnekreft       |          |          | &#10004; |          | &#10004; | &#10004;
 | Nasjonalt register for gynekologisk kreft                                                           | gynkreft         |          |          | &#10004; |          | &#10004; | &#10004;
 | Nasjonalt register for lungekreft                                                                   | lungekreft       |          |          | &#10004; |          | &#10004; | &#10004;
+| Norsk hjertesviktregister                                                                           | hjertesvikt      |          |          | &#10004; |          | &#10004; | &#10004;
 | Nasjonalt kvalitetsregister for ryggkirurgi                                                         | nkr_nakke        |          |          | &#10004; |          | &#10004;
 | Norsk Intensiv- og pandemiregister                                                                  | intensiv         |          |          | &#10004; |          | &#10004;
 | Norsk karkirurgisk register - NORKAR                                                                | norkar           | &#10004; |          | &#10004; |          | &#10004; |
@@ -66,7 +67,6 @@ Please note that the 'qmongrdata' project is released with a
 | Nasjonalt register for brystkreft                                                                   | brystkreft       |          |          |          |          | &#10004; |
 | Nasjonalt register for melanom                                                                      | melanom          |          |          |          |          | &#10004; |
 | Nasjonalt register for prostatakreft                                                                | prostata         |          |          |          |          | &#10004; |
-| Norsk hjertesviktregister                                                                           | hjertesvikt      |          |          |          |          | &#10004; |
 | Norsk kvalitetsregister for artrittsykdommer – NorArtritt                                           | norartritt       |          |          |          |          | &#10004; |
 | Norsk diabetesregister for voksne                                                                   | diabetes_voksne  |          |          |          |          | &#10004; |
 | Norsk kvalitetsregister for fedmekirurgi (SOReg Norge)                                              | fedmekir         |          |          |          |          | &#10004; |
