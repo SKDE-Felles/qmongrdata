@@ -71,7 +71,7 @@ Please note that the 'qmongrdata' project is released with a
 | Norsk diabetesregister for voksne                                                                   | diabetes_voksne  |          |          |          |          | &#10004; |
 | Norsk kvalitetsregister for fedmekirurgi (SOReg Norge)                                              | fedmekir         |          |          |          |          | &#10004; |
 | Norsk Kvalitetsregister Øre-Nese-Hals – Tonsilleregisteret                                          | tonsille         |          |          |          |          | &#10004; |
-| Norsk MS register og biobank                                                                        | ms               |          |          |          |          | &#10004; |
+| Norsk MS register og biobank                                                                        | ms               | &#10004; |          | &#10004; | &#10004; | &#10004; |
 | Norsk nyreregister                                                                                  | nyre             |          |          |          |          | &#10004; |
 | Norsk ryggmargsskaderegister - NorSCIR                                                              | norscir          |          |          |          |          | &#10004; |
 | Norsk gynekologisk endoskopiregister - NGER                                                         | nger             | &#10004; | &#10004; | &#10004; | &#10004; |          | &#10004; |
