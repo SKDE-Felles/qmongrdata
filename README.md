@@ -2,8 +2,8 @@
 # qmongrdata
 
 <!-- badges: start -->
-[![Travis build status](https://travis-ci.org/mong/qmongrdata.svg?branch=master)](https://travis-ci.org/mong/qmongrdata)
-[![AppVeyor build status](https://ci.appveyor.com/api/projects/status/github/mong/qmongrdata?branch=master&svg=true)](https://ci.appveyor.com/project/mong/qmongrdata)
+[![R build status](https://github.com/mong/qmongrdata/workflows/R-CMD-check/badge.svg)](https://github.com/mong/qmongrdata/actions)
+[![Codecov test coverage](https://codecov.io/gh/mong/qmongrdata/branch/master/graph/badge.svg)](https://codecov.io/gh/mong/qmongrdata?branch=master)
 <!-- badges: end -->
 
 The goal of qmongrdata is to ...
